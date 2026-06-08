@@ -8,12 +8,12 @@ import os
 from setuptools import find_packages, setup
 
 # Package metadata
-NAME = "SAM-2"
-VERSION = "1.0"
-DESCRIPTION = "SAM 2: Segment Anything in Images and Videos"
-URL = "https://github.com/facebookresearch/sam2"
-AUTHOR = "Meta AI"
-AUTHOR_EMAIL = "segment-anything@meta.com"
+NAME = "rovision"
+VERSION = "0.1.0"
+DESCRIPTION = "Rovision: subsea/underwater infrastructure defect detection, built on Meta's SAM 2"
+URL = "https://github.com/joshinnovaite/rovision"
+AUTHOR = "Rovision"
+AUTHOR_EMAIL = ""
 LICENSE = "Apache 2.0"
 
 # Read the contents of README file
@@ -37,17 +37,6 @@ EXTRA_PACKAGES = {
         "jupyter>=1.0.0",
         "opencv-python>=4.7.0",
         "eva-decord>=0.6.1",
-    ],
-    "interactive-demo": [
-        "Flask>=3.0.3",
-        "Flask-Cors>=5.0.0",
-        "av>=13.0.0",
-        "dataclasses-json>=0.6.7",
-        "eva-decord>=0.6.1",
-        "gunicorn>=23.0.0",
-        "imagesize>=1.4.1",
-        "pycocotools>=2.0.8",
-        "strawberry-graphql>=0.243.0",
     ],
     "dev": [
         "black==24.2.0",
@@ -164,7 +153,7 @@ setup(
     author=AUTHOR,
     author_email=AUTHOR_EMAIL,
     license=LICENSE,
-    packages=find_packages(exclude="notebooks"),
+    packages=find_packages(exclude=["rovision*", "notebooks"]),
     include_package_data=True,
     install_requires=REQUIRED_PACKAGES,
     extras_require=EXTRA_PACKAGES,

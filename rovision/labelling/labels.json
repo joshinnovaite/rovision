@@ -1,0 +1,4937 @@
+[
+  {
+    "video": "bundamba_tnk5202_2023 (720p).mp4",
+    "frame": 28067,
+    "defect": "dropped_object",
+    "point": [
+      540,
+      582
+    ],
+    "bbox": [
+      476,
+      550,
+      604,
+      613
+    ]
+  },
+  {
+    "video": "bundamba_tnk5202_2023 (720p).mp4",
+    "frame": 28067,
+    "defect": "surface_deposit",
+    "point": [
+      622,
+      501
+    ],
+    "bbox": [
+      610,
+      492,
+      633,
+      510
+    ]
+  },
+  {
+    "video": "bundamba_tnk5202_2023 (720p).mp4",
+    "frame": 28067,
+    "defect": "seal_joint_degradation",
+    "point": [
+      262,
+      639
+    ],
+    "bbox": [
+      216,
+      604,
+      309,
+      675
+    ]
+  },
+  {
+    "video": "dam_trash_rack_inspection.mov (720p).mp4",
+    "frame": 17830,
+    "defect": "corrosion",
+    "point": [
+      834,
+      108
+    ],
+    "bbox": [
+      718,
+      3,
+      950,
+      213
+    ]
+  },
+  {
+    "video": "dam_trash_rack_inspection.mov (720p).mp4",
+    "frame": 17830,
+    "defect": "corrosion",
+    "point": [
+      812,
+      628
+    ],
+    "bbox": [
+      704,
+      541,
+      919,
+      716
+    ]
+  },
+  {
+    "video": "dam_trash_rack_inspection.mov (720p).mp4",
+    "frame": 17830,
+    "defect": "seal_joint_degradation",
+    "point": [
+      418,
+      359
+    ],
+    "bbox": [
+      378,
+      4,
+      458,
+      714
+    ]
+  },
+  {
+    "video": "dam_trash_rack_inspection.mov (720p).mp4",
+    "frame": 3566,
+    "defect": "marine_growth",
+    "point": [
+      485,
+      193
+    ],
+    "bbox": [
+      446,
+      154,
+      524,
+      232
+    ]
+  },
+  {
+    "video": "dam_trash_rack_inspection.mov (720p).mp4",
+    "frame": 3566,
+    "defect": "marine_growth",
+    "point": [
+      505,
+      356
+    ],
+    "bbox": [
+      465,
+      327,
+      545,
+      385
+    ]
+  },
+  {
+    "video": "dam_trash_rack_inspection.mov (720p).mp4",
+    "frame": 3566,
+    "defect": "marine_growth",
+    "point": [
+      515,
+      275
+    ],
+    "bbox": [
+      496,
+      221,
+      534,
+      329
+    ]
+  },
+  {
+    "video": "dam_trash_rack_inspection.mov (720p).mp4",
+    "frame": 3566,
+    "defect": "marine_growth",
+    "point": [
+      530,
+      507
+    ],
+    "bbox": [
+      500,
+      394,
+      560,
+      619
+    ]
+  },
+  {
+    "video": "dam_trash_rack_inspection.mov (720p).mp4",
+    "frame": 3566,
+    "defect": "marine_growth",
+    "point": [
+      523,
+      653
+    ],
+    "bbox": [
+      475,
+      613,
+      571,
+      693
+    ]
+  },
+  {
+    "video": "dam_trash_rack_inspection.mov (720p).mp4",
+    "frame": 3566,
+    "defect": "marine_growth",
+    "point": [
+      931,
+      56
+    ],
+    "bbox": [
+      860,
+      21,
+      1001,
+      91
+    ]
+  },
+  {
+    "video": "dam_trash_rack_inspection.mov (720p).mp4",
+    "frame": 3566,
+    "defect": "marine_growth",
+    "point": [
+      548,
+      71
+    ],
+    "bbox": [
+      507,
+      29,
+      590,
+      114
+    ]
+  },
+  {
+    "video": "dam_trash_rack_inspection.mov (720p).mp4",
+    "frame": 3566,
+    "defect": "marine_growth",
+    "point": [
+      285,
+      65
+    ],
+    "bbox": [
+      186,
+      41,
+      384,
+      89
+    ]
+  },
+  {
+    "video": "dam_trash_rack_inspection.mov (720p).mp4",
+    "frame": 3566,
+    "defect": "marine_growth",
+    "point": [
+      177,
+      360
+    ],
+    "bbox": [
+      92,
+      7,
+      262,
+      714
+    ]
+  },
+  {
+    "video": "dam_trash_rack_inspection.mov (720p).mp4",
+    "frame": 3566,
+    "defect": "marine_growth",
+    "point": [
+      854,
+      618
+    ],
+    "bbox": [
+      814,
+      518,
+      894,
+      718
+    ]
+  },
+  {
+    "video": "dam_trash_rack_inspection.mov (720p).mp4",
+    "frame": 3566,
+    "defect": "marine_growth",
+    "point": [
+      1204,
+      367
+    ],
+    "bbox": [
+      1164,
+      248,
+      1244,
+      486
+    ]
+  },
+  {
+    "video": "dam_trash_rack_inspection.mov (720p).mp4",
+    "frame": 3566,
+    "defect": "marine_growth",
+    "point": [
+      839,
+      192
+    ],
+    "bbox": [
+      803,
+      46,
+      875,
+      338
+    ]
+  },
+  {
+    "video": "dam_trash_rack_inspection.mov (720p).mp4",
+    "frame": 3566,
+    "defect": "marine_growth",
+    "point": [
+      1124,
+      48
+    ],
+    "bbox": [
+      1095,
+      13,
+      1153,
+      82
+    ]
+  },
+  {
+    "video": "dam_trash_rack_inspection.mov (720p).mp4",
+    "frame": 3566,
+    "defect": "marine_growth",
+    "point": [
+      420,
+      77
+    ],
+    "bbox": [
+      389,
+      44,
+      451,
+      109
+    ]
+  },
+  {
+    "video": "dam_trash_rack_inspection.mov (720p).mp4",
+    "frame": 3566,
+    "defect": "corrosion",
+    "point": [
+      684,
+      74
+    ],
+    "bbox": [
+      594,
+      48,
+      775,
+      101
+    ]
+  },
+  {
+    "video": "dam_trash_rack_inspection.mov (720p).mp4",
+    "frame": 3566,
+    "defect": "corrosion",
+    "point": [
+      845,
+      432
+    ],
+    "bbox": [
+      811,
+      344,
+      879,
+      519
+    ]
+  },
+  {
+    "video": "dam_trash_rack_inspection.mov (720p).mp4",
+    "frame": 3566,
+    "defect": "corrosion",
+    "point": [
+      510,
+      503
+    ],
+    "bbox": [
+      480,
+      396,
+      540,
+      610
+    ]
+  },
+  {
+    "video": "dam_trash_rack_inspection.mov (720p).mp4",
+    "frame": 3566,
+    "defect": "corrosion",
+    "point": [
+      491,
+      285
+    ],
+    "bbox": [
+      469,
+      230,
+      512,
+      340
+    ]
+  },
+  {
+    "video": "dam_trash_rack_inspection.mov (720p).mp4",
+    "frame": 3566,
+    "defect": "corrosion",
+    "point": [
+      328,
+      101
+    ],
+    "bbox": [
+      251,
+      82,
+      405,
+      119
+    ]
+  },
+  {
+    "video": "dam_trash_rack_inspection.mov (720p).mp4",
+    "frame": 3566,
+    "defect": "corrosion",
+    "point": [
+      1204,
+      124
+    ],
+    "bbox": [
+      1187,
+      4,
+      1221,
+      243
+    ]
+  },
+  {
+    "video": "dam_trash_rack_inspection.mov (720p).mp4",
+    "frame": 3566,
+    "defect": "corrosion",
+    "point": [
+      1207,
+      604
+    ],
+    "bbox": [
+      1184,
+      494,
+      1230,
+      715
+    ]
+  },
+  {
+    "video": "dam_trash_rack_inspection.mov (720p).mp4",
+    "frame": 3566,
+    "defect": "corrosion",
+    "point": [
+      1021,
+      55
+    ],
+    "bbox": [
+      1003,
+      27,
+      1038,
+      83
+    ]
+  },
+  {
+    "video": "dam_trash_rack_inspection.mov (720p).mp4",
+    "frame": 3566,
+    "defect": "corrosion",
+    "point": [
+      1077,
+      54
+    ],
+    "bbox": [
+      1062,
+      27,
+      1092,
+      81
+    ]
+  },
+  {
+    "video": "dam_trash_rack_inspection.mov (720p).mp4",
+    "frame": 10698,
+    "defect": "trash_rack_blockage",
+    "point": [
+      498,
+      152
+    ],
+    "bbox": [
+      388,
+      125,
+      607,
+      180
+    ]
+  },
+  {
+    "video": "dam_trash_rack_inspection.mov (720p).mp4",
+    "frame": 10698,
+    "defect": "trash_rack_blockage",
+    "point": [
+      1099,
+      188
+    ],
+    "bbox": [
+      928,
+      159,
+      1269,
+      216
+    ]
+  },
+  {
+    "video": "dam_trash_rack_inspection.mov (720p).mp4",
+    "frame": 10698,
+    "defect": "trash_rack_blockage",
+    "point": [
+      982,
+      113
+    ],
+    "bbox": [
+      943,
+      79,
+      1022,
+      147
+    ]
+  },
+  {
+    "video": "dam_trash_rack_inspection.mov (720p).mp4",
+    "frame": 10698,
+    "defect": "trash_rack_blockage",
+    "point": [
+      710,
+      168
+    ],
+    "bbox": [
+      691,
+      112,
+      729,
+      224
+    ]
+  },
+  {
+    "video": "dam_trash_rack_inspection.mov (720p).mp4",
+    "frame": 3566,
+    "defect": "corrosion",
+    "point": [
+      480,
+      79
+    ],
+    "bbox": [
+      450,
+      4,
+      510,
+      155
+    ]
+  },
+  {
+    "video": "dam_trash_rack_inspection.mov (720p).mp4",
+    "frame": 10698,
+    "defect": "trash_rack_blockage",
+    "point": [
+      719,
+      409
+    ],
+    "bbox": [
+      702,
+      306,
+      736,
+      512
+    ]
+  },
+  {
+    "video": "dam_trash_rack_inspection.mov (720p).mp4",
+    "frame": 10698,
+    "defect": "trash_rack_blockage",
+    "point": [
+      730,
+      620
+    ],
+    "bbox": [
+      718,
+      522,
+      742,
+      719
+    ]
+  },
+  {
+    "video": "dam_trash_rack_inspection.mov (720p).mp4",
+    "frame": 10698,
+    "defect": "marine_growth",
+    "point": [
+      803,
+      225
+    ],
+    "bbox": [
+      724,
+      171,
+      882,
+      280
+    ]
+  },
+  {
+    "video": "dam_trash_rack_inspection.mov (720p).mp4",
+    "frame": 10698,
+    "defect": "marine_growth",
+    "point": [
+      548,
+      204
+    ],
+    "bbox": [
+      484,
+      144,
+      611,
+      264
+    ]
+  },
+  {
+    "video": "dam_trash_rack_inspection.mov (720p).mp4",
+    "frame": 10698,
+    "defect": "marine_growth",
+    "point": [
+      717,
+      53
+    ],
+    "bbox": [
+      700,
+      6,
+      735,
+      99
+    ]
+  },
+  {
+    "video": "dam_trash_rack_inspection.mov (720p).mp4",
+    "frame": 10698,
+    "defect": "marine_growth",
+    "point": [
+      634,
+      396
+    ],
+    "bbox": [
+      610,
+      97,
+      659,
+      695
+    ]
+  },
+  {
+    "video": "dam_trash_rack_inspection.mov (720p).mp4",
+    "frame": 10698,
+    "defect": "marine_growth",
+    "point": [
+      192,
+      214
+    ],
+    "bbox": [
+      93,
+      152,
+      291,
+      275
+    ]
+  },
+  {
+    "video": "dam_trash_rack_inspection.mov (720p).mp4",
+    "frame": 10698,
+    "defect": "marine_growth",
+    "point": [
+      68,
+      98
+    ],
+    "bbox": [
+      6,
+      4,
+      129,
+      192
+    ]
+  },
+  {
+    "video": "dam_trash_rack_inspection.mov (720p).mp4",
+    "frame": 17830,
+    "defect": "seal_joint_degradation",
+    "point": [
+      1019,
+      264
+    ],
+    "bbox": [
+      993,
+      0,
+      1044,
+      528
+    ]
+  },
+  {
+    "video": "dam_trash_rack_inspection.mov (720p).mp4",
+    "frame": 17830,
+    "defect": "seal_joint_degradation",
+    "point": [
+      808,
+      339
+    ],
+    "bbox": [
+      791,
+      119,
+      824,
+      559
+    ]
+  },
+  {
+    "video": "dam_trash_rack_inspection.mov (720p).mp4",
+    "frame": 17830,
+    "defect": "corrosion",
+    "point": [
+      161,
+      48
+    ],
+    "bbox": [
+      89,
+      0,
+      234,
+      96
+    ]
+  },
+  {
+    "video": "dam_trash_rack_inspection.mov (720p).mp4",
+    "frame": 17830,
+    "defect": "corrosion",
+    "point": [
+      67,
+      139
+    ],
+    "bbox": [
+      0,
+      55,
+      134,
+      222
+    ]
+  },
+  {
+    "video": "dam_trash_rack_inspection.mov (720p).mp4",
+    "frame": 17830,
+    "defect": "corrosion",
+    "point": [
+      123,
+      589
+    ],
+    "bbox": [
+      64,
+      522,
+      182,
+      656
+    ]
+  },
+  {
+    "video": "dam_trash_rack_inspection.mov (720p).mp4",
+    "frame": 17830,
+    "defect": "corrosion",
+    "point": [
+      103,
+      448
+    ],
+    "bbox": [
+      45,
+      428,
+      161,
+      469
+    ]
+  },
+  {
+    "video": "dam_trash_rack_inspection.mov (720p).mp4",
+    "frame": 17830,
+    "defect": "corrosion",
+    "point": [
+      76,
+      315
+    ],
+    "bbox": [
+      41,
+      262,
+      111,
+      368
+    ]
+  },
+  {
+    "video": "fire_tank_inspection (720p).mp4",
+    "frame": 15856,
+    "defect": "outlet_inlet",
+    "point": [
+      614,
+      401
+    ],
+    "bbox": [
+      431,
+      221,
+      797,
+      581
+    ]
+  },
+  {
+    "video": "fire_tank_inspection (720p).mp4",
+    "frame": 15856,
+    "defect": "corrosion",
+    "point": [
+      829,
+      253
+    ],
+    "bbox": [
+      636,
+      168,
+      1022,
+      337
+    ]
+  },
+  {
+    "video": "fire_tank_inspection (720p).mp4",
+    "frame": 15856,
+    "defect": "corrosion",
+    "point": [
+      452,
+      91
+    ],
+    "bbox": [
+      279,
+      2,
+      624,
+      180
+    ]
+  },
+  {
+    "video": "fire_tank_inspection (720p).mp4",
+    "frame": 15856,
+    "defect": "corrosion",
+    "point": [
+      130,
+      656
+    ],
+    "bbox": [
+      0,
+      630,
+      261,
+      682
+    ]
+  },
+  {
+    "video": "fire_tank_inspection (720p).mp4",
+    "frame": 15856,
+    "defect": "corrosion",
+    "point": [
+      352,
+      668
+    ],
+    "bbox": [
+      251,
+      649,
+      452,
+      688
+    ]
+  },
+  {
+    "video": "fire_tank_inspection (720p).mp4",
+    "frame": 15856,
+    "defect": "corrosion",
+    "point": [
+      706,
+      670
+    ],
+    "bbox": [
+      634,
+      628,
+      779,
+      713
+    ]
+  },
+  {
+    "video": "fire_tank_inspection (720p).mp4",
+    "frame": 15856,
+    "defect": "corrosion",
+    "point": [
+      1149,
+      590
+    ],
+    "bbox": [
+      1020,
+      507,
+      1279,
+      673
+    ]
+  },
+  {
+    "video": "fire_tank_inspection (720p).mp4",
+    "frame": 15856,
+    "defect": "corrosion",
+    "point": [
+      139,
+      709
+    ],
+    "bbox": [
+      4,
+      700,
+      274,
+      719
+    ]
+  },
+  {
+    "video": "fire_tank_inspection (720p).mp4",
+    "frame": 26427,
+    "defect": "coating_breakdown",
+    "point": [
+      187,
+      460
+    ],
+    "bbox": [
+      149,
+      450,
+      224,
+      471
+    ]
+  },
+  {
+    "video": "fire_tank_inspection (720p).mp4",
+    "frame": 26427,
+    "defect": "coating_breakdown",
+    "point": [
+      283,
+      469
+    ],
+    "bbox": [
+      235,
+      451,
+      332,
+      487
+    ]
+  },
+  {
+    "video": "fire_tank_inspection (720p).mp4",
+    "frame": 26427,
+    "defect": "coating_breakdown",
+    "point": [
+      361,
+      445
+    ],
+    "bbox": [
+      318,
+      427,
+      404,
+      463
+    ]
+  },
+  {
+    "video": "fire_tank_inspection (720p).mp4",
+    "frame": 26427,
+    "defect": "coating_breakdown",
+    "point": [
+      306,
+      407
+    ],
+    "bbox": [
+      264,
+      387,
+      348,
+      427
+    ]
+  },
+  {
+    "video": "fire_tank_inspection (720p).mp4",
+    "frame": 26427,
+    "defect": "coating_breakdown",
+    "point": [
+      211,
+      432
+    ],
+    "bbox": [
+      191,
+      424,
+      232,
+      440
+    ]
+  },
+  {
+    "video": "fire_tank_inspection (720p).mp4",
+    "frame": 26427,
+    "defect": "coating_breakdown",
+    "point": [
+      132,
+      423
+    ],
+    "bbox": [
+      106,
+      412,
+      157,
+      434
+    ]
+  },
+  {
+    "video": "fire_tank_inspection (720p).mp4",
+    "frame": 26427,
+    "defect": "coating_breakdown",
+    "point": [
+      313,
+      328
+    ],
+    "bbox": [
+      257,
+      302,
+      370,
+      354
+    ]
+  },
+  {
+    "video": "fire_tank_inspection (720p).mp4",
+    "frame": 26427,
+    "defect": "coating_breakdown",
+    "point": [
+      86,
+      464
+    ],
+    "bbox": [
+      29,
+      453,
+      142,
+      476
+    ]
+  },
+  {
+    "video": "fire_tank_inspection (720p).mp4",
+    "frame": 26427,
+    "defect": "coating_breakdown",
+    "point": [
+      145,
+      309
+    ],
+    "bbox": [
+      102,
+      293,
+      188,
+      326
+    ]
+  },
+  {
+    "video": "fire_tank_inspection (720p).mp4",
+    "frame": 26427,
+    "defect": "coating_breakdown",
+    "point": [
+      77,
+      347
+    ],
+    "bbox": [
+      29,
+      316,
+      125,
+      378
+    ]
+  },
+  {
+    "video": "fire_tank_inspection (720p).mp4",
+    "frame": 26427,
+    "defect": "coating_breakdown",
+    "point": [
+      225,
+      369
+    ],
+    "bbox": [
+      185,
+      362,
+      264,
+      376
+    ]
+  },
+  {
+    "video": "fire_tank_inspection (720p).mp4",
+    "frame": 26427,
+    "defect": "coating_breakdown",
+    "point": [
+      595,
+      342
+    ],
+    "bbox": [
+      541,
+      325,
+      648,
+      359
+    ]
+  },
+  {
+    "video": "fire_tank_inspection (720p).mp4",
+    "frame": 26427,
+    "defect": "coating_breakdown",
+    "point": [
+      692,
+      343
+    ],
+    "bbox": [
+      662,
+      329,
+      722,
+      357
+    ]
+  },
+  {
+    "video": "fire_tank_inspection (720p).mp4",
+    "frame": 26427,
+    "defect": "corrosion",
+    "point": [
+      727,
+      66
+    ],
+    "bbox": [
+      648,
+      24,
+      806,
+      107
+    ]
+  },
+  {
+    "video": "fire_tank_inspection (720p).mp4",
+    "frame": 26427,
+    "defect": "corrosion",
+    "point": [
+      950,
+      98
+    ],
+    "bbox": [
+      915,
+      76,
+      984,
+      121
+    ]
+  },
+  {
+    "video": "fire_tank_inspection (720p).mp4",
+    "frame": 26427,
+    "defect": "corrosion",
+    "point": [
+      1202,
+      100
+    ],
+    "bbox": [
+      1148,
+      55,
+      1256,
+      144
+    ]
+  },
+  {
+    "video": "fire_tank_inspection (720p).mp4",
+    "frame": 26427,
+    "defect": "corrosion",
+    "point": [
+      1183,
+      219
+    ],
+    "bbox": [
+      1109,
+      193,
+      1256,
+      246
+    ]
+  },
+  {
+    "video": "fire_tank_inspection (720p).mp4",
+    "frame": 26427,
+    "defect": "corrosion",
+    "point": [
+      528,
+      167
+    ],
+    "bbox": [
+      382,
+      153,
+      674,
+      181
+    ]
+  },
+  {
+    "video": "dam_trash_rack_inspection.mov (720p).mp4",
+    "frame": 10698,
+    "defect": "corrosion",
+    "point": [
+      1122,
+      247
+    ],
+    "bbox": [
+      1021,
+      205,
+      1223,
+      290
+    ]
+  },
+  {
+    "video": "dam_trash_rack_inspection.mov (720p).mp4",
+    "frame": 10698,
+    "defect": "corrosion",
+    "point": [
+      465,
+      222
+    ],
+    "bbox": [
+      431,
+      179,
+      499,
+      266
+    ]
+  },
+  {
+    "video": "dam_trash_rack_inspection.mov (720p).mp4",
+    "frame": 10698,
+    "defect": "corrosion",
+    "point": [
+      340,
+      228
+    ],
+    "bbox": [
+      273,
+      191,
+      406,
+      265
+    ]
+  },
+  {
+    "video": "dam_trash_rack_inspection.mov (720p).mp4",
+    "frame": 10698,
+    "defect": "corrosion",
+    "point": [
+      668,
+      150
+    ],
+    "bbox": [
+      647,
+      129,
+      690,
+      171
+    ]
+  },
+  {
+    "video": "dam_trash_rack_inspection.mov (720p).mp4",
+    "frame": 10698,
+    "defect": "corrosion",
+    "point": [
+      665,
+      225
+    ],
+    "bbox": [
+      638,
+      196,
+      693,
+      253
+    ]
+  },
+  {
+    "video": "dam_trash_rack_inspection.mov (720p).mp4",
+    "frame": 10698,
+    "defect": "corrosion",
+    "point": [
+      662,
+      274
+    ],
+    "bbox": [
+      629,
+      254,
+      696,
+      295
+    ]
+  },
+  {
+    "video": "dam_trash_rack_inspection.mov (720p).mp4",
+    "frame": 10698,
+    "defect": "corrosion",
+    "point": [
+      680,
+      330
+    ],
+    "bbox": [
+      667,
+      311,
+      693,
+      349
+    ]
+  },
+  {
+    "video": "dam_trash_rack_inspection.mov (720p).mp4",
+    "frame": 10698,
+    "defect": "corrosion",
+    "point": [
+      680,
+      386
+    ],
+    "bbox": [
+      664,
+      357,
+      696,
+      415
+    ]
+  },
+  {
+    "video": "dam_trash_rack_inspection.mov (720p).mp4",
+    "frame": 10698,
+    "defect": "corrosion",
+    "point": [
+      677,
+      484
+    ],
+    "bbox": [
+      661,
+      464,
+      694,
+      503
+    ]
+  },
+  {
+    "video": "flooded_tunnel_inspection (720p).mp4",
+    "frame": 682,
+    "defect": "surface_deposit",
+    "point": [
+      202,
+      100
+    ],
+    "bbox": [
+      172,
+      80,
+      232,
+      119
+    ]
+  },
+  {
+    "video": "flooded_tunnel_inspection (720p).mp4",
+    "frame": 682,
+    "defect": "surface_deposit",
+    "point": [
+      125,
+      158
+    ],
+    "bbox": [
+      102,
+      140,
+      148,
+      177
+    ]
+  },
+  {
+    "video": "flooded_tunnel_inspection (720p).mp4",
+    "frame": 682,
+    "defect": "surface_deposit",
+    "point": [
+      93,
+      197
+    ],
+    "bbox": [
+      80,
+      185,
+      106,
+      210
+    ]
+  },
+  {
+    "video": "flooded_tunnel_inspection (720p).mp4",
+    "frame": 682,
+    "defect": "surface_deposit",
+    "point": [
+      33,
+      375
+    ],
+    "bbox": [
+      0,
+      354,
+      67,
+      395
+    ]
+  },
+  {
+    "video": "flooded_tunnel_inspection (720p).mp4",
+    "frame": 682,
+    "defect": "surface_deposit",
+    "point": [
+      147,
+      382
+    ],
+    "bbox": [
+      126,
+      372,
+      168,
+      393
+    ]
+  },
+  {
+    "video": "flooded_tunnel_inspection (720p).mp4",
+    "frame": 682,
+    "defect": "surface_deposit",
+    "point": [
+      227,
+      431
+    ],
+    "bbox": [
+      210,
+      424,
+      243,
+      439
+    ]
+  },
+  {
+    "video": "flooded_tunnel_inspection (720p).mp4",
+    "frame": 682,
+    "defect": "surface_deposit",
+    "point": [
+      331,
+      361
+    ],
+    "bbox": [
+      305,
+      348,
+      357,
+      373
+    ]
+  },
+  {
+    "video": "flooded_tunnel_inspection (720p).mp4",
+    "frame": 682,
+    "defect": "surface_deposit",
+    "point": [
+      365,
+      245
+    ],
+    "bbox": [
+      342,
+      230,
+      388,
+      259
+    ]
+  },
+  {
+    "video": "flooded_tunnel_inspection (720p).mp4",
+    "frame": 682,
+    "defect": "surface_deposit",
+    "point": [
+      599,
+      164
+    ],
+    "bbox": [
+      579,
+      147,
+      619,
+      181
+    ]
+  },
+  {
+    "video": "flooded_tunnel_inspection (720p).mp4",
+    "frame": 682,
+    "defect": "surface_deposit",
+    "point": [
+      632,
+      141
+    ],
+    "bbox": [
+      618,
+      124,
+      647,
+      158
+    ]
+  },
+  {
+    "video": "flooded_tunnel_inspection (720p).mp4",
+    "frame": 682,
+    "defect": "surface_deposit",
+    "point": [
+      566,
+      58
+    ],
+    "bbox": [
+      545,
+      44,
+      586,
+      72
+    ]
+  },
+  {
+    "video": "flooded_tunnel_inspection (720p).mp4",
+    "frame": 682,
+    "defect": "surface_deposit",
+    "point": [
+      570,
+      89
+    ],
+    "bbox": [
+      555,
+      79,
+      585,
+      100
+    ]
+  },
+  {
+    "video": "flooded_tunnel_inspection (720p).mp4",
+    "frame": 682,
+    "defect": "surface_deposit",
+    "point": [
+      762,
+      13
+    ],
+    "bbox": [
+      738,
+      0,
+      787,
+      27
+    ]
+  },
+  {
+    "video": "flooded_tunnel_inspection (720p).mp4",
+    "frame": 682,
+    "defect": "surface_deposit",
+    "point": [
+      1028,
+      122
+    ],
+    "bbox": [
+      1012,
+      112,
+      1045,
+      132
+    ]
+  },
+  {
+    "video": "flooded_tunnel_inspection (720p).mp4",
+    "frame": 682,
+    "defect": "surface_deposit",
+    "point": [
+      911,
+      137
+    ],
+    "bbox": [
+      900,
+      129,
+      921,
+      146
+    ]
+  },
+  {
+    "video": "flooded_tunnel_inspection (720p).mp4",
+    "frame": 682,
+    "defect": "surface_deposit",
+    "point": [
+      1050,
+      219
+    ],
+    "bbox": [
+      1032,
+      207,
+      1069,
+      231
+    ]
+  },
+  {
+    "video": "flooded_tunnel_inspection (720p).mp4",
+    "frame": 682,
+    "defect": "surface_deposit",
+    "point": [
+      527,
+      268
+    ],
+    "bbox": [
+      506,
+      252,
+      548,
+      283
+    ]
+  },
+  {
+    "video": "flooded_tunnel_inspection (720p).mp4",
+    "frame": 682,
+    "defect": "surface_deposit",
+    "point": [
+      565,
+      251
+    ],
+    "bbox": [
+      555,
+      243,
+      575,
+      258
+    ]
+  },
+  {
+    "video": "flooded_tunnel_inspection (720p).mp4",
+    "frame": 682,
+    "defect": "surface_deposit",
+    "point": [
+      588,
+      221
+    ],
+    "bbox": [
+      568,
+      210,
+      608,
+      232
+    ]
+  },
+  {
+    "video": "flooded_tunnel_inspection (720p).mp4",
+    "frame": 682,
+    "defect": "surface_deposit",
+    "point": [
+      677,
+      197
+    ],
+    "bbox": [
+      666,
+      186,
+      688,
+      208
+    ]
+  },
+  {
+    "video": "flooded_tunnel_inspection (720p).mp4",
+    "frame": 682,
+    "defect": "surface_deposit",
+    "point": [
+      706,
+      247
+    ],
+    "bbox": [
+      687,
+      236,
+      724,
+      257
+    ]
+  },
+  {
+    "video": "flooded_tunnel_inspection (720p).mp4",
+    "frame": 682,
+    "defect": "surface_deposit",
+    "point": [
+      915,
+      328
+    ],
+    "bbox": [
+      905,
+      321,
+      925,
+      335
+    ]
+  },
+  {
+    "video": "flooded_tunnel_inspection (720p).mp4",
+    "frame": 682,
+    "defect": "surface_deposit",
+    "point": [
+      820,
+      357
+    ],
+    "bbox": [
+      810,
+      350,
+      830,
+      365
+    ]
+  },
+  {
+    "video": "flooded_tunnel_inspection (720p).mp4",
+    "frame": 682,
+    "defect": "surface_deposit",
+    "point": [
+      828,
+      335
+    ],
+    "bbox": [
+      817,
+      327,
+      838,
+      343
+    ]
+  },
+  {
+    "video": "flooded_tunnel_inspection (720p).mp4",
+    "frame": 682,
+    "defect": "surface_deposit",
+    "point": [
+      865,
+      374
+    ],
+    "bbox": [
+      856,
+      367,
+      874,
+      382
+    ]
+  },
+  {
+    "video": "flooded_tunnel_inspection (720p).mp4",
+    "frame": 682,
+    "defect": "surface_deposit",
+    "point": [
+      960,
+      334
+    ],
+    "bbox": [
+      950,
+      326,
+      970,
+      343
+    ]
+  },
+  {
+    "video": "flooded_tunnel_inspection (720p).mp4",
+    "frame": 682,
+    "defect": "surface_deposit",
+    "point": [
+      529,
+      368
+    ],
+    "bbox": [
+      514,
+      358,
+      544,
+      378
+    ]
+  },
+  {
+    "video": "flooded_tunnel_inspection (720p).mp4",
+    "frame": 682,
+    "defect": "surface_deposit",
+    "point": [
+      611,
+      367
+    ],
+    "bbox": [
+      596,
+      356,
+      627,
+      378
+    ]
+  },
+  {
+    "video": "flooded_tunnel_inspection (720p).mp4",
+    "frame": 682,
+    "defect": "surface_deposit",
+    "point": [
+      638,
+      342
+    ],
+    "bbox": [
+      628,
+      334,
+      647,
+      349
+    ]
+  },
+  {
+    "video": "flooded_tunnel_inspection (720p).mp4",
+    "frame": 682,
+    "defect": "surface_deposit",
+    "point": [
+      702,
+      367
+    ],
+    "bbox": [
+      692,
+      359,
+      712,
+      376
+    ]
+  },
+  {
+    "video": "flooded_tunnel_inspection (720p).mp4",
+    "frame": 682,
+    "defect": "surface_deposit",
+    "point": [
+      736,
+      397
+    ],
+    "bbox": [
+      723,
+      388,
+      748,
+      407
+    ]
+  },
+  {
+    "video": "flooded_tunnel_inspection (720p).mp4",
+    "frame": 682,
+    "defect": "surface_deposit",
+    "point": [
+      671,
+      451
+    ],
+    "bbox": [
+      661,
+      445,
+      681,
+      457
+    ]
+  },
+  {
+    "video": "flooded_tunnel_inspection (720p).mp4",
+    "frame": 682,
+    "defect": "surface_deposit",
+    "point": [
+      563,
+      479
+    ],
+    "bbox": [
+      548,
+      470,
+      579,
+      487
+    ]
+  },
+  {
+    "video": "flooded_tunnel_inspection (720p).mp4",
+    "frame": 682,
+    "defect": "surface_deposit",
+    "point": [
+      851,
+      410
+    ],
+    "bbox": [
+      842,
+      402,
+      860,
+      417
+    ]
+  },
+  {
+    "video": "flooded_tunnel_inspection (720p).mp4",
+    "frame": 2047,
+    "defect": "surface_deposit",
+    "point": [
+      198,
+      269
+    ],
+    "bbox": [
+      157,
+      235,
+      239,
+      303
+    ]
+  },
+  {
+    "video": "flooded_tunnel_inspection (720p).mp4",
+    "frame": 2047,
+    "defect": "surface_deposit",
+    "point": [
+      284,
+      300
+    ],
+    "bbox": [
+      259,
+      284,
+      309,
+      316
+    ]
+  },
+  {
+    "video": "flooded_tunnel_inspection (720p).mp4",
+    "frame": 2047,
+    "defect": "surface_deposit",
+    "point": [
+      646,
+      170
+    ],
+    "bbox": [
+      632,
+      158,
+      659,
+      182
+    ]
+  },
+  {
+    "video": "flooded_tunnel_inspection (720p).mp4",
+    "frame": 2047,
+    "defect": "surface_deposit",
+    "point": [
+      696,
+      143
+    ],
+    "bbox": [
+      679,
+      119,
+      713,
+      166
+    ]
+  },
+  {
+    "video": "flooded_tunnel_inspection (720p).mp4",
+    "frame": 2047,
+    "defect": "surface_deposit",
+    "point": [
+      674,
+      125
+    ],
+    "bbox": [
+      660,
+      111,
+      687,
+      138
+    ]
+  },
+  {
+    "video": "flooded_tunnel_inspection (720p).mp4",
+    "frame": 2047,
+    "defect": "surface_deposit",
+    "point": [
+      792,
+      167
+    ],
+    "bbox": [
+      777,
+      151,
+      807,
+      183
+    ]
+  },
+  {
+    "video": "flooded_tunnel_inspection (720p).mp4",
+    "frame": 2047,
+    "defect": "surface_deposit",
+    "point": [
+      840,
+      162
+    ],
+    "bbox": [
+      826,
+      144,
+      854,
+      181
+    ]
+  },
+  {
+    "video": "flooded_tunnel_inspection (720p).mp4",
+    "frame": 2047,
+    "defect": "surface_deposit",
+    "point": [
+      1005,
+      194
+    ],
+    "bbox": [
+      983,
+      177,
+      1028,
+      211
+    ]
+  },
+  {
+    "video": "flooded_tunnel_inspection (720p).mp4",
+    "frame": 2047,
+    "defect": "surface_deposit",
+    "point": [
+      968,
+      180
+    ],
+    "bbox": [
+      946,
+      156,
+      991,
+      204
+    ]
+  },
+  {
+    "video": "flooded_tunnel_inspection (720p).mp4",
+    "frame": 2047,
+    "defect": "surface_deposit",
+    "point": [
+      790,
+      222
+    ],
+    "bbox": [
+      766,
+      199,
+      814,
+      244
+    ]
+  },
+  {
+    "video": "flooded_tunnel_inspection (720p).mp4",
+    "frame": 2047,
+    "defect": "surface_deposit",
+    "point": [
+      794,
+      264
+    ],
+    "bbox": [
+      781,
+      249,
+      806,
+      278
+    ]
+  },
+  {
+    "video": "flooded_tunnel_inspection (720p).mp4",
+    "frame": 2047,
+    "defect": "surface_deposit",
+    "point": [
+      184,
+      121
+    ],
+    "bbox": [
+      152,
+      111,
+      215,
+      131
+    ]
+  },
+  {
+    "video": "flooded_tunnel_inspection (720p).mp4",
+    "frame": 2047,
+    "defect": "surface_deposit",
+    "point": [
+      337,
+      242
+    ],
+    "bbox": [
+      320,
+      229,
+      353,
+      255
+    ]
+  },
+  {
+    "video": "flooded_tunnel_inspection (720p).mp4",
+    "frame": 2047,
+    "defect": "surface_deposit",
+    "point": [
+      396,
+      159
+    ],
+    "bbox": [
+      374,
+      145,
+      418,
+      173
+    ]
+  },
+  {
+    "video": "flooded_tunnel_inspection (720p).mp4",
+    "frame": 2047,
+    "defect": "surface_deposit",
+    "point": [
+      390,
+      157
+    ],
+    "bbox": [
+      377,
+      147,
+      403,
+      166
+    ]
+  },
+  {
+    "video": "flooded_tunnel_inspection (720p).mp4",
+    "frame": 2047,
+    "defect": "surface_deposit",
+    "point": [
+      531,
+      567
+    ],
+    "bbox": [
+      521,
+      561,
+      541,
+      573
+    ]
+  },
+  {
+    "video": "flooded_tunnel_inspection (720p).mp4",
+    "frame": 2047,
+    "defect": "surface_deposit",
+    "point": [
+      533,
+      555
+    ],
+    "bbox": [
+      520,
+      549,
+      545,
+      560
+    ]
+  },
+  {
+    "video": "flooded_tunnel_inspection (720p).mp4",
+    "frame": 2047,
+    "defect": "surface_deposit",
+    "point": [
+      500,
+      480
+    ],
+    "bbox": [
+      486,
+      470,
+      514,
+      490
+    ]
+  },
+  {
+    "video": "flooded_tunnel_inspection (720p).mp4",
+    "frame": 2047,
+    "defect": "surface_deposit",
+    "point": [
+      536,
+      518
+    ],
+    "bbox": [
+      528,
+      511,
+      544,
+      525
+    ]
+  },
+  {
+    "video": "flooded_tunnel_inspection (720p).mp4",
+    "frame": 2047,
+    "defect": "surface_deposit",
+    "point": [
+      580,
+      421
+    ],
+    "bbox": [
+      569,
+      411,
+      591,
+      431
+    ]
+  },
+  {
+    "video": "flooded_tunnel_inspection (720p).mp4",
+    "frame": 2047,
+    "defect": "surface_deposit",
+    "point": [
+      848,
+      329
+    ],
+    "bbox": [
+      829,
+      319,
+      867,
+      339
+    ]
+  },
+  {
+    "video": "flooded_tunnel_inspection (720p).mp4",
+    "frame": 2047,
+    "defect": "surface_deposit",
+    "point": [
+      819,
+      375
+    ],
+    "bbox": [
+      809,
+      365,
+      829,
+      386
+    ]
+  },
+  {
+    "video": "flooded_tunnel_inspection (720p).mp4",
+    "frame": 2047,
+    "defect": "surface_deposit",
+    "point": [
+      910,
+      354
+    ],
+    "bbox": [
+      891,
+      343,
+      929,
+      365
+    ]
+  },
+  {
+    "video": "flooded_tunnel_inspection (720p).mp4",
+    "frame": 2047,
+    "defect": "surface_deposit",
+    "point": [
+      921,
+      374
+    ],
+    "bbox": [
+      903,
+      363,
+      939,
+      386
+    ]
+  },
+  {
+    "video": "flooded_tunnel_inspection (720p).mp4",
+    "frame": 2047,
+    "defect": "surface_deposit",
+    "point": [
+      914,
+      308
+    ],
+    "bbox": [
+      902,
+      299,
+      926,
+      316
+    ]
+  },
+  {
+    "video": "flooded_tunnel_inspection (720p).mp4",
+    "frame": 2047,
+    "defect": "surface_deposit",
+    "point": [
+      714,
+      296
+    ],
+    "bbox": [
+      696,
+      283,
+      731,
+      308
+    ]
+  },
+  {
+    "video": "internal_assets.mov (720p).mp4",
+    "frame": 2079,
+    "defect": "outlet_inlet",
+    "point": [
+      627,
+      544
+    ],
+    "bbox": [
+      584,
+      495,
+      669,
+      592
+    ]
+  },
+  {
+    "video": "internal_assets.mov (720p).mp4",
+    "frame": 2079,
+    "defect": "surface_deposit",
+    "point": [
+      730,
+      568
+    ],
+    "bbox": [
+      717,
+      559,
+      744,
+      577
+    ]
+  },
+  {
+    "video": "internal_assets.mov (720p).mp4",
+    "frame": 2079,
+    "defect": "surface_deposit",
+    "point": [
+      750,
+      536
+    ],
+    "bbox": [
+      741,
+      527,
+      759,
+      546
+    ]
+  },
+  {
+    "video": "internal_assets.mov (720p).mp4",
+    "frame": 2079,
+    "defect": "surface_deposit",
+    "point": [
+      806,
+      513
+    ],
+    "bbox": [
+      797,
+      506,
+      816,
+      520
+    ]
+  },
+  {
+    "video": "internal_assets.mov (720p).mp4",
+    "frame": 2079,
+    "defect": "surface_deposit",
+    "point": [
+      681,
+      664
+    ],
+    "bbox": [
+      641,
+      648,
+      720,
+      680
+    ]
+  },
+  {
+    "video": "internal_assets.mov (720p).mp4",
+    "frame": 2079,
+    "defect": "coating_breakdown",
+    "point": [
+      240,
+      570
+    ],
+    "bbox": [
+      199,
+      507,
+      281,
+      633
+    ]
+  },
+  {
+    "video": "internal_assets.mov (720p).mp4",
+    "frame": 10396,
+    "defect": "corrosion",
+    "point": [
+      289,
+      116
+    ],
+    "bbox": [
+      272,
+      99,
+      307,
+      134
+    ]
+  },
+  {
+    "video": "internal_assets.mov (720p).mp4",
+    "frame": 10396,
+    "defect": "corrosion",
+    "point": [
+      347,
+      111
+    ],
+    "bbox": [
+      324,
+      89,
+      370,
+      132
+    ]
+  },
+  {
+    "video": "internal_assets.mov (720p).mp4",
+    "frame": 10396,
+    "defect": "corrosion",
+    "point": [
+      407,
+      411
+    ],
+    "bbox": [
+      274,
+      141,
+      540,
+      682
+    ]
+  },
+  {
+    "video": "internal_assets.mov (720p).mp4",
+    "frame": 10396,
+    "defect": "corrosion",
+    "point": [
+      198,
+      448
+    ],
+    "bbox": [
+      0,
+      238,
+      396,
+      657
+    ]
+  },
+  {
+    "video": "internal_assets.mov (720p).mp4",
+    "frame": 10396,
+    "defect": "corrosion",
+    "point": [
+      51,
+      155
+    ],
+    "bbox": [
+      0,
+      94,
+      104,
+      216
+    ]
+  },
+  {
+    "video": "internal_assets.mov (720p).mp4",
+    "frame": 6238,
+    "defect": "corrosion",
+    "point": [
+      495,
+      633
+    ],
+    "bbox": [
+      351,
+      551,
+      638,
+      715
+    ]
+  },
+  {
+    "video": "internal_assets.mov (720p).mp4",
+    "frame": 2079,
+    "defect": "coating_breakdown",
+    "point": [
+      112,
+      471
+    ],
+    "bbox": [
+      0,
+      444,
+      226,
+      498
+    ]
+  },
+  {
+    "video": "internal_assets.mov (720p).mp4",
+    "frame": 2079,
+    "defect": "coating_breakdown",
+    "point": [
+      897,
+      426
+    ],
+    "bbox": [
+      889,
+      408,
+      904,
+      444
+    ]
+  },
+  {
+    "video": "internal_assets.mov (720p).mp4",
+    "frame": 2079,
+    "defect": "coating_breakdown",
+    "point": [
+      793,
+      468
+    ],
+    "bbox": [
+      788,
+      449,
+      799,
+      486
+    ]
+  },
+  {
+    "video": "ladder.mov (720p).mp4",
+    "frame": 501,
+    "defect": "ladder",
+    "point": [
+      605,
+      361
+    ],
+    "bbox": [
+      481,
+      2,
+      729,
+      719
+    ]
+  },
+  {
+    "video": "ladder.mov (720p).mp4",
+    "frame": 1504,
+    "defect": "ladder",
+    "point": [
+      697,
+      359
+    ],
+    "bbox": [
+      578,
+      2,
+      815,
+      716
+    ]
+  },
+  {
+    "video": "ladder.mov (720p).mp4",
+    "frame": 1504,
+    "defect": "surface_deposit",
+    "point": [
+      1186,
+      30
+    ],
+    "bbox": [
+      1139,
+      7,
+      1232,
+      52
+    ]
+  },
+  {
+    "video": "ladder.mov (720p).mp4",
+    "frame": 1504,
+    "defect": "surface_deposit",
+    "point": [
+      1155,
+      87
+    ],
+    "bbox": [
+      1111,
+      67,
+      1199,
+      106
+    ]
+  },
+  {
+    "video": "ladder.mov (720p).mp4",
+    "frame": 1504,
+    "defect": "surface_deposit",
+    "point": [
+      1152,
+      133
+    ],
+    "bbox": [
+      1140,
+      127,
+      1164,
+      138
+    ]
+  },
+  {
+    "video": "ladder.mov (720p).mp4",
+    "frame": 1504,
+    "defect": "surface_deposit",
+    "point": [
+      1127,
+      140
+    ],
+    "bbox": [
+      1113,
+      123,
+      1141,
+      157
+    ]
+  },
+  {
+    "video": "ladder.mov (720p).mp4",
+    "frame": 1504,
+    "defect": "surface_deposit",
+    "point": [
+      1107,
+      182
+    ],
+    "bbox": [
+      1099,
+      168,
+      1116,
+      195
+    ]
+  },
+  {
+    "video": "ladder.mov (720p).mp4",
+    "frame": 1504,
+    "defect": "surface_deposit",
+    "point": [
+      1116,
+      272
+    ],
+    "bbox": [
+      1103,
+      257,
+      1128,
+      287
+    ]
+  },
+  {
+    "video": "ladder.mov (720p).mp4",
+    "frame": 1504,
+    "defect": "surface_deposit",
+    "point": [
+      1092,
+      359
+    ],
+    "bbox": [
+      1075,
+      333,
+      1108,
+      385
+    ]
+  },
+  {
+    "video": "ladder.mov (720p).mp4",
+    "frame": 1504,
+    "defect": "surface_deposit",
+    "point": [
+      1057,
+      476
+    ],
+    "bbox": [
+      1019,
+      458,
+      1095,
+      494
+    ]
+  },
+  {
+    "video": "ladder.mov (720p).mp4",
+    "frame": 1504,
+    "defect": "surface_deposit",
+    "point": [
+      1016,
+      549
+    ],
+    "bbox": [
+      982,
+      506,
+      1050,
+      593
+    ]
+  },
+  {
+    "video": "ladder.mov (720p).mp4",
+    "frame": 1504,
+    "defect": "surface_deposit",
+    "point": [
+      820,
+      18
+    ],
+    "bbox": [
+      802,
+      1,
+      839,
+      35
+    ]
+  },
+  {
+    "video": "ladder.mov (720p).mp4",
+    "frame": 1504,
+    "defect": "surface_deposit",
+    "point": [
+      828,
+      56
+    ],
+    "bbox": [
+      811,
+      34,
+      846,
+      79
+    ]
+  },
+  {
+    "video": "ladder.mov (720p).mp4",
+    "frame": 1504,
+    "defect": "surface_deposit",
+    "point": [
+      809,
+      183
+    ],
+    "bbox": [
+      780,
+      88,
+      839,
+      278
+    ]
+  },
+  {
+    "video": "ladder.mov (720p).mp4",
+    "frame": 1504,
+    "defect": "surface_deposit",
+    "point": [
+      857,
+      383
+    ],
+    "bbox": [
+      841,
+      368,
+      873,
+      399
+    ]
+  },
+  {
+    "video": "ladder.mov (720p).mp4",
+    "frame": 2507,
+    "defect": "ladder",
+    "point": [
+      1020,
+      221
+    ],
+    "bbox": [
+      837,
+      0,
+      1203,
+      443
+    ]
+  },
+  {
+    "video": "marine_biosecurity_inspection (720p).mp4",
+    "frame": 4414,
+    "defect": "outlet_inlet",
+    "point": [
+      793,
+      523
+    ],
+    "bbox": [
+      334,
+      328,
+      1251,
+      719
+    ]
+  },
+  {
+    "video": "marine_biosecurity_inspection (720p).mp4",
+    "frame": 7357,
+    "defect": "marine_growth",
+    "point": [
+      283,
+      106
+    ],
+    "bbox": [
+      0,
+      1,
+      566,
+      211
+    ]
+  },
+  {
+    "video": "marine_biosecurity_inspection (720p).mp4",
+    "frame": 7357,
+    "defect": "marine_growth",
+    "point": [
+      466,
+      340
+    ],
+    "bbox": [
+      279,
+      230,
+      653,
+      450
+    ]
+  },
+  {
+    "video": "marine_biosecurity_inspection (720p).mp4",
+    "frame": 7357,
+    "defect": "marine_growth",
+    "point": [
+      815,
+      496
+    ],
+    "bbox": [
+      734,
+      438,
+      896,
+      553
+    ]
+  },
+  {
+    "video": "marine_biosecurity_inspection (720p).mp4",
+    "frame": 1471,
+    "defect": "marine_growth",
+    "point": [
+      1107,
+      362
+    ],
+    "bbox": [
+      1053,
+      280,
+      1161,
+      444
+    ]
+  },
+  {
+    "video": "marine_biosecurity_inspection (720p).mp4",
+    "frame": 1471,
+    "defect": "marine_growth",
+    "point": [
+      1115,
+      138
+    ],
+    "bbox": [
+      1061,
+      55,
+      1169,
+      221
+    ]
+  },
+  {
+    "video": "marine_biosecurity_inspection (720p).mp4",
+    "frame": 1471,
+    "defect": "marine_growth",
+    "point": [
+      1238,
+      192
+    ],
+    "bbox": [
+      1200,
+      145,
+      1275,
+      240
+    ]
+  },
+  {
+    "video": "marine_biosecurity_inspection (720p).mp4",
+    "frame": 1471,
+    "defect": "marine_growth",
+    "point": [
+      1245,
+      285
+    ],
+    "bbox": [
+      1212,
+      249,
+      1277,
+      321
+    ]
+  },
+  {
+    "video": "marine_biosecurity_inspection (720p).mp4",
+    "frame": 1471,
+    "defect": "marine_growth",
+    "point": [
+      1221,
+      408
+    ],
+    "bbox": [
+      1188,
+      389,
+      1255,
+      426
+    ]
+  },
+  {
+    "video": "marine_biosecurity_inspection (720p).mp4",
+    "frame": 1471,
+    "defect": "marine_growth",
+    "point": [
+      1030,
+      597
+    ],
+    "bbox": [
+      1015,
+      548,
+      1045,
+      645
+    ]
+  },
+  {
+    "video": "marine_biosecurity_inspection (720p).mp4",
+    "frame": 1471,
+    "defect": "marine_growth",
+    "point": [
+      1220,
+      554
+    ],
+    "bbox": [
+      1188,
+      516,
+      1253,
+      592
+    ]
+  },
+  {
+    "video": "marine_biosecurity_inspection (720p).mp4",
+    "frame": 7357,
+    "defect": "marine_growth",
+    "point": [
+      686,
+      162
+    ],
+    "bbox": [
+      632,
+      116,
+      739,
+      208
+    ]
+  },
+  {
+    "video": "marine_biosecurity_inspection (720p).mp4",
+    "frame": 7357,
+    "defect": "marine_growth",
+    "point": [
+      910,
+      379
+    ],
+    "bbox": [
+      857,
+      355,
+      962,
+      403
+    ]
+  },
+  {
+    "video": "marine_biosecurity_inspection (720p).mp4",
+    "frame": 7357,
+    "defect": "marine_growth",
+    "point": [
+      1096,
+      134
+    ],
+    "bbox": [
+      1018,
+      95,
+      1174,
+      174
+    ]
+  },
+  {
+    "video": "mixer.mov (720p).mp4",
+    "frame": 1009,
+    "defect": "valve_mixer",
+    "point": [
+      523,
+      361
+    ],
+    "bbox": [
+      292,
+      5,
+      755,
+      716
+    ]
+  },
+  {
+    "video": "mixer.mov (720p).mp4",
+    "frame": 3028,
+    "defect": "valve_mixer",
+    "point": [
+      858,
+      361
+    ],
+    "bbox": [
+      485,
+      6,
+      1231,
+      715
+    ]
+  },
+  {
+    "video": "mixer.mov (720p).mp4",
+    "frame": 3028,
+    "defect": "corrosion",
+    "point": [
+      835,
+      79
+    ],
+    "bbox": [
+      758,
+      23,
+      912,
+      135
+    ]
+  },
+  {
+    "video": "mixer.mov (720p).mp4",
+    "frame": 3028,
+    "defect": "corrosion",
+    "point": [
+      776,
+      410
+    ],
+    "bbox": [
+      744,
+      380,
+      807,
+      439
+    ]
+  },
+  {
+    "video": "mixer.mov (720p).mp4",
+    "frame": 3028,
+    "defect": "corrosion",
+    "point": [
+      662,
+      347
+    ],
+    "bbox": [
+      591,
+      323,
+      732,
+      372
+    ]
+  },
+  {
+    "video": "mixer.mov (720p).mp4",
+    "frame": 3028,
+    "defect": "corrosion",
+    "point": [
+      656,
+      426
+    ],
+    "bbox": [
+      586,
+      394,
+      726,
+      458
+    ]
+  },
+  {
+    "video": "mixer.mov (720p).mp4",
+    "frame": 3028,
+    "defect": "corrosion",
+    "point": [
+      382,
+      611
+    ],
+    "bbox": [
+      350,
+      575,
+      415,
+      647
+    ]
+  },
+  {
+    "video": "mixer.mov (720p).mp4",
+    "frame": 3028,
+    "defect": "corrosion",
+    "point": [
+      466,
+      585
+    ],
+    "bbox": [
+      439,
+      562,
+      493,
+      608
+    ]
+  },
+  {
+    "video": "mixer.mov (720p).mp4",
+    "frame": 3028,
+    "defect": "corrosion",
+    "point": [
+      912,
+      371
+    ],
+    "bbox": [
+      875,
+      325,
+      949,
+      417
+    ]
+  },
+  {
+    "video": "mixer.mov (720p).mp4",
+    "frame": 3028,
+    "defect": "surface_deposit",
+    "point": [
+      978,
+      598
+    ],
+    "bbox": [
+      947,
+      581,
+      1008,
+      614
+    ]
+  },
+  {
+    "video": "mixer.mov (720p).mp4",
+    "frame": 3028,
+    "defect": "surface_deposit",
+    "point": [
+      905,
+      629
+    ],
+    "bbox": [
+      877,
+      617,
+      933,
+      641
+    ]
+  },
+  {
+    "video": "mixer.mov (720p).mp4",
+    "frame": 3028,
+    "defect": "corrosion",
+    "point": [
+      840,
+      324
+    ],
+    "bbox": [
+      818,
+      303,
+      863,
+      345
+    ]
+  },
+  {
+    "video": "mixer.mov (720p).mp4",
+    "frame": 3028,
+    "defect": "corrosion",
+    "point": [
+      960,
+      460
+    ],
+    "bbox": [
+      942,
+      447,
+      979,
+      473
+    ]
+  },
+  {
+    "video": "mixer.mov (720p).mp4",
+    "frame": 3028,
+    "defect": "corrosion",
+    "point": [
+      225,
+      581
+    ],
+    "bbox": [
+      184,
+      529,
+      265,
+      632
+    ]
+  },
+  {
+    "video": "mixer.mov (720p).mp4",
+    "frame": 3028,
+    "defect": "corrosion",
+    "point": [
+      537,
+      145
+    ],
+    "bbox": [
+      504,
+      100,
+      570,
+      189
+    ]
+  },
+  {
+    "video": "mixer.mov (720p).mp4",
+    "frame": 5047,
+    "defect": "valve_mixer",
+    "point": [
+      954,
+      601
+    ],
+    "bbox": [
+      732,
+      483,
+      1175,
+      719
+    ]
+  },
+  {
+    "video": "mixer.mov (720p).mp4",
+    "frame": 5047,
+    "defect": "corrosion",
+    "point": [
+      869,
+      624
+    ],
+    "bbox": [
+      857,
+      609,
+      881,
+      640
+    ]
+  },
+  {
+    "video": "mixer.mov (720p).mp4",
+    "frame": 5047,
+    "defect": "corrosion",
+    "point": [
+      842,
+      631
+    ],
+    "bbox": [
+      828,
+      616,
+      856,
+      647
+    ]
+  },
+  {
+    "video": "mixer.mov (720p).mp4",
+    "frame": 5047,
+    "defect": "corrosion",
+    "point": [
+      752,
+      614
+    ],
+    "bbox": [
+      740,
+      602,
+      764,
+      627
+    ]
+  },
+  {
+    "video": "mixer.mov (720p).mp4",
+    "frame": 5047,
+    "defect": "coating_breakdown",
+    "point": [
+      886,
+      37
+    ],
+    "bbox": [
+      862,
+      25,
+      909,
+      49
+    ]
+  },
+  {
+    "video": "mixer.mov (720p).mp4",
+    "frame": 5047,
+    "defect": "coating_breakdown",
+    "point": [
+      914,
+      76
+    ],
+    "bbox": [
+      898,
+      57,
+      930,
+      94
+    ]
+  },
+  {
+    "video": "mixer.mov (720p).mp4",
+    "frame": 5047,
+    "defect": "coating_breakdown",
+    "point": [
+      882,
+      55
+    ],
+    "bbox": [
+      868,
+      46,
+      897,
+      63
+    ]
+  },
+  {
+    "video": "mixer.mov (720p).mp4",
+    "frame": 5047,
+    "defect": "coating_breakdown",
+    "point": [
+      962,
+      95
+    ],
+    "bbox": [
+      956,
+      85,
+      969,
+      105
+    ]
+  },
+  {
+    "video": "mixer.mov (720p).mp4",
+    "frame": 5047,
+    "defect": "coating_breakdown",
+    "point": [
+      860,
+      66
+    ],
+    "bbox": [
+      852,
+      59,
+      867,
+      73
+    ]
+  },
+  {
+    "video": "outlets.mov (720p).mp4",
+    "frame": 2215,
+    "defect": "outlet_inlet",
+    "point": [
+      687,
+      338
+    ],
+    "bbox": [
+      315,
+      177,
+      1058,
+      499
+    ]
+  },
+  {
+    "video": "outlets.mov (720p).mp4",
+    "frame": 2215,
+    "defect": "surface_deposit",
+    "point": [
+      574,
+      102
+    ],
+    "bbox": [
+      560,
+      97,
+      587,
+      108
+    ]
+  },
+  {
+    "video": "outlets.mov (720p).mp4",
+    "frame": 11075,
+    "defect": "seal_joint_degradation",
+    "point": [
+      628,
+      75
+    ],
+    "bbox": [
+      606,
+      21,
+      650,
+      128
+    ]
+  },
+  {
+    "video": "outlets.mov (720p).mp4",
+    "frame": 11075,
+    "defect": "surface_deposit",
+    "point": [
+      717,
+      496
+    ],
+    "bbox": [
+      499,
+      361,
+      936,
+      632
+    ]
+  },
+  {
+    "video": "pipework.mov (720p).mp4",
+    "frame": 945,
+    "defect": "pipework",
+    "point": [
+      677,
+      373
+    ],
+    "bbox": [
+      486,
+      29,
+      868,
+      718
+    ]
+  },
+  {
+    "video": "pipework.mov (720p).mp4",
+    "frame": 945,
+    "defect": "corrosion",
+    "point": [
+      450,
+      63
+    ],
+    "bbox": [
+      438,
+      44,
+      463,
+      83
+    ]
+  },
+  {
+    "video": "pipework.mov (720p).mp4",
+    "frame": 945,
+    "defect": "corrosion",
+    "point": [
+      543,
+      137
+    ],
+    "bbox": [
+      534,
+      130,
+      553,
+      144
+    ]
+  },
+  {
+    "video": "pipework.mov (720p).mp4",
+    "frame": 945,
+    "defect": "corrosion",
+    "point": [
+      528,
+      148
+    ],
+    "bbox": [
+      521,
+      138,
+      535,
+      158
+    ]
+  },
+  {
+    "video": "pipework.mov (720p).mp4",
+    "frame": 945,
+    "defect": "corrosion",
+    "point": [
+      452,
+      113
+    ],
+    "bbox": [
+      440,
+      90,
+      465,
+      136
+    ]
+  },
+  {
+    "video": "pipework.mov (720p).mp4",
+    "frame": 945,
+    "defect": "corrosion",
+    "point": [
+      549,
+      154
+    ],
+    "bbox": [
+      538,
+      144,
+      560,
+      163
+    ]
+  },
+  {
+    "video": "pipework.mov (720p).mp4",
+    "frame": 945,
+    "defect": "pipework",
+    "point": [
+      649,
+      369
+    ],
+    "bbox": [
+      404,
+      251,
+      895,
+      488
+    ]
+  },
+  {
+    "video": "pipework.mov (720p).mp4",
+    "frame": 2837,
+    "defect": "pipework",
+    "point": [
+      682,
+      364
+    ],
+    "bbox": [
+      574,
+      9,
+      790,
+      718
+    ]
+  },
+  {
+    "video": "pipework.mov (720p).mp4",
+    "frame": 2837,
+    "defect": "pipework",
+    "point": [
+      573,
+      358
+    ],
+    "bbox": [
+      410,
+      1,
+      735,
+      715
+    ]
+  },
+  {
+    "video": "pipework.mov (720p).mp4",
+    "frame": 4729,
+    "defect": "pipework",
+    "point": [
+      607,
+      334
+    ],
+    "bbox": [
+      513,
+      269,
+      701,
+      398
+    ]
+  },
+  {
+    "video": "pipework.mov (720p).mp4",
+    "frame": 4729,
+    "defect": "pipework",
+    "point": [
+      947,
+      317
+    ],
+    "bbox": [
+      702,
+      264,
+      1192,
+      371
+    ]
+  },
+  {
+    "video": "pipework.mov (720p).mp4",
+    "frame": 4729,
+    "defect": "pipework",
+    "point": [
+      569,
+      553
+    ],
+    "bbox": [
+      518,
+      391,
+      621,
+      715
+    ]
+  },
+  {
+    "video": "pipework.mov (720p).mp4",
+    "frame": 4729,
+    "defect": "pipework",
+    "point": [
+      468,
+      341
+    ],
+    "bbox": [
+      451,
+      308,
+      486,
+      374
+    ]
+  },
+  {
+    "video": "pipework.mov (720p).mp4",
+    "frame": 4729,
+    "defect": "pipework",
+    "point": [
+      445,
+      544
+    ],
+    "bbox": [
+      399,
+      374,
+      490,
+      713
+    ]
+  },
+  {
+    "video": "pipework.mov (720p).mp4",
+    "frame": 4729,
+    "defect": "pipework",
+    "point": [
+      920,
+      437
+    ],
+    "bbox": [
+      566,
+      342,
+      1273,
+      531
+    ]
+  },
+  {
+    "video": "pipework.mov (720p).mp4",
+    "frame": 4729,
+    "defect": "pipework",
+    "point": [
+      933,
+      233
+    ],
+    "bbox": [
+      670,
+      204,
+      1197,
+      263
+    ]
+  },
+  {
+    "video": "pipework.mov (720p).mp4",
+    "frame": 4729,
+    "defect": "pipework",
+    "point": [
+      425,
+      247
+    ],
+    "bbox": [
+      188,
+      205,
+      662,
+      290
+    ]
+  },
+  {
+    "video": "pipework.mov (720p).mp4",
+    "frame": 4729,
+    "defect": "pipework",
+    "point": [
+      92,
+      286
+    ],
+    "bbox": [
+      3,
+      262,
+      182,
+      310
+    ]
+  },
+  {
+    "video": "pipework.mov (720p).mp4",
+    "frame": 4729,
+    "defect": "pipework",
+    "point": [
+      368,
+      318
+    ],
+    "bbox": [
+      224,
+      280,
+      513,
+      357
+    ]
+  },
+  {
+    "video": "reef_survey (720p).mp4",
+    "frame": 1116,
+    "defect": "coral",
+    "point": [
+      751,
+      402
+    ],
+    "bbox": [
+      726,
+      366,
+      776,
+      437
+    ]
+  },
+  {
+    "video": "reef_survey (720p).mp4",
+    "frame": 1116,
+    "defect": "coral",
+    "point": [
+      796,
+      460
+    ],
+    "bbox": [
+      756,
+      421,
+      835,
+      500
+    ]
+  },
+  {
+    "video": "reef_survey (720p).mp4",
+    "frame": 1116,
+    "defect": "coral",
+    "point": [
+      763,
+      552
+    ],
+    "bbox": [
+      724,
+      505,
+      802,
+      599
+    ]
+  },
+  {
+    "video": "reef_survey (720p).mp4",
+    "frame": 1116,
+    "defect": "coral",
+    "point": [
+      879,
+      295
+    ],
+    "bbox": [
+      844,
+      252,
+      914,
+      338
+    ]
+  },
+  {
+    "video": "reef_survey (720p).mp4",
+    "frame": 1116,
+    "defect": "coral",
+    "point": [
+      1009,
+      231
+    ],
+    "bbox": [
+      970,
+      192,
+      1047,
+      269
+    ]
+  },
+  {
+    "video": "reef_survey (720p).mp4",
+    "frame": 1116,
+    "defect": "coral",
+    "point": [
+      812,
+      113
+    ],
+    "bbox": [
+      796,
+      83,
+      829,
+      144
+    ]
+  },
+  {
+    "video": "reef_survey (720p).mp4",
+    "frame": 1116,
+    "defect": "coral",
+    "point": [
+      360,
+      430
+    ],
+    "bbox": [
+      4,
+      141,
+      717,
+      719
+    ]
+  },
+  {
+    "video": "reef_survey (720p).mp4",
+    "frame": 3348,
+    "defect": "fish",
+    "point": [
+      1175,
+      435
+    ],
+    "bbox": [
+      1072,
+      369,
+      1279,
+      500
+    ]
+  },
+  {
+    "video": "reef_survey (720p).mp4",
+    "frame": 3348,
+    "defect": "fish",
+    "point": [
+      997,
+      265
+    ],
+    "bbox": [
+      883,
+      210,
+      1111,
+      321
+    ]
+  },
+  {
+    "video": "reef_survey (720p).mp4",
+    "frame": 3348,
+    "defect": "fish",
+    "point": [
+      1055,
+      170
+    ],
+    "bbox": [
+      930,
+      137,
+      1180,
+      203
+    ]
+  },
+  {
+    "video": "reef_survey (720p).mp4",
+    "frame": 3348,
+    "defect": "fish",
+    "point": [
+      1014,
+      123
+    ],
+    "bbox": [
+      900,
+      86,
+      1127,
+      160
+    ]
+  },
+  {
+    "video": "reef_survey (720p).mp4",
+    "frame": 3348,
+    "defect": "fish",
+    "point": [
+      1132,
+      80
+    ],
+    "bbox": [
+      1014,
+      39,
+      1250,
+      121
+    ]
+  },
+  {
+    "video": "reef_survey (720p).mp4",
+    "frame": 3348,
+    "defect": "fish",
+    "point": [
+      688,
+      172
+    ],
+    "bbox": [
+      582,
+      96,
+      795,
+      247
+    ]
+  },
+  {
+    "video": "reef_survey (720p).mp4",
+    "frame": 3348,
+    "defect": "fish",
+    "point": [
+      829,
+      450
+    ],
+    "bbox": [
+      739,
+      404,
+      920,
+      495
+    ]
+  },
+  {
+    "video": "reef_survey (720p).mp4",
+    "frame": 3348,
+    "defect": "fish",
+    "point": [
+      661,
+      394
+    ],
+    "bbox": [
+      557,
+      345,
+      764,
+      443
+    ]
+  },
+  {
+    "video": "reef_survey (720p).mp4",
+    "frame": 3348,
+    "defect": "fish",
+    "point": [
+      314,
+      270
+    ],
+    "bbox": [
+      230,
+      196,
+      397,
+      344
+    ]
+  },
+  {
+    "video": "reef_survey (720p).mp4",
+    "frame": 3348,
+    "defect": "fish",
+    "point": [
+      276,
+      129
+    ],
+    "bbox": [
+      176,
+      79,
+      376,
+      179
+    ]
+  },
+  {
+    "video": "reef_survey (720p).mp4",
+    "frame": 3348,
+    "defect": "fish",
+    "point": [
+      598,
+      30
+    ],
+    "bbox": [
+      474,
+      0,
+      722,
+      62
+    ]
+  },
+  {
+    "video": "reef_survey (720p).mp4",
+    "frame": 3348,
+    "defect": "fish",
+    "point": [
+      565,
+      277
+    ],
+    "bbox": [
+      471,
+      242,
+      659,
+      311
+    ]
+  },
+  {
+    "video": "reef_survey (720p).mp4",
+    "frame": 3348,
+    "defect": "fish",
+    "point": [
+      93,
+      87
+    ],
+    "bbox": [
+      0,
+      43,
+      187,
+      130
+    ]
+  },
+  {
+    "video": "reef_survey (720p).mp4",
+    "frame": 3348,
+    "defect": "fish",
+    "point": [
+      559,
+      76
+    ],
+    "bbox": [
+      472,
+      23,
+      646,
+      129
+    ]
+  },
+  {
+    "video": "reef_survey (720p).mp4",
+    "frame": 3348,
+    "defect": "fish",
+    "point": [
+      143,
+      413
+    ],
+    "bbox": [
+      52,
+      371,
+      234,
+      455
+    ]
+  },
+  {
+    "video": "reef_survey (720p).mp4",
+    "frame": 3348,
+    "defect": "fish",
+    "point": [
+      326,
+      421
+    ],
+    "bbox": [
+      241,
+      369,
+      410,
+      474
+    ]
+  },
+  {
+    "video": "reef_survey (720p).mp4",
+    "frame": 3348,
+    "defect": "fish",
+    "point": [
+      83,
+      313
+    ],
+    "bbox": [
+      0,
+      272,
+      167,
+      354
+    ]
+  },
+  {
+    "video": "reef_survey (720p).mp4",
+    "frame": 5580,
+    "defect": "coral",
+    "point": [
+      815,
+      358
+    ],
+    "bbox": [
+      548,
+      2,
+      1083,
+      714
+    ]
+  },
+  {
+    "video": "reef_survey (720p).mp4",
+    "frame": 5580,
+    "defect": "coral",
+    "point": [
+      315,
+      601
+    ],
+    "bbox": [
+      151,
+      483,
+      478,
+      719
+    ]
+  },
+  {
+    "video": "reef_survey (720p).mp4",
+    "frame": 5580,
+    "defect": "coral",
+    "point": [
+      222,
+      84
+    ],
+    "bbox": [
+      0,
+      1,
+      445,
+      167
+    ]
+  },
+  {
+    "video": "reef_survey (720p).mp4",
+    "frame": 5580,
+    "defect": "coral",
+    "point": [
+      235,
+      314
+    ],
+    "bbox": [
+      3,
+      135,
+      467,
+      494
+    ]
+  },
+  {
+    "video": "reef_survey (720p).mp4",
+    "frame": 5580,
+    "defect": "coral",
+    "point": [
+      1014,
+      269
+    ],
+    "bbox": [
+      870,
+      171,
+      1157,
+      367
+    ]
+  },
+  {
+    "video": "retrieval (720p).mp4",
+    "frame": 1370,
+    "defect": "rov_manipulator",
+    "point": [
+      979,
+      627
+    ],
+    "bbox": [
+      905,
+      536,
+      1052,
+      718
+    ]
+  },
+  {
+    "video": "retrieval (720p).mp4",
+    "frame": 1370,
+    "defect": "rov_manipulator",
+    "point": [
+      1160,
+      626
+    ],
+    "bbox": [
+      1084,
+      535,
+      1235,
+      717
+    ]
+  },
+  {
+    "video": "retrieval (720p).mp4",
+    "frame": 1370,
+    "defect": "coating_breakdown",
+    "point": [
+      858,
+      201
+    ],
+    "bbox": [
+      754,
+      61,
+      961,
+      342
+    ]
+  },
+  {
+    "video": "retrieval (720p).mp4",
+    "frame": 4111,
+    "defect": "surface_deposit",
+    "point": [
+      345,
+      33
+    ],
+    "bbox": [
+      256,
+      4,
+      434,
+      62
+    ]
+  },
+  {
+    "video": "retrieval (720p).mp4",
+    "frame": 4111,
+    "defect": "surface_deposit",
+    "point": [
+      504,
+      155
+    ],
+    "bbox": [
+      399,
+      56,
+      608,
+      253
+    ]
+  },
+  {
+    "video": "retrieval (720p).mp4",
+    "frame": 4111,
+    "defect": "surface_deposit",
+    "point": [
+      712,
+      406
+    ],
+    "bbox": [
+      587,
+      222,
+      838,
+      590
+    ]
+  },
+  {
+    "video": "retrieval (720p).mp4",
+    "frame": 4111,
+    "defect": "surface_deposit",
+    "point": [
+      322,
+      150
+    ],
+    "bbox": [
+      302,
+      132,
+      342,
+      169
+    ]
+  },
+  {
+    "video": "retrieval (720p).mp4",
+    "frame": 4111,
+    "defect": "surface_deposit",
+    "point": [
+      101,
+      197
+    ],
+    "bbox": [
+      70,
+      178,
+      132,
+      217
+    ]
+  },
+  {
+    "video": "retrieval (720p).mp4",
+    "frame": 4111,
+    "defect": "surface_deposit",
+    "point": [
+      28,
+      293
+    ],
+    "bbox": [
+      0,
+      274,
+      56,
+      311
+    ]
+  },
+  {
+    "video": "retrieval (720p).mp4",
+    "frame": 4111,
+    "defect": "surface_deposit",
+    "point": [
+      100,
+      231
+    ],
+    "bbox": [
+      79,
+      216,
+      121,
+      246
+    ]
+  },
+  {
+    "video": "retrieval (720p).mp4",
+    "frame": 4111,
+    "defect": "coating_breakdown",
+    "point": [
+      844,
+      581
+    ],
+    "bbox": [
+      748,
+      464,
+      941,
+      699
+    ]
+  },
+  {
+    "video": "retrieval (720p).mp4",
+    "frame": 4111,
+    "defect": "rov_manipulator",
+    "point": [
+      995,
+      623
+    ],
+    "bbox": [
+      929,
+      527,
+      1061,
+      718
+    ]
+  },
+  {
+    "video": "retrieval (720p).mp4",
+    "frame": 6851,
+    "defect": "pipework",
+    "point": [
+      693,
+      430
+    ],
+    "bbox": [
+      639,
+      145,
+      746,
+      715
+    ]
+  },
+  {
+    "video": "retrieval (720p).mp4",
+    "frame": 6851,
+    "defect": "coating_breakdown",
+    "point": [
+      1190,
+      113
+    ],
+    "bbox": [
+      1103,
+      2,
+      1277,
+      225
+    ]
+  },
+  {
+    "video": "retrieval (720p).mp4",
+    "frame": 6851,
+    "defect": "coating_breakdown",
+    "point": [
+      1097,
+      526
+    ],
+    "bbox": [
+      918,
+      338,
+      1277,
+      714
+    ]
+  },
+  {
+    "video": "retrieval (720p).mp4",
+    "frame": 6851,
+    "defect": "coating_breakdown",
+    "point": [
+      893,
+      107
+    ],
+    "bbox": [
+      865,
+      63,
+      920,
+      152
+    ]
+  },
+  {
+    "video": "retrieval (720p).mp4",
+    "frame": 6851,
+    "defect": "pipework",
+    "point": [
+      96,
+      239
+    ],
+    "bbox": [
+      0,
+      169,
+      192,
+      308
+    ]
+  },
+  {
+    "video": "seagrass_beds (720p).mp4",
+    "frame": 4554,
+    "defect": "seagrass",
+    "point": [
+      951,
+      361
+    ],
+    "bbox": [
+      745,
+      10,
+      1158,
+      713
+    ]
+  },
+  {
+    "video": "seagrass_beds (720p).mp4",
+    "frame": 4554,
+    "defect": "seagrass",
+    "point": [
+      195,
+      497
+    ],
+    "bbox": [
+      106,
+      281,
+      284,
+      713
+    ]
+  },
+  {
+    "video": "seagrass_beds (720p).mp4",
+    "frame": 7590,
+    "defect": "seagrass",
+    "point": [
+      1084,
+      467
+    ],
+    "bbox": [
+      944,
+      224,
+      1224,
+      711
+    ]
+  },
+  {
+    "video": "seagrass_beds (720p).mp4",
+    "frame": 7590,
+    "defect": "seagrass",
+    "point": [
+      1067,
+      203
+    ],
+    "bbox": [
+      1021,
+      4,
+      1113,
+      402
+    ]
+  },
+  {
+    "video": "seagrass_beds (720p).mp4",
+    "frame": 7590,
+    "defect": "seagrass",
+    "point": [
+      1184,
+      200
+    ],
+    "bbox": [
+      1093,
+      6,
+      1275,
+      393
+    ]
+  },
+  {
+    "video": "seagrass_beds (720p).mp4",
+    "frame": 7590,
+    "defect": "seagrass",
+    "point": [
+      178,
+      363
+    ],
+    "bbox": [
+      6,
+      24,
+      350,
+      702
+    ]
+  },
+  {
+    "video": "seagrass_beds (720p).mp4",
+    "frame": 7590,
+    "defect": "seagrass",
+    "point": [
+      196,
+      160
+    ],
+    "bbox": [
+      157,
+      4,
+      235,
+      315
+    ]
+  },
+  {
+    "video": "seagrass_beds (720p).mp4",
+    "frame": 7590,
+    "defect": "seagrass",
+    "point": [
+      190,
+      521
+    ],
+    "bbox": [
+      143,
+      331,
+      237,
+      711
+    ]
+  },
+  {
+    "video": "seagrass_beds (720p).mp4",
+    "frame": 7590,
+    "defect": "seagrass",
+    "point": [
+      129,
+      158
+    ],
+    "bbox": [
+      68,
+      5,
+      190,
+      312
+    ]
+  },
+  {
+    "video": "seagrass_beds (720p).mp4",
+    "frame": 7590,
+    "defect": "seagrass",
+    "point": [
+      673,
+      329
+    ],
+    "bbox": [
+      507,
+      6,
+      838,
+      652
+    ]
+  },
+  {
+    "video": "seagrass_beds (720p).mp4",
+    "frame": 7590,
+    "defect": "seagrass",
+    "point": [
+      773,
+      382
+    ],
+    "bbox": [
+      702,
+      304,
+      844,
+      460
+    ]
+  },
+  {
+    "video": "seagrass_beds (720p).mp4",
+    "frame": 7590,
+    "defect": "seagrass",
+    "point": [
+      883,
+      351
+    ],
+    "bbox": [
+      830,
+      295,
+      937,
+      407
+    ]
+  },
+  {
+    "video": "seagrass_beds (720p).mp4",
+    "frame": 7590,
+    "defect": "seagrass",
+    "point": [
+      1023,
+      622
+    ],
+    "bbox": [
+      913,
+      535,
+      1133,
+      709
+    ]
+  },
+  {
+    "video": "seals.mov (720p).mp4",
+    "frame": 734,
+    "defect": "surface_deposit",
+    "point": [
+      554,
+      202
+    ],
+    "bbox": [
+      509,
+      166,
+      599,
+      238
+    ]
+  },
+  {
+    "video": "seals.mov (720p).mp4",
+    "frame": 734,
+    "defect": "surface_deposit",
+    "point": [
+      663,
+      194
+    ],
+    "bbox": [
+      634,
+      177,
+      692,
+      212
+    ]
+  },
+  {
+    "video": "seals.mov (720p).mp4",
+    "frame": 734,
+    "defect": "surface_deposit",
+    "point": [
+      766,
+      282
+    ],
+    "bbox": [
+      700,
+      243,
+      832,
+      320
+    ]
+  },
+  {
+    "video": "seals.mov (720p).mp4",
+    "frame": 734,
+    "defect": "surface_deposit",
+    "point": [
+      894,
+      273
+    ],
+    "bbox": [
+      859,
+      251,
+      929,
+      295
+    ]
+  },
+  {
+    "video": "seals.mov (720p).mp4",
+    "frame": 734,
+    "defect": "surface_deposit",
+    "point": [
+      1027,
+      320
+    ],
+    "bbox": [
+      1002,
+      306,
+      1051,
+      335
+    ]
+  },
+  {
+    "video": "seals.mov (720p).mp4",
+    "frame": 734,
+    "defect": "surface_deposit",
+    "point": [
+      1196,
+      405
+    ],
+    "bbox": [
+      1165,
+      373,
+      1228,
+      437
+    ]
+  },
+  {
+    "video": "seals.mov (720p).mp4",
+    "frame": 734,
+    "defect": "surface_deposit",
+    "point": [
+      1225,
+      620
+    ],
+    "bbox": [
+      1174,
+      585,
+      1277,
+      655
+    ]
+  },
+  {
+    "video": "seals.mov (720p).mp4",
+    "frame": 734,
+    "defect": "surface_deposit",
+    "point": [
+      303,
+      76
+    ],
+    "bbox": [
+      271,
+      62,
+      334,
+      90
+    ]
+  },
+  {
+    "video": "seals.mov (720p).mp4",
+    "frame": 734,
+    "defect": "surface_deposit",
+    "point": [
+      270,
+      56
+    ],
+    "bbox": [
+      253,
+      38,
+      287,
+      73
+    ]
+  },
+  {
+    "video": "seals.mov (720p).mp4",
+    "frame": 734,
+    "defect": "seal_joint_degradation",
+    "point": [
+      348,
+      147
+    ],
+    "bbox": [
+      234,
+      57,
+      462,
+      238
+    ]
+  },
+  {
+    "video": "seals.mov (720p).mp4",
+    "frame": 734,
+    "defect": "seal_joint_degradation",
+    "point": [
+      598,
+      249
+    ],
+    "bbox": [
+      470,
+      112,
+      727,
+      387
+    ]
+  },
+  {
+    "video": "seals.mov (720p).mp4",
+    "frame": 734,
+    "defect": "seal_joint_degradation",
+    "point": [
+      808,
+      369
+    ],
+    "bbox": [
+      668,
+      199,
+      949,
+      540
+    ]
+  },
+  {
+    "video": "seals.mov (720p).mp4",
+    "frame": 734,
+    "defect": "seal_joint_degradation",
+    "point": [
+      1105,
+      499
+    ],
+    "bbox": [
+      934,
+      282,
+      1277,
+      716
+    ]
+  },
+  {
+    "video": "seals.mov (720p).mp4",
+    "frame": 734,
+    "defect": "seal_joint_degradation",
+    "point": [
+      134,
+      68
+    ],
+    "bbox": [
+      8,
+      3,
+      260,
+      133
+    ]
+  },
+  {
+    "video": "seals.mov (720p).mp4",
+    "frame": 2202,
+    "defect": "seal_joint_degradation",
+    "point": [
+      318,
+      644
+    ],
+    "bbox": [
+      203,
+      572,
+      434,
+      716
+    ]
+  },
+  {
+    "video": "seals.mov (720p).mp4",
+    "frame": 2202,
+    "defect": "seal_joint_degradation",
+    "point": [
+      466,
+      538
+    ],
+    "bbox": [
+      379,
+      473,
+      553,
+      603
+    ]
+  },
+  {
+    "video": "seals.mov (720p).mp4",
+    "frame": 2202,
+    "defect": "seal_joint_degradation",
+    "point": [
+      598,
+      440
+    ],
+    "bbox": [
+      520,
+      382,
+      676,
+      497
+    ]
+  },
+  {
+    "video": "seals.mov (720p).mp4",
+    "frame": 2202,
+    "defect": "seal_joint_degradation",
+    "point": [
+      728,
+      349
+    ],
+    "bbox": [
+      654,
+      296,
+      802,
+      402
+    ]
+  },
+  {
+    "video": "seals.mov (720p).mp4",
+    "frame": 2202,
+    "defect": "seal_joint_degradation",
+    "point": [
+      828,
+      284
+    ],
+    "bbox": [
+      777,
+      248,
+      880,
+      321
+    ]
+  },
+  {
+    "video": "seals.mov (720p).mp4",
+    "frame": 2202,
+    "defect": "seal_joint_degradation",
+    "point": [
+      911,
+      236
+    ],
+    "bbox": [
+      858,
+      204,
+      963,
+      268
+    ]
+  },
+  {
+    "video": "seals.mov (720p).mp4",
+    "frame": 3670,
+    "defect": "surface_deposit",
+    "point": [
+      776,
+      7
+    ],
+    "bbox": [
+      763,
+      0,
+      789,
+      15
+    ]
+  },
+  {
+    "video": "seals.mov (720p).mp4",
+    "frame": 3670,
+    "defect": "seal_joint_degradation",
+    "point": [
+      778,
+      24
+    ],
+    "bbox": [
+      733,
+      0,
+      822,
+      49
+    ]
+  },
+  {
+    "video": "seals.mov (720p).mp4",
+    "frame": 3670,
+    "defect": "surface_deposit",
+    "point": [
+      840,
+      62
+    ],
+    "bbox": [
+      829,
+      55,
+      851,
+      70
+    ]
+  },
+  {
+    "video": "seals.mov (720p).mp4",
+    "frame": 3670,
+    "defect": "surface_deposit",
+    "point": [
+      906,
+      120
+    ],
+    "bbox": [
+      892,
+      111,
+      920,
+      130
+    ]
+  },
+  {
+    "video": "seals.mov (720p).mp4",
+    "frame": 3670,
+    "defect": "surface_deposit",
+    "point": [
+      948,
+      156
+    ],
+    "bbox": [
+      938,
+      149,
+      957,
+      163
+    ]
+  },
+  {
+    "video": "seals.mov (720p).mp4",
+    "frame": 3670,
+    "defect": "surface_deposit",
+    "point": [
+      989,
+      205
+    ],
+    "bbox": [
+      971,
+      190,
+      1008,
+      220
+    ]
+  },
+  {
+    "video": "seals.mov (720p).mp4",
+    "frame": 3670,
+    "defect": "surface_deposit",
+    "point": [
+      1011,
+      243
+    ],
+    "bbox": [
+      985,
+      225,
+      1038,
+      261
+    ]
+  },
+  {
+    "video": "seals.mov (720p).mp4",
+    "frame": 3670,
+    "defect": "surface_deposit",
+    "point": [
+      1060,
+      290
+    ],
+    "bbox": [
+      1037,
+      276,
+      1083,
+      304
+    ]
+  },
+  {
+    "video": "seals.mov (720p).mp4",
+    "frame": 3670,
+    "defect": "seal_joint_degradation",
+    "point": [
+      830,
+      71
+    ],
+    "bbox": [
+      789,
+      29,
+      872,
+      112
+    ]
+  },
+  {
+    "video": "seals.mov (720p).mp4",
+    "frame": 3670,
+    "defect": "seal_joint_degradation",
+    "point": [
+      895,
+      135
+    ],
+    "bbox": [
+      849,
+      89,
+      942,
+      181
+    ]
+  },
+  {
+    "video": "seals.mov (720p).mp4",
+    "frame": 3670,
+    "defect": "seal_joint_degradation",
+    "point": [
+      966,
+      207
+    ],
+    "bbox": [
+      914,
+      152,
+      1018,
+      263
+    ]
+  },
+  {
+    "video": "seals.mov (720p).mp4",
+    "frame": 3670,
+    "defect": "seal_joint_degradation",
+    "point": [
+      1045,
+      293
+    ],
+    "bbox": [
+      994,
+      234,
+      1096,
+      353
+    ]
+  },
+  {
+    "video": "seals.mov (720p).mp4",
+    "frame": 3670,
+    "defect": "seal_joint_degradation",
+    "point": [
+      1106,
+      365
+    ],
+    "bbox": [
+      1051,
+      302,
+      1160,
+      428
+    ]
+  },
+  {
+    "video": "seals.mov (720p).mp4",
+    "frame": 3670,
+    "defect": "seal_joint_degradation",
+    "point": [
+      1204,
+      487
+    ],
+    "bbox": [
+      1131,
+      377,
+      1277,
+      596
+    ]
+  }
+]

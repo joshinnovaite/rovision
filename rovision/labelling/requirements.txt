@@ -1,0 +1,4 @@
+# Local labelling tool (rovision/labelling/label_defects.py) — runs on your machine, no GPU.
+# The heavy SAM 2 / torch stack is NOT needed locally; that runs on Colab.
+opencv-python>=4.7.0
+matplotlib>=3.7.0

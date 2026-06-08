@@ -9,3 +9,14 @@ _C.*
 outputs/*
 checkpoints/*.pt
 demo/backend/checkpoints/*.pt
+
+# Local test footage — keep large video files out of the fork
+test_footage/
+
+# Transient frame dumps from the labelling tool (labels.json IS kept)
+label_review/
+*.bak
+rovision/labelling/labeller_error.log
+
+# Amplified dataset (frames + labels) — durable copy lives in Google Drive
+rovision/dataset/
