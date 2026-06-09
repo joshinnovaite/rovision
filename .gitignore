@@ -20,3 +20,9 @@ rovision/labelling/labeller_error.log
 
 # Amplified dataset (frames + labels) — durable copy lives in Google Drive
 rovision/dataset/
+
+# Demo app — pre-computed bundles (large clips), generated SQLite DB, build output.
+# Durable bundle copies live on Google Drive; clips are large (~75MB each).
+app/backend/data/
+app/frontend/node_modules/
+app/frontend/dist/

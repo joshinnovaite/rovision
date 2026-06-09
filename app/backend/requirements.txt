@@ -1,0 +1,5 @@
+# Rovision demo backend — a thin FastAPI layer over pre-computed bundles.
+# No torch / sam2 here: inference is done offline (Colab §17); this only serves results.
+fastapi>=0.111
+uvicorn[standard]>=0.30
+python-multipart>=0.0.9
