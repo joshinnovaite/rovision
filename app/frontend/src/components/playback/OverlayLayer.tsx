@@ -32,7 +32,12 @@ export function OverlayLayer() {
     for (const t of tracks) m.set(t.track_id, t)
     return m
   }, [tracks])
-  const defectSet = useMemo(() => new Set(config?.defect_classes ?? []), [config])
+  // In inventory mode every class is a primary subject (no defect/artefact split),
+  // so treat all classes as "defect" — this neutralises the off-defect dimming below.
+  const defectSet = useMemo(
+    () => new Set(config?.mode === 'inventory' ? config.all_classes : config?.defect_classes ?? []),
+    [config],
+  )
 
   if (!meta || !frameIndex || !heldMaskIndex) return null
   const W = meta.width

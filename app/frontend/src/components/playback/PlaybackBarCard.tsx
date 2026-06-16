@@ -14,10 +14,18 @@ import {
 } from '../../lib/timelineClusters'
 import { isRelevantForAsset } from '../../lib/assets'
 import { classColor } from '../../lib/classColors'
+import { fmtDuration } from '../../lib/format'
 import { FlagCard } from './FlagCard'
 import { DensityCard } from './DensityCard'
 import { DensityPopover } from './DensityPopover'
 import type { Track } from '../../types'
+
+// "Nice" time-ruler steps (seconds). Pick the smallest whose px spacing >= target.
+const NICE_STEPS = [0.2, 0.5, 1, 2, 5, 10, 15, 20, 30, 60, 120, 300, 600, 900]
+function niceTimeStep(rawSec: number): number {
+  for (const s of NICE_STEPS) if (s >= rawSec) return s
+  return 1800
+}
 
 // The horizontal level-of-detail playback bar. Clusters recompute only on
 // `scale` change; the content transform (pan/playback) is applied imperatively
@@ -50,7 +58,12 @@ export function PlaybackBarCard() {
   const [popAnchor, setPopAnchor] = useState<{ cx: number; top: number } | null>(null)
 
   const encFps = meta?.enc_fps ?? 30
-  const defectSet = useMemo(() => new Set(config?.defect_classes ?? []), [config])
+  // In inventory mode every class is a primary subject (no defect/artefact split),
+  // so treat all classes as "defect" — this neutralises the off-defect dimming below.
+  const defectSet = useMemo(
+    () => new Set(config?.mode === 'inventory' ? config.all_classes : config?.defect_classes ?? []),
+    [config],
+  )
   const visibleSorted = useMemo(
     () => sortTracksByFirstFrame(tracks.filter((t) => !omitted.has(t.class))),
     [tracks, omitted],
@@ -76,6 +89,20 @@ export function PlaybackBarCard() {
   const maxScale = barWidthPx ? Math.max(minScale, barWidthPx / MAX_ZOOM_WINDOW_SEC) : 1
   // terminal LOD: at full zoom, no clustering — all individuals, overlap allowed, hover lifts
   const atMaxZoom = scale > 0 && scale >= maxScale - 1e-3
+
+  // Adaptive time ruler: a tick + m:ss label every ~90px at the current zoom, so you
+  // can read your position even with no flag cards nearby. Recomputes only on zoom;
+  // pans/playback ride the same imperative content transform as the cards.
+  const timeTicks = useMemo(() => {
+    const s = scale || minScale || 1
+    if (!durationSec || s <= 0) return []
+    let step = niceTimeStep(90 / s)
+    while (durationSec / step > 600) step *= 2 // cap DOM nodes on long clips at deep zoom
+    const out: { t: number; x: number; label: string }[] = []
+    for (let t = 0; t <= durationSec + 1e-6; t += step)
+      out.push({ t, x: t * s, label: step < 1 ? `${t.toFixed(1)}s` : fmtDuration(t) })
+    return out
+  }, [scale, minScale, durationSec])
 
   // init timeline meta + measure width
   useEffect(() => {
@@ -206,6 +233,11 @@ export function PlaybackBarCard() {
     <div className="barcard" ref={outerRef}>
       <div className="bar-rail" />
       <div className="barcard-content" ref={contentRef}>
+        {timeTicks.map(({ t, x, label }) => (
+          <div key={`tt-${t.toFixed(2)}`} className="bar-timetick" style={{ left: x }}>
+            <span className="bar-timetick-label">{label}</span>
+          </div>
+        ))}
         {visibleSorted.map((t) => (
           <span
             key={`tick-${t.track_id}`}

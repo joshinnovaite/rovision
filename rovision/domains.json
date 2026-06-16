@@ -1,0 +1,103 @@
+{
+  "subsea": {
+    "label": "Subsea Defects",
+    "mode": "defect",
+    "all_classes": [
+      "corrosion", "coating_breakdown", "surface_deposit", "marine_growth",
+      "trash_rack_blockage", "seal_joint_degradation",
+      "pipework", "ladder", "outlet_inlet", "valve_mixer", "fish", "coral",
+      "seagrass", "rov_manipulator", "dropped_object"
+    ],
+    "defect_classes": [
+      "corrosion", "coating_breakdown", "surface_deposit", "marine_growth",
+      "trash_rack_blockage", "seal_joint_degradation", "dropped_object"
+    ],
+    "colors": {
+      "corrosion": "#e5733a",
+      "coating_breakdown": "#d4a017",
+      "surface_deposit": "#a07e4b",
+      "marine_growth": "#2e9e5b",
+      "trash_rack_blockage": "#c0392b",
+      "seal_joint_degradation": "#8e44ad",
+      "dropped_object": "#e74c3c",
+      "pipework": "#5d6d7e",
+      "ladder": "#7f8c8d",
+      "outlet_inlet": "#34708a",
+      "valve_mixer": "#16a085",
+      "fish": "#2980b9",
+      "coral": "#c2569b",
+      "seagrass": "#27ae60",
+      "rov_manipulator": "#95a5a6"
+    },
+    "severity": {
+      "flag_min_n_frames": 8,
+      "flag_min_peak_area": 1500,
+      "sev_medium_count": 2,
+      "sev_high_count": 4,
+      "sev_coverage_bump": 0.05
+    },
+    "assets": {
+      "gold_coast_desal": {
+        "label": "Gold Coast Desalination",
+        "relevantClasses": [
+          "marine_growth", "trash_rack_blockage", "surface_deposit",
+          "corrosion", "coating_breakdown", "dropped_object"
+        ],
+        "topPriority": "marine_growth"
+      },
+      "hinze": {
+        "label": "Hinze Dam",
+        "relevantClasses": [
+          "corrosion", "coating_breakdown", "trash_rack_blockage",
+          "seal_joint_degradation", "surface_deposit"
+        ],
+        "topPriority": "corrosion"
+      },
+      "little_nerang": {
+        "label": "Little Nerang Dam",
+        "relevantClasses": ["trash_rack_blockage", "surface_deposit", "marine_growth", "corrosion"],
+        "topPriority": "trash_rack_blockage"
+      },
+      "north_pine": {
+        "label": "North Pine Dam",
+        "relevantClasses": ["trash_rack_blockage", "corrosion", "coating_breakdown"],
+        "topPriority": "trash_rack_blockage"
+      },
+      "wivenhoe": {
+        "label": "Wivenhoe Dam",
+        "relevantClasses": ["dropped_object", "surface_deposit", "corrosion", "seal_joint_degradation"],
+        "topPriority": "dropped_object"
+      },
+      "somerset": {
+        "label": "Somerset Dam",
+        "relevantClasses": ["corrosion", "surface_deposit", "marine_growth"],
+        "topPriority": "corrosion"
+      },
+      "generic": {
+        "label": "Generic / unspecified",
+        "relevantClasses": [],
+        "topPriority": null
+      }
+    }
+  },
+  "insulators": {
+    "label": "Pylon Insulators",
+    "mode": "inventory",
+    "all_classes": [
+      "insulator_string", "worker"
+    ],
+    "defect_classes": [],
+    "colors": {
+      "insulator_string": "#3fa7d6",
+      "worker": "#e84393"
+    },
+    "severity": null,
+    "assets": {
+      "generic": {
+        "label": "Generic / unspecified",
+        "relevantClasses": [],
+        "topPriority": null
+      }
+    }
+  }
+}

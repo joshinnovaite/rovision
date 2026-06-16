@@ -2,6 +2,7 @@
 import type {
   AppConfig,
   Detection,
+  DomainInfo,
   Track,
   UploadResult,
   VideoMeta,
@@ -17,8 +18,11 @@ async function getJSON<T>(url: string): Promise<T> {
 }
 
 export const api = {
-  config: () => getJSON<AppConfig>(`${BASE}/config`),
-  videos: () => getJSON<VideoSummary[]>(`${BASE}/videos`),
+  domains: () => getJSON<DomainInfo[]>(`${BASE}/domains`),
+  config: (domain?: string) =>
+    getJSON<AppConfig>(domain ? `${BASE}/config?domain=${domain}` : `${BASE}/config`),
+  videos: (domain?: string) =>
+    getJSON<VideoSummary[]>(domain ? `${BASE}/videos?domain=${domain}` : `${BASE}/videos`),
   video: (hash: string) => getJSON<VideoMeta>(`${BASE}/videos/${hash}`),
   tracks: (hash: string) => getJSON<Track[]>(`${BASE}/videos/${hash}/tracks`),
   detections: (hash: string) => getJSON<Detection[]>(`${BASE}/videos/${hash}/detections`),

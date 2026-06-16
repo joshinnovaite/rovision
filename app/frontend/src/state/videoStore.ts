@@ -2,15 +2,29 @@
 // render-hot lookup indices once on load so the playback loop stays cheap.
 import { create } from 'zustand'
 import { api } from '../lib/api'
+import { setClassColors } from '../lib/classColors'
+import { setAssetConfig } from '../lib/assets'
 import {
   buildFrameIndex,
   buildHeldMaskIndex,
   type FrameIndex,
   type HeldMaskIndex,
 } from '../lib/frameIndex'
-import type { AppConfig, Detection, Track, VideoMeta, VideoSummary } from '../types'
+import type { AppConfig, Detection, Domain, DomainInfo, Track, VideoMeta, VideoSummary } from '../types'
+import { useSettingsStore } from './settingsStore'
+
+const DOMAIN_KEY = 'rovision.domain'
+function initialDomain(): Domain {
+  try {
+    return localStorage.getItem(DOMAIN_KEY) || 'subsea'
+  } catch {
+    return 'subsea'
+  }
+}
 
 interface VideoState {
+  domain: Domain
+  domains: DomainInfo[]
   config: AppConfig | null
   library: VideoSummary[]
   hash: string | null
@@ -21,6 +35,8 @@ interface VideoState {
   heldMaskIndex: HeldMaskIndex | null
   status: 'idle' | 'loading' | 'ready' | 'error'
   error: string | null
+  loadDomains: () => Promise<void>
+  setDomain: (domain: Domain) => Promise<void>
   loadConfig: () => Promise<void>
   loadLibrary: () => Promise<void>
   load: (hash: string) => Promise<void>
@@ -28,6 +44,8 @@ interface VideoState {
 }
 
 export const useVideoStore = create<VideoState>((set, get) => ({
+  domain: initialDomain(),
+  domains: [],
   config: null,
   library: [],
   hash: null,
@@ -39,10 +57,35 @@ export const useVideoStore = create<VideoState>((set, get) => ({
   status: 'idle',
   error: null,
 
-  async loadConfig() {
-    if (get().config) return
+  async loadDomains() {
     try {
-      set({ config: await api.config() })
+      set({ domains: await api.domains() })
+    } catch (e) {
+      set({ error: String(e) })
+    }
+  },
+
+  async setDomain(domain) {
+    if (domain === get().domain) return
+    try {
+      localStorage.setItem(DOMAIN_KEY, domain)
+    } catch {
+      /* ignore */
+    }
+    useSettingsStore.getState().resetForDomain()
+    get().clear()
+    set({ domain, config: null, library: [] })
+    await Promise.all([get().loadConfig(), get().loadLibrary()])
+  },
+
+  async loadConfig() {
+    // Config is domain-scoped; only refetch when it's missing or stale.
+    if (get().config?.domain === get().domain) return
+    try {
+      const config = await api.config(get().domain)
+      setClassColors(config.colors)
+      setAssetConfig(config.assets)
+      set({ config })
     } catch (e) {
       set({ error: String(e) })
     }
@@ -50,7 +93,7 @@ export const useVideoStore = create<VideoState>((set, get) => ({
 
   async loadLibrary() {
     try {
-      set({ library: await api.videos() })
+      set({ library: await api.videos(get().domain) })
     } catch (e) {
       set({ error: String(e) })
     }

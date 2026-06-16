@@ -15,6 +15,7 @@ Six folders under rovault, plus the index:
 - rovault/modules/ — one note per significant source file
 - rovault/workflows/ — one note per user-facing process
 - rovault/glossary/ — short domain-term definitions
+- rovault/tasks/ — the work tracker (goals / bodies-of-work / subtasks). **The vault-secretary's domain — leave it to them.** You handle the "why," not the "what's left."
 Notes are cross-linked with Obsidian `[[wikilinks]]`. A wikilink resolves to a file of that name in one of the six folders — use Glob to resolve if the folder is ambiguous.
 
 ## How to work

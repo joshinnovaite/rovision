@@ -38,21 +38,23 @@ def ingest_bundle(bundle_dir: Path) -> str | None:
     tracks = json.loads(tracks_path.read_text())
     video_hash = sha256_file(raw_path)
 
+    # Which domain this clip belongs to (§17 writes it; legacy bundles default to subsea).
+    domain = config.resolve_domain(meta.get("domain"))
     enc_fps = int(meta.get("enc_fps") or round(meta.get("fps", 30)))
     n_frames = int(meta.get("n_frames", 0))
     width, height = int(meta.get("width", 0)), int(meta.get("height", 0))
     duration_sec = round(n_frames / enc_fps, 3) if enc_fps else None
-    flag_count, max_severity = compute_rollup(tracks, width, height)
+    flag_count, max_severity = compute_rollup(tracks, width, height, domain)
 
     with get_conn() as conn:
         conn.execute(
             """INSERT OR REPLACE INTO videos
-               (hash, source_video, asset, fps, enc_fps, width, height, n_frames,
+               (hash, source_video, domain, asset, fps, enc_fps, width, height, n_frames,
                 start_frame, refine_every, duration_sec, flag_count, max_severity,
                 bundle_dir, processed_at)
-               VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)""",
+               VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)""",
             (
-                video_hash, meta.get("source_video"), meta.get("asset"),
+                video_hash, meta.get("source_video"), domain, meta.get("asset"),
                 meta.get("fps"), enc_fps, width, height, n_frames,
                 meta.get("start_frame"), meta.get("refine_every"), duration_sec,
                 flag_count, max_severity, str(bundle_dir),
@@ -70,7 +72,7 @@ def ingest_bundle(bundle_dir: Path) -> str | None:
                 for t in tracks
             ],
         )
-    print(f"[ingest] {bundle_dir.name}: hash={video_hash[:12]}… "
+    print(f"[ingest] {bundle_dir.name}: domain={domain} hash={video_hash[:12]}… "
           f"tracks={len(tracks)} flags={flag_count} severity={max_severity}")
     return video_hash
 

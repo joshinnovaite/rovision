@@ -18,6 +18,16 @@
 .sidebar { display: flex; flex-direction: column; gap: 2px; height: 100%; padding: var(--space-4); }
 .brand { font-weight: 700; font-size: var(--fs-lg); color: var(--primary-strong);
   padding: var(--space-2) var(--space-2) var(--space-4); }
+
+/* domain toggle (segmented control above the nav) */
+.domain-toggle { display: flex; gap: 2px; padding: 3px; margin-bottom: var(--space-3);
+  background: var(--surface-2); border-radius: var(--radius); }
+.domain-btn { flex: 1; padding: 7px 8px; border: none; border-radius: calc(var(--radius) - 2px);
+  background: transparent; color: var(--text-muted); font-size: var(--fs-xs); font-weight: 600;
+  cursor: pointer; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.domain-btn:hover { color: var(--text); }
+.domain-btn.active { background: var(--surface); color: var(--primary-strong);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.18); }
 .nav-item { display: flex; align-items: center; gap: 10px; padding: 9px 12px; border: none;
   border-radius: var(--radius); color: var(--text); text-decoration: none; font-size: var(--fs-sm);
   font-weight: 500; background: transparent; text-align: left; }
@@ -84,6 +94,12 @@ input[type=range] { width: 100%; accent-color: var(--primary); }
 .link:hover { text-decoration: underline; }
 .section-title { font-size: var(--fs-lg); margin: var(--space-6) 0 var(--space-3); }
 
+/* inventory-mode component breakdown */
+.component-breakdown { display: flex; flex-direction: column; gap: 2px; }
+.component-row { display: flex; align-items: center; gap: 10px; padding: 10px 12px;
+  border-radius: var(--radius); background: var(--surface); font-size: var(--fs-sm); }
+.component-row .swatch { width: 12px; height: 12px; border-radius: 3px; }
+
 @keyframes spin { to { transform: rotate(360deg); } }
 .spin { animation: spin 0.9s linear infinite; }
 
@@ -130,6 +146,12 @@ input[type=range] { width: 100%; accent-color: var(--primary); }
 .barcard-content { position: absolute; inset: 0; will-change: transform; }
 .bar-tick { position: absolute; bottom: 31px; width: 2px; height: 11px; border-radius: 1px; opacity: .55;
   transform: translateX(-50%); }
+/* adaptive time ruler (below the rail): short tick + m:ss label, so position reads even with no flags nearby */
+.bar-timetick { position: absolute; bottom: 16px; height: 18px; width: 1.5px; background: var(--text-muted);
+  opacity: .85; pointer-events: none; transform: translateX(-50%); }
+.bar-timetick-label { position: absolute; bottom: -17px; left: 0; transform: translateX(-50%);
+  font-size: 11px; line-height: 1; color: var(--text-muted); font-weight: 600;
+  font-variant-numeric: tabular-nums; white-space: nowrap; }
 .bar-indicator { position: absolute; top: 6px; bottom: 24px; width: 2px; background: var(--primary);
   pointer-events: none; z-index: 6; }
 .bar-indicator::after { content: ''; position: absolute; bottom: -7px; left: -4px; width: 10px; height: 10px;

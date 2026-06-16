@@ -1,11 +1,19 @@
-"""Backend configuration: paths, the defect taxonomy, and the flag/severity rules.
+"""Backend configuration: paths + the per-domain registry (taxonomy, colours,
+flag/severity rules).
 
-These thresholds are the single source of truth for the per-video *rollup* the backend
-computes for library tiles. They are exposed verbatim via `GET /api/config` so the
-frontend's live (filter-aware) flag/severity/work-order logic uses the same numbers.
+The taxonomy and thresholds are NOT hardcoded here any more: they live in the
+canonical, committed registry at ``rovision/domains.json`` — the single source of
+truth shared by the labeller, the notebook, this backend, and (via ``/api/config``)
+the frontend. This module loads that registry and exposes a per-domain payload.
+
+Each domain block carries: ``label``, ``mode`` ("defect" | "inventory"),
+``all_classes``, ``defect_classes`` (the flag-raising subset; empty for inventory
+domains), ``colors``, ``assets`` (the asset-lens map), and ``severity`` (the flag
+thresholds, or ``null`` for inventory domains).
 """
 from __future__ import annotations
 
+import json
 from pathlib import Path
 
 # --- paths ---------------------------------------------------------------------
@@ -13,53 +21,61 @@ BACKEND_DIR = Path(__file__).resolve().parent
 DATA_DIR = BACKEND_DIR / "data"
 BUNDLES_DIR = DATA_DIR / "bundles"          # one sub-dir per pre-computed bundle
 DB_PATH = DATA_DIR / "rovision.db"
+REPO_ROOT = BACKEND_DIR.parent.parent       # .../app/backend -> .../app -> repo root
+DOMAINS_PATH = REPO_ROOT / "rovision" / "domains.json"
 
-# --- taxonomy ------------------------------------------------------------------
-# Classes that can raise a flag / work order. The 6 defects plus dropped_object
-# (the client's "foreign objects"). Everything else is context (artefacts).
-DEFECT_CLASSES = [
-    "corrosion",
-    "coating_breakdown",
-    "surface_deposit",
-    "marine_growth",
-    "trash_rack_blockage",
-    "seal_joint_degradation",
-    "dropped_object",
-]
-
-# Full 15-class taxonomy (order matters only for display grouping).
-ALL_CLASSES = [
-    "corrosion", "coating_breakdown", "surface_deposit", "marine_growth",
-    "trash_rack_blockage", "seal_joint_degradation",
-    "pipework", "ladder", "outlet_inlet", "valve_mixer", "fish", "coral",
-    "seagrass", "rov_manipulator", "dropped_object",
-]
-
-# --- flag qualification (flicker-proof) ----------------------------------------
-# A flag is a *tracked instance* (ByteTrack already collapses flicker into one
-# track and drops sub-MIN_TRACK_LEN blips at source). On top of that, a track
-# only qualifies as a flag if it persists AND/OR is large enough:
-FLAG_MIN_N_FRAMES = 8        # must be seen on >= this many frames
-FLAG_MIN_PEAK_AREA = 1500    # OR reach >= this peak mask area (px)
-
-# --- severity tiers ------------------------------------------------------------
-# Severity of a class = a function of how many qualifying instances it has,
-# bumped one tier if any instance's peak coverage is large.
-SEV_MEDIUM_COUNT = 2         # >= this many qualifying instances -> Medium
-SEV_HIGH_COUNT = 4           # >= this many -> High
-SEV_COVERAGE_BUMP = 0.05     # any instance with peak coverage >= this bumps one tier
-
+DEFAULT_DOMAIN = "subsea"
 SEVERITY_RANK = {"none": 0, "low": 1, "medium": 2, "high": 3}
 
+# Fallback thresholds for domains whose registry `severity` is null (inventory
+# domains, which raise no flags anyway — defect_classes is empty). Keeps the
+# /api/config payload shape stable so the frontend mirror never sees nulls.
+_DEFAULT_SEVERITY = {
+    "flag_min_n_frames": 8,
+    "flag_min_peak_area": 1500,
+    "sev_medium_count": 2,
+    "sev_high_count": 4,
+    "sev_coverage_bump": 0.05,
+}
 
-def config_payload() -> dict:
-    """The shape returned by GET /api/config (mirrored by the frontend)."""
+# Loaded once at import. The registry is small and read-only at runtime.
+DOMAINS: dict = json.loads(DOMAINS_PATH.read_text())
+
+
+def resolve_domain(domain: str | None) -> str:
+    """Return a valid domain key, falling back to the default for unknown/missing."""
+    return domain if domain in DOMAINS else DEFAULT_DOMAIN
+
+
+def get_domain(domain: str | None) -> dict:
+    """The registry block for `domain` (defaults to subsea)."""
+    return DOMAINS[resolve_domain(domain)]
+
+
+def domains_payload() -> list[dict]:
+    """Shape of GET /api/domains — the toggle menu."""
+    return [
+        {"key": key, "label": d.get("label", key), "mode": d.get("mode", "defect")}
+        for key, d in DOMAINS.items()
+    ]
+
+
+def config_payload(domain: str | None = None) -> dict:
+    """The shape returned by GET /api/config?domain= (mirrored by the frontend)."""
+    key = resolve_domain(domain)
+    d = DOMAINS[key]
+    sev = d.get("severity") or _DEFAULT_SEVERITY
     return {
-        "defect_classes": DEFECT_CLASSES,
-        "all_classes": ALL_CLASSES,
-        "flag_min_n_frames": FLAG_MIN_N_FRAMES,
-        "flag_min_peak_area": FLAG_MIN_PEAK_AREA,
-        "sev_medium_count": SEV_MEDIUM_COUNT,
-        "sev_high_count": SEV_HIGH_COUNT,
-        "sev_coverage_bump": SEV_COVERAGE_BUMP,
+        "domain": key,
+        "label": d.get("label", key),
+        "mode": d.get("mode", "defect"),
+        "defect_classes": d.get("defect_classes", []),
+        "all_classes": d.get("all_classes", []),
+        "colors": d.get("colors", {}),
+        "assets": d.get("assets", {}),
+        "flag_min_n_frames": sev["flag_min_n_frames"],
+        "flag_min_peak_area": sev["flag_min_peak_area"],
+        "sev_medium_count": sev["sev_medium_count"],
+        "sev_high_count": sev["sev_high_count"],
+        "sev_coverage_bump": sev["sev_coverage_bump"],
     }

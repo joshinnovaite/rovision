@@ -13,25 +13,30 @@ This is the **"rovision" project** — a proof-of-concept for detecting defects 
 
 ## Knowledge retrieval: the vault
 
-The Obsidian-style knowledge vault at rovault is the canonical store for rovision's **"why" layer** — architectural rationale, design decisions (DRs), domain glossary, and workflow logic. Two subagents mediate access:
-- **`vault-librarian`** — read-only. Consults the vault and returns cited summaries.
-- **`vault-scribe`** — writes new notes / updates existing ones inside rovault only.
+The Obsidian-style knowledge vault at rovault is the canonical store for rovision's **"why" layer** — architectural rationale, design decisions (DRs), domain glossary, workflow logic — **and its task tracker** (what's left and where it stands). Three subagents mediate access:
+- **`vault-secretary`** — read-only. Surfaces the **task list** from `rovault/tasks/` (and nothing else) so you can choose what to work on.
+- **`vault-librarian`** — read-only. Consults the "why" layer and returns cited summaries (Mode A context, Mode B conflict-check).
+- **`vault-scribe`** — writes inside rovault only: DRs/architecture/etc. **and** the task tracker (creating + transitioning bodies-of-work and subtasks).
 
-**Rely on these agents rather than loading vault content into main context yourself.** Vaults grow large; the librarian surfaces only what's relevant. For "what the code currently does" (routes, models, module maps), consult the code base. The vault covers "why"; the code covers "what."
+Division of labour: **secretary = "what to do"**, **librarian = "why/context"**, **scribe = "record it."** Rely on these agents rather than loading vault content into main context yourself. For "what the code currently does," consult the code base. The vault covers "why" + "what's left"; the code covers "what is."
+
+The **task tracker** lives at `rovault/tasks/`: `taskindex.md` (goals → bodies of work, sectioned `## Active` / `## Completed`), `bodies/` (BOW notes), `subtasks/` (ST notes). Hierarchy is **Goal → Body of Work → Subtask** with collapsible layers; status is a `Status:` field (the source of truth). See the scribe's instructions for the full convention.
 
 ## Per-task workflow
 For any non-trivial task:
-1. **Brief the librarian.** At task start, spawn `vault-librarian` with the user's stated goal to retrieve relevant architectural and decision context. Incorporate its summary into your planning.
-2. **Plan, implement, verify.** Standard plan-mode → implement → test loop.
-3. **Commission the scribe** *if* the task introduced a new subsystem, module, data model, workflow, or significant design decision. Pass the scribe a brief of what changed and why. Skip this step for pure bug fixes or cosmetic changes with no design implication.
-4. **Conflict-check the new notes.** Spawn `vault-librarian` in Mode B with the list of files the scribe created or edited. If the verdict is `needs-revision` or `conflicts-found`, resolve before committing.
-5. **Mark complete / commit** only after the above. Vault notes are committed alongside the code change.
+1. **Surface tasks (session start).** Spawn `vault-secretary` to report the active task list. The user picks an **entire goal, a specific body of work, or a single subtask**. (Skip for a quick one-off the user states outright.)
+2. **Brief the librarian + scout the code, in parallel.** For the chosen item, spawn `vault-librarian` (Mode A — the DRs/architecture behind it) and an `Explore` agent (the relevant code) concurrently; amalgamate both into your plan.
+3. **Plan, implement, verify.** Standard plan-mode → implement → test loop.
+4. **Commission the scribe** to (a) record any new/changed design decision, and (b) update the **task tracker** — create task notes (plan-derived or ad-hoc) and/or transition touched BOWs/STs (`Status:` not-started → in-progress → done; recompute goal status). Skip the DR part for pure bug fixes / cosmetic changes; still transition task status if a tracked task advanced.
+5. **Conflict-check.** Spawn `vault-librarian` Mode B over the notes the scribe wrote. Resolve `needs-revision` / `conflicts-found` before committing.
+6. **Mark complete / commit** only after the above. Vault notes are committed alongside the code change.
 
 ## Guardrails
-- **Never read rovault files directly** in the main session. Always go through `vault-librarian`. The vault is large; direct reads pollute main context with irrelevant material.
-- **Never write to rovault directly** from the main session. Always go through `vault-scribe`. Direct writes bypass the update-vs-create rule and produce orphan notes.
-- **Skip the scribe for trivial work.** Bug fixes, cosmetic CSS, dependency bumps, and similar changes do not warrant a vault entry. The vault captures *decisions*, not *activity*.
-- **Always run the conflict check** when the scribe has written anything. Skipping it produces contradictions that compound over time.
+- **Never read rovault files directly** in the main session — go through `vault-librarian` (the "why" layer) or `vault-secretary` (the task list). Direct reads pollute main context.
+- **Never author or edit rovault content directly** from the main session. Always go through `vault-scribe` — including task-note content and status transitions. Direct writes bypass the conventions and produce orphan/inconsistent notes.
+- **Mechanical file moves are the one exception.** The scribe's toolset can't move or delete files, so relocating task notes (e.g. `git mv` into `tasks/`) is a main-session op — but **all content** (authoring, status, links, the index) still goes through the scribe.
+- **Skip the scribe's DR duty for trivial work** (bug fixes, cosmetic CSS, dependency bumps) — but still have it transition task status if a tracked task advanced. The vault captures *decisions* and *progress*, not *activity*.
+- **Always run the librarian Mode-B conflict check** when the scribe has written anything. Skipping it produces contradictions that compound over time.
 
 ## Git setup
 
@@ -52,6 +57,15 @@ python -m py_compile rovision/labelling/label_defects.py                  # synt
 Multi-pass labelling: bump `--offset` each pass to sweep new frames; output accumulates in `rovision/labelling/labels.json`.
 
 **SAM 2 itself runs on Colab GPU, not locally.** The heavy stack (`torch>=2.5.1`, the `sam2` package) is installed *in Colab* by the notebook. If you ever must install locally: `SAM2_BUILD_CUDA=0 pip install -e ".[notebooks]"` (the CUDA ext is optional post-processing). There is **no automated test suite**; the notebooks are the functional checks.
+
+**Demo web app (`app/`) — two local dev servers.** The replay/visualization SPA over the pre-computed §17 bundles. The backend runs in a **dedicated venv at `app/.venv`** (NOT the `rovision` conda env — that only has the labelling deps). Run both from the repo root, one per terminal:
+```bash
+# backend — FastAPI on :8000 (run from the repo root so the app.backend.main module path resolves)
+app/.venv/bin/python -m uvicorn app.backend.main:app --reload --port 8000
+# frontend — Vite on :5173 (proxies /api -> :8000); then open http://localhost:5173
+cd app/frontend && npm run dev
+```
+First-time setup only (deps are normally already in place): `python3 -m venv app/.venv && app/.venv/bin/pip install -r app/backend/requirements.txt`, and `cd app/frontend && npm install`. Gotchas: use `app/.venv`, **never** the conda env; Vite binds to `localhost` (IPv6 `::1`), so `curl 127.0.0.1:5173` fails even when it's up — use `localhost`. Stop both: `lsof -ti:5173,8000 | xargs kill`. Full runbook: `app/README.md`.
 
 ## The rovision pipeline (end-to-end)
 

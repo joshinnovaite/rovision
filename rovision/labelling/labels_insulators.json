@@ -1,0 +1,3362 @@
+[
+  {
+    "video": "maw_1.mp4",
+    "frame": 135,
+    "defect": "insulator_string",
+    "point": [
+      749,
+      297
+    ],
+    "bbox": [
+      725,
+      276,
+      773,
+      318
+    ]
+  },
+  {
+    "video": "maw_1.mp4",
+    "frame": 135,
+    "defect": "insulator_string",
+    "point": [
+      698,
+      272
+    ],
+    "bbox": [
+      675,
+      231,
+      722,
+      313
+    ]
+  },
+  {
+    "video": "maw_1.mp4",
+    "frame": 135,
+    "defect": "insulator_string",
+    "point": [
+      861,
+      349
+    ],
+    "bbox": [
+      841,
+      328,
+      881,
+      370
+    ]
+  },
+  {
+    "video": "maw_1.mp4",
+    "frame": 135,
+    "defect": "insulator_string",
+    "point": [
+      820,
+      331
+    ],
+    "bbox": [
+      802,
+      295,
+      838,
+      368
+    ]
+  },
+  {
+    "video": "maw_1.mp4",
+    "frame": 135,
+    "defect": "insulator_string",
+    "point": [
+      867,
+      24
+    ],
+    "bbox": [
+      849,
+      10,
+      886,
+      37
+    ]
+  },
+  {
+    "video": "maw_1.mp4",
+    "frame": 135,
+    "defect": "insulator_string",
+    "point": [
+      836,
+      16
+    ],
+    "bbox": [
+      827,
+      0,
+      846,
+      32
+    ]
+  },
+  {
+    "video": "maw_1.mp4",
+    "frame": 135,
+    "defect": "insulator_string",
+    "point": [
+      1070,
+      184
+    ],
+    "bbox": [
+      1057,
+      169,
+      1082,
+      199
+    ]
+  },
+  {
+    "video": "maw_1.mp4",
+    "frame": 135,
+    "defect": "insulator_string",
+    "point": [
+      1042,
+      165
+    ],
+    "bbox": [
+      1031,
+      135,
+      1054,
+      195
+    ]
+  },
+  {
+    "video": "maw_1.mp4",
+    "frame": 135,
+    "defect": "insulator_string",
+    "point": [
+      1003,
+      129
+    ],
+    "bbox": [
+      989,
+      115,
+      1016,
+      143
+    ]
+  },
+  {
+    "video": "maw_1.mp4",
+    "frame": 135,
+    "defect": "insulator_string",
+    "point": [
+      1072,
+      448
+    ],
+    "bbox": [
+      1058,
+      429,
+      1086,
+      467
+    ]
+  },
+  {
+    "video": "maw_1.mp4",
+    "frame": 135,
+    "defect": "insulator_string",
+    "point": [
+      1045,
+      439
+    ],
+    "bbox": [
+      1031,
+      408,
+      1059,
+      470
+    ]
+  },
+  {
+    "video": "maw_1.mp4",
+    "frame": 135,
+    "defect": "insulator_string",
+    "point": [
+      1003,
+      413
+    ],
+    "bbox": [
+      990,
+      396,
+      1016,
+      429
+    ]
+  },
+  {
+    "video": "maw_1.mp4",
+    "frame": 135,
+    "defect": "worker",
+    "point": [
+      993,
+      543
+    ],
+    "bbox": [
+      977,
+      511,
+      1008,
+      575
+    ]
+  },
+  {
+    "video": "maw_1.mp4",
+    "frame": 407,
+    "defect": "insulator_string",
+    "point": [
+      726,
+      149
+    ],
+    "bbox": [
+      685,
+      119,
+      767,
+      179
+    ]
+  },
+  {
+    "video": "maw_1.mp4",
+    "frame": 407,
+    "defect": "insulator_string",
+    "point": [
+      845,
+      218
+    ],
+    "bbox": [
+      814,
+      156,
+      876,
+      280
+    ]
+  },
+  {
+    "video": "maw_1.mp4",
+    "frame": 407,
+    "defect": "insulator_string",
+    "point": [
+      905,
+      253
+    ],
+    "bbox": [
+      873,
+      219,
+      937,
+      288
+    ]
+  },
+  {
+    "video": "maw_1.mp4",
+    "frame": 407,
+    "defect": "insulator_string",
+    "point": [
+      646,
+      102
+    ],
+    "bbox": [
+      602,
+      21,
+      690,
+      184
+    ]
+  },
+  {
+    "video": "maw_1.mp4",
+    "frame": 407,
+    "defect": "worker",
+    "point": [
+      1030,
+      150
+    ],
+    "bbox": [
+      1008,
+      112,
+      1052,
+      187
+    ]
+  },
+  {
+    "video": "maw_1.mp4",
+    "frame": 407,
+    "defect": "worker",
+    "point": [
+      1107,
+      525
+    ],
+    "bbox": [
+      1083,
+      469,
+      1132,
+      581
+    ]
+  },
+  {
+    "video": "maw_1.mp4",
+    "frame": 407,
+    "defect": "insulator_string",
+    "point": [
+      1105,
+      357
+    ],
+    "bbox": [
+      1092,
+      340,
+      1118,
+      374
+    ]
+  },
+  {
+    "video": "maw_1.mp4",
+    "frame": 407,
+    "defect": "insulator_string",
+    "point": [
+      1154,
+      401
+    ],
+    "bbox": [
+      1137,
+      357,
+      1171,
+      446
+    ]
+  },
+  {
+    "video": "maw_1.mp4",
+    "frame": 407,
+    "defect": "insulator_string",
+    "point": [
+      1186,
+      420
+    ],
+    "bbox": [
+      1169,
+      393,
+      1203,
+      446
+    ]
+  },
+  {
+    "video": "maw_1.mp4",
+    "frame": 407,
+    "defect": "insulator_string",
+    "point": [
+      1148,
+      36
+    ],
+    "bbox": [
+      1132,
+      0,
+      1164,
+      72
+    ]
+  },
+  {
+    "video": "maw_1.mp4",
+    "frame": 407,
+    "defect": "insulator_string",
+    "point": [
+      1179,
+      59
+    ],
+    "bbox": [
+      1162,
+      41,
+      1195,
+      78
+    ]
+  },
+  {
+    "video": "maw_1.mp4",
+    "frame": 679,
+    "defect": "insulator_string",
+    "point": [
+      603,
+      68
+    ],
+    "bbox": [
+      563,
+      3,
+      644,
+      132
+    ]
+  },
+  {
+    "video": "maw_1.mp4",
+    "frame": 679,
+    "defect": "insulator_string",
+    "point": [
+      708,
+      111
+    ],
+    "bbox": [
+      651,
+      68,
+      765,
+      154
+    ]
+  },
+  {
+    "video": "maw_1.mp4",
+    "frame": 679,
+    "defect": "insulator_string",
+    "point": [
+      867,
+      205
+    ],
+    "bbox": [
+      827,
+      128,
+      906,
+      282
+    ]
+  },
+  {
+    "video": "maw_1.mp4",
+    "frame": 679,
+    "defect": "insulator_string",
+    "point": [
+      942,
+      255
+    ],
+    "bbox": [
+      905,
+      223,
+      978,
+      288
+    ]
+  },
+  {
+    "video": "maw_1.mp4",
+    "frame": 679,
+    "defect": "insulator_string",
+    "point": [
+      1236,
+      429
+    ],
+    "bbox": [
+      1218,
+      377,
+      1253,
+      481
+    ]
+  },
+  {
+    "video": "maw_1.mp4",
+    "frame": 679,
+    "defect": "insulator_string",
+    "point": [
+      1270,
+      450
+    ],
+    "bbox": [
+      1251,
+      421,
+      1289,
+      480
+    ]
+  },
+  {
+    "video": "maw_1.mp4",
+    "frame": 679,
+    "defect": "insulator_string",
+    "point": [
+      1257,
+      22
+    ],
+    "bbox": [
+      1240,
+      0,
+      1274,
+      43
+    ]
+  },
+  {
+    "video": "maw_1.mp4",
+    "frame": 679,
+    "defect": "worker",
+    "point": [
+      1099,
+      118
+    ],
+    "bbox": [
+      1071,
+      67,
+      1128,
+      168
+    ]
+  },
+  {
+    "video": "maw_1.mp4",
+    "frame": 679,
+    "defect": "worker",
+    "point": [
+      1189,
+      551
+    ],
+    "bbox": [
+      1165,
+      486,
+      1213,
+      616
+    ]
+  },
+  {
+    "video": "maw_2.mp4",
+    "frame": 138,
+    "defect": "insulator_string",
+    "point": [
+      856,
+      264
+    ],
+    "bbox": [
+      815,
+      209,
+      897,
+      319
+    ]
+  },
+  {
+    "video": "maw_2.mp4",
+    "frame": 138,
+    "defect": "insulator_string",
+    "point": [
+      927,
+      248
+    ],
+    "bbox": [
+      893,
+      181,
+      961,
+      315
+    ]
+  },
+  {
+    "video": "maw_2.mp4",
+    "frame": 138,
+    "defect": "insulator_string",
+    "point": [
+      1041,
+      219
+    ],
+    "bbox": [
+      1009,
+      165,
+      1073,
+      273
+    ]
+  },
+  {
+    "video": "maw_2.mp4",
+    "frame": 138,
+    "defect": "insulator_string",
+    "point": [
+      1105,
+      209
+    ],
+    "bbox": [
+      1070,
+      150,
+      1140,
+      268
+    ]
+  },
+  {
+    "video": "maw_2.mp4",
+    "frame": 138,
+    "defect": "insulator_string",
+    "point": [
+      1470,
+      111
+    ],
+    "bbox": [
+      1444,
+      58,
+      1496,
+      165
+    ]
+  },
+  {
+    "video": "maw_2.mp4",
+    "frame": 138,
+    "defect": "insulator_string",
+    "point": [
+      1421,
+      125
+    ],
+    "bbox": [
+      1398,
+      79,
+      1444,
+      171
+    ]
+  },
+  {
+    "video": "maw_2.mp4",
+    "frame": 138,
+    "defect": "insulator_string",
+    "point": [
+      1450,
+      712
+    ],
+    "bbox": [
+      1425,
+      653,
+      1475,
+      770
+    ]
+  },
+  {
+    "video": "maw_2.mp4",
+    "frame": 138,
+    "defect": "insulator_string",
+    "point": [
+      1402,
+      740
+    ],
+    "bbox": [
+      1376,
+      700,
+      1427,
+      780
+    ]
+  },
+  {
+    "video": "maw_2.mp4",
+    "frame": 138,
+    "defect": "insulator_string",
+    "point": [
+      855,
+      1029
+    ],
+    "bbox": [
+      816,
+      985,
+      894,
+      1073
+    ]
+  },
+  {
+    "video": "maw_2.mp4",
+    "frame": 138,
+    "defect": "insulator_string",
+    "point": [
+      925,
+      993
+    ],
+    "bbox": [
+      893,
+      924,
+      956,
+      1062
+    ]
+  },
+  {
+    "video": "maw_2.mp4",
+    "frame": 138,
+    "defect": "insulator_string",
+    "point": [
+      1031,
+      932
+    ],
+    "bbox": [
+      1000,
+      890,
+      1061,
+      975
+    ]
+  },
+  {
+    "video": "maw_2.mp4",
+    "frame": 138,
+    "defect": "insulator_string",
+    "point": [
+      1090,
+      902
+    ],
+    "bbox": [
+      1059,
+      836,
+      1122,
+      969
+    ]
+  },
+  {
+    "video": "maw_2.mp4",
+    "frame": 138,
+    "defect": "worker",
+    "point": [
+      944,
+      802
+    ],
+    "bbox": [
+      912,
+      745,
+      976,
+      859
+    ]
+  },
+  {
+    "video": "maw_2.mp4",
+    "frame": 138,
+    "defect": "worker",
+    "point": [
+      1277,
+      715
+    ],
+    "bbox": [
+      1245,
+      677,
+      1309,
+      753
+    ]
+  },
+  {
+    "video": "maw_2.mp4",
+    "frame": 416,
+    "defect": "insulator_string",
+    "point": [
+      1027,
+      219
+    ],
+    "bbox": [
+      992,
+      161,
+      1062,
+      278
+    ]
+  },
+  {
+    "video": "maw_2.mp4",
+    "frame": 416,
+    "defect": "insulator_string",
+    "point": [
+      1076,
+      205
+    ],
+    "bbox": [
+      1049,
+      138,
+      1104,
+      273
+    ]
+  },
+  {
+    "video": "maw_2.mp4",
+    "frame": 416,
+    "defect": "insulator_string",
+    "point": [
+      1017,
+      966
+    ],
+    "bbox": [
+      989,
+      918,
+      1044,
+      1013
+    ]
+  },
+  {
+    "video": "maw_2.mp4",
+    "frame": 416,
+    "defect": "insulator_string",
+    "point": [
+      1074,
+      933
+    ],
+    "bbox": [
+      1044,
+      862,
+      1103,
+      1004
+    ]
+  },
+  {
+    "video": "maw_2.mp4",
+    "frame": 416,
+    "defect": "insulator_string",
+    "point": [
+      1143,
+      877
+    ],
+    "bbox": [
+      1123,
+      834,
+      1163,
+      919
+    ]
+  },
+  {
+    "video": "maw_2.mp4",
+    "frame": 416,
+    "defect": "insulator_string",
+    "point": [
+      1188,
+      850
+    ],
+    "bbox": [
+      1161,
+      790,
+      1215,
+      910
+    ]
+  },
+  {
+    "video": "maw_2.mp4",
+    "frame": 416,
+    "defect": "insulator_string",
+    "point": [
+      1443,
+      658
+    ],
+    "bbox": [
+      1423,
+      602,
+      1462,
+      714
+    ]
+  },
+  {
+    "video": "maw_2.mp4",
+    "frame": 416,
+    "defect": "insulator_string",
+    "point": [
+      1407,
+      684
+    ],
+    "bbox": [
+      1388,
+      645,
+      1427,
+      723
+    ]
+  },
+  {
+    "video": "maw_2.mp4",
+    "frame": 416,
+    "defect": "insulator_string",
+    "point": [
+      1420,
+      89
+    ],
+    "bbox": [
+      1399,
+      37,
+      1441,
+      140
+    ]
+  },
+  {
+    "video": "maw_2.mp4",
+    "frame": 416,
+    "defect": "insulator_string",
+    "point": [
+      1468,
+      77
+    ],
+    "bbox": [
+      1441,
+      16,
+      1496,
+      138
+    ]
+  },
+  {
+    "video": "maw_2.mp4",
+    "frame": 694,
+    "defect": "insulator_string",
+    "point": [
+      978,
+      157
+    ],
+    "bbox": [
+      957,
+      104,
+      1000,
+      211
+    ]
+  },
+  {
+    "video": "maw_2.mp4",
+    "frame": 694,
+    "defect": "insulator_string",
+    "point": [
+      1017,
+      143
+    ],
+    "bbox": [
+      999,
+      80,
+      1035,
+      206
+    ]
+  },
+  {
+    "video": "maw_2.mp4",
+    "frame": 694,
+    "defect": "insulator_string",
+    "point": [
+      1060,
+      115
+    ],
+    "bbox": [
+      1042,
+      66,
+      1077,
+      164
+    ]
+  },
+  {
+    "video": "maw_2.mp4",
+    "frame": 694,
+    "defect": "insulator_string",
+    "point": [
+      1094,
+      102
+    ],
+    "bbox": [
+      1077,
+      42,
+      1111,
+      163
+    ]
+  },
+  {
+    "video": "maw_2.mp4",
+    "frame": 694,
+    "defect": "insulator_string",
+    "point": [
+      977,
+      893
+    ],
+    "bbox": [
+      958,
+      850,
+      996,
+      937
+    ]
+  },
+  {
+    "video": "maw_2.mp4",
+    "frame": 694,
+    "defect": "insulator_string",
+    "point": [
+      1013,
+      858
+    ],
+    "bbox": [
+      994,
+      792,
+      1032,
+      923
+    ]
+  },
+  {
+    "video": "maw_2.mp4",
+    "frame": 694,
+    "defect": "insulator_string",
+    "point": [
+      1053,
+      801
+    ],
+    "bbox": [
+      1039,
+      763,
+      1068,
+      840
+    ]
+  },
+  {
+    "video": "maw_2.mp4",
+    "frame": 694,
+    "defect": "insulator_string",
+    "point": [
+      1082,
+      784
+    ],
+    "bbox": [
+      1067,
+      737,
+      1097,
+      830
+    ]
+  },
+  {
+    "video": "maw_2.mp4",
+    "frame": 694,
+    "defect": "worker",
+    "point": [
+      998,
+      674
+    ],
+    "bbox": [
+      971,
+      613,
+      1025,
+      736
+    ]
+  },
+  {
+    "video": "maw_3.mp4",
+    "frame": 94,
+    "defect": "worker",
+    "point": [
+      1106,
+      544
+    ],
+    "bbox": [
+      1054,
+      459,
+      1157,
+      628
+    ]
+  },
+  {
+    "video": "maw_3.mp4",
+    "frame": 94,
+    "defect": "worker",
+    "point": [
+      1010,
+      386
+    ],
+    "bbox": [
+      968,
+      279,
+      1051,
+      492
+    ]
+  },
+  {
+    "video": "maw_3.mp4",
+    "frame": 94,
+    "defect": "insulator_string",
+    "point": [
+      1171,
+      776
+    ],
+    "bbox": [
+      1103,
+      657,
+      1240,
+      896
+    ]
+  },
+  {
+    "video": "maw_3.mp4",
+    "frame": 94,
+    "defect": "insulator_string",
+    "point": [
+      1322,
+      848
+    ],
+    "bbox": [
+      1241,
+      779,
+      1403,
+      917
+    ]
+  },
+  {
+    "video": "maw_3.mp4",
+    "frame": 94,
+    "defect": "insulator_string",
+    "point": [
+      926,
+      667
+    ],
+    "bbox": [
+      860,
+      607,
+      991,
+      728
+    ]
+  },
+  {
+    "video": "maw_3.mp4",
+    "frame": 94,
+    "defect": "insulator_string",
+    "point": [
+      796,
+      615
+    ],
+    "bbox": [
+      740,
+      518,
+      852,
+      713
+    ]
+  },
+  {
+    "video": "maw_3.mp4",
+    "frame": 94,
+    "defect": "insulator_string",
+    "point": [
+      332,
+      406
+    ],
+    "bbox": [
+      282,
+      320,
+      381,
+      491
+    ]
+  },
+  {
+    "video": "maw_3.mp4",
+    "frame": 94,
+    "defect": "insulator_string",
+    "point": [
+      191,
+      328
+    ],
+    "bbox": [
+      148,
+      261,
+      235,
+      395
+    ]
+  },
+  {
+    "video": "maw_3.mp4",
+    "frame": 94,
+    "defect": "insulator_string",
+    "point": [
+      98,
+      286
+    ],
+    "bbox": [
+      56,
+      199,
+      141,
+      374
+    ]
+  },
+  {
+    "video": "maw_3.mp4",
+    "frame": 284,
+    "defect": "insulator_string",
+    "point": [
+      1361,
+      914
+    ],
+    "bbox": [
+      1277,
+      855,
+      1445,
+      972
+    ]
+  },
+  {
+    "video": "maw_3.mp4",
+    "frame": 284,
+    "defect": "insulator_string",
+    "point": [
+      1204,
+      836
+    ],
+    "bbox": [
+      1134,
+      721,
+      1274,
+      950
+    ]
+  },
+  {
+    "video": "maw_3.mp4",
+    "frame": 284,
+    "defect": "insulator_string",
+    "point": [
+      961,
+      705
+    ],
+    "bbox": [
+      891,
+      651,
+      1031,
+      759
+    ]
+  },
+  {
+    "video": "maw_3.mp4",
+    "frame": 284,
+    "defect": "insulator_string",
+    "point": [
+      838,
+      652
+    ],
+    "bbox": [
+      783,
+      555,
+      894,
+      749
+    ]
+  },
+  {
+    "video": "maw_3.mp4",
+    "frame": 284,
+    "defect": "insulator_string",
+    "point": [
+      125,
+      253
+    ],
+    "bbox": [
+      81,
+      163,
+      169,
+      343
+    ]
+  },
+  {
+    "video": "maw_3.mp4",
+    "frame": 284,
+    "defect": "insulator_string",
+    "point": [
+      210,
+      307
+    ],
+    "bbox": [
+      167,
+      255,
+      253,
+      359
+    ]
+  },
+  {
+    "video": "maw_3.mp4",
+    "frame": 284,
+    "defect": "insulator_string",
+    "point": [
+      371,
+      408
+    ],
+    "bbox": [
+      323,
+      318,
+      419,
+      498
+    ]
+  },
+  {
+    "video": "maw_3.mp4",
+    "frame": 284,
+    "defect": "worker",
+    "point": [
+      1145,
+      608
+    ],
+    "bbox": [
+      1092,
+      524,
+      1197,
+      691
+    ]
+  },
+  {
+    "video": "maw_3.mp4",
+    "frame": 284,
+    "defect": "worker",
+    "point": [
+      1037,
+      426
+    ],
+    "bbox": [
+      987,
+      321,
+      1087,
+      531
+    ]
+  },
+  {
+    "video": "maw_3.mp4",
+    "frame": 474,
+    "defect": "insulator_string",
+    "point": [
+      1372,
+      891
+    ],
+    "bbox": [
+      1289,
+      838,
+      1455,
+      943
+    ]
+  },
+  {
+    "video": "maw_3.mp4",
+    "frame": 474,
+    "defect": "insulator_string",
+    "point": [
+      1221,
+      797
+    ],
+    "bbox": [
+      1156,
+      678,
+      1286,
+      917
+    ]
+  },
+  {
+    "video": "maw_3.mp4",
+    "frame": 474,
+    "defect": "insulator_string",
+    "point": [
+      975,
+      658
+    ],
+    "bbox": [
+      904,
+      606,
+      1047,
+      711
+    ]
+  },
+  {
+    "video": "maw_3.mp4",
+    "frame": 474,
+    "defect": "insulator_string",
+    "point": [
+      858,
+      601
+    ],
+    "bbox": [
+      805,
+      512,
+      910,
+      690
+    ]
+  },
+  {
+    "video": "maw_3.mp4",
+    "frame": 474,
+    "defect": "insulator_string",
+    "point": [
+      224,
+      205
+    ],
+    "bbox": [
+      183,
+      148,
+      265,
+      262
+    ]
+  },
+  {
+    "video": "maw_3.mp4",
+    "frame": 474,
+    "defect": "worker",
+    "point": [
+      1162,
+      578
+    ],
+    "bbox": [
+      1099,
+      497,
+      1224,
+      660
+    ]
+  },
+  {
+    "video": "maw_3.mp4",
+    "frame": 474,
+    "defect": "worker",
+    "point": [
+      1000,
+      348
+    ],
+    "bbox": [
+      956,
+      246,
+      1043,
+      450
+    ]
+  },
+  {
+    "video": "maw_3.mp4",
+    "frame": 474,
+    "defect": "worker",
+    "point": [
+      894,
+      139
+    ],
+    "bbox": [
+      845,
+      40,
+      943,
+      238
+    ]
+  },
+  {
+    "video": "maw_3.mp4",
+    "frame": 94,
+    "defect": "worker",
+    "point": [
+      837,
+      183
+    ],
+    "bbox": [
+      801,
+      87,
+      873,
+      279
+    ]
+  },
+  {
+    "video": "maw_3.mp4",
+    "frame": 284,
+    "defect": "worker",
+    "point": [
+      865,
+      212
+    ],
+    "bbox": [
+      824,
+      123,
+      906,
+      300
+    ]
+  },
+  {
+    "video": "maw_4.mp4",
+    "frame": 101,
+    "defect": "insulator_string",
+    "point": [
+      611,
+      205
+    ],
+    "bbox": [
+      587,
+      186,
+      634,
+      224
+    ]
+  },
+  {
+    "video": "maw_4.mp4",
+    "frame": 101,
+    "defect": "insulator_string",
+    "point": [
+      755,
+      179
+    ],
+    "bbox": [
+      730,
+      160,
+      779,
+      198
+    ]
+  },
+  {
+    "video": "maw_4.mp4",
+    "frame": 101,
+    "defect": "insulator_string",
+    "point": [
+      662,
+      196
+    ],
+    "bbox": [
+      637,
+      170,
+      687,
+      222
+    ]
+  },
+  {
+    "video": "maw_4.mp4",
+    "frame": 101,
+    "defect": "insulator_string",
+    "point": [
+      809,
+      169
+    ],
+    "bbox": [
+      783,
+      141,
+      834,
+      197
+    ]
+  },
+  {
+    "video": "maw_4.mp4",
+    "frame": 101,
+    "defect": "insulator_string",
+    "point": [
+      996,
+      133
+    ],
+    "bbox": [
+      967,
+      112,
+      1024,
+      155
+    ]
+  },
+  {
+    "video": "maw_4.mp4",
+    "frame": 101,
+    "defect": "insulator_string",
+    "point": [
+      1059,
+      123
+    ],
+    "bbox": [
+      1031,
+      93,
+      1087,
+      154
+    ]
+  },
+  {
+    "video": "maw_4.mp4",
+    "frame": 101,
+    "defect": "insulator_string",
+    "point": [
+      1166,
+      105
+    ],
+    "bbox": [
+      1133,
+      87,
+      1199,
+      124
+    ]
+  },
+  {
+    "video": "maw_4.mp4",
+    "frame": 101,
+    "defect": "insulator_string",
+    "point": [
+      1235,
+      89
+    ],
+    "bbox": [
+      1207,
+      58,
+      1263,
+      119
+    ]
+  },
+  {
+    "video": "maw_4.mp4",
+    "frame": 101,
+    "defect": "insulator_string",
+    "point": [
+      1184,
+      425
+    ],
+    "bbox": [
+      1146,
+      395,
+      1222,
+      454
+    ]
+  },
+  {
+    "video": "maw_4.mp4",
+    "frame": 101,
+    "defect": "insulator_string",
+    "point": [
+      1259,
+      414
+    ],
+    "bbox": [
+      1226,
+      379,
+      1292,
+      450
+    ]
+  },
+  {
+    "video": "maw_4.mp4",
+    "frame": 101,
+    "defect": "insulator_string",
+    "point": [
+      1070,
+      440
+    ],
+    "bbox": [
+      1040,
+      406,
+      1100,
+      474
+    ]
+  },
+  {
+    "video": "maw_4.mp4",
+    "frame": 101,
+    "defect": "insulator_string",
+    "point": [
+      998,
+      448
+    ],
+    "bbox": [
+      965,
+      421,
+      1030,
+      474
+    ]
+  },
+  {
+    "video": "maw_4.mp4",
+    "frame": 101,
+    "defect": "insulator_string",
+    "point": [
+      575,
+      499
+    ],
+    "bbox": [
+      548,
+      473,
+      602,
+      524
+    ]
+  },
+  {
+    "video": "maw_4.mp4",
+    "frame": 101,
+    "defect": "insulator_string",
+    "point": [
+      634,
+      492
+    ],
+    "bbox": [
+      605,
+      463,
+      662,
+      521
+    ]
+  },
+  {
+    "video": "maw_4.mp4",
+    "frame": 101,
+    "defect": "insulator_string",
+    "point": [
+      729,
+      480
+    ],
+    "bbox": [
+      703,
+      459,
+      755,
+      502
+    ]
+  },
+  {
+    "video": "maw_4.mp4",
+    "frame": 101,
+    "defect": "insulator_string",
+    "point": [
+      798,
+      473
+    ],
+    "bbox": [
+      774,
+      447,
+      821,
+      499
+    ]
+  },
+  {
+    "video": "maw_4.mp4",
+    "frame": 101,
+    "defect": "worker",
+    "point": [
+      759,
+      498
+    ],
+    "bbox": [
+      742,
+      469,
+      775,
+      527
+    ]
+  },
+  {
+    "video": "maw_4.mp4",
+    "frame": 101,
+    "defect": "worker",
+    "point": [
+      792,
+      378
+    ],
+    "bbox": [
+      776,
+      353,
+      808,
+      403
+    ]
+  },
+  {
+    "video": "maw_4.mp4",
+    "frame": 305,
+    "defect": "insulator_string",
+    "point": [
+      664,
+      149
+    ],
+    "bbox": [
+      633,
+      116,
+      695,
+      182
+    ]
+  },
+  {
+    "video": "maw_4.mp4",
+    "frame": 305,
+    "defect": "insulator_string",
+    "point": [
+      770,
+      127
+    ],
+    "bbox": [
+      741,
+      106,
+      800,
+      148
+    ]
+  },
+  {
+    "video": "maw_4.mp4",
+    "frame": 305,
+    "defect": "insulator_string",
+    "point": [
+      836,
+      115
+    ],
+    "bbox": [
+      806,
+      86,
+      867,
+      144
+    ]
+  },
+  {
+    "video": "maw_4.mp4",
+    "frame": 305,
+    "defect": "insulator_string",
+    "point": [
+      603,
+      163
+    ],
+    "bbox": [
+      574,
+      144,
+      632,
+      182
+    ]
+  },
+  {
+    "video": "maw_4.mp4",
+    "frame": 305,
+    "defect": "insulator_string",
+    "point": [
+      564,
+      508
+    ],
+    "bbox": [
+      534,
+      477,
+      593,
+      540
+    ]
+  },
+  {
+    "video": "maw_4.mp4",
+    "frame": 305,
+    "defect": "insulator_string",
+    "point": [
+      628,
+      503
+    ],
+    "bbox": [
+      593,
+      468,
+      664,
+      538
+    ]
+  },
+  {
+    "video": "maw_4.mp4",
+    "frame": 305,
+    "defect": "insulator_string",
+    "point": [
+      741,
+      482
+    ],
+    "bbox": [
+      709,
+      455,
+      773,
+      510
+    ]
+  },
+  {
+    "video": "maw_4.mp4",
+    "frame": 305,
+    "defect": "insulator_string",
+    "point": [
+      826,
+      476
+    ],
+    "bbox": [
+      796,
+      448,
+      855,
+      503
+    ]
+  },
+  {
+    "video": "maw_4.mp4",
+    "frame": 305,
+    "defect": "insulator_string",
+    "point": [
+      1072,
+      448
+    ],
+    "bbox": [
+      1034,
+      416,
+      1111,
+      479
+    ]
+  },
+  {
+    "video": "maw_4.mp4",
+    "frame": 305,
+    "defect": "insulator_string",
+    "point": [
+      1152,
+      433
+    ],
+    "bbox": [
+      1114,
+      392,
+      1190,
+      474
+    ]
+  },
+  {
+    "video": "maw_4.mp4",
+    "frame": 305,
+    "defect": "insulator_string",
+    "point": [
+      1298,
+      411
+    ],
+    "bbox": [
+      1247,
+      376,
+      1349,
+      445
+    ]
+  },
+  {
+    "video": "maw_4.mp4",
+    "frame": 305,
+    "defect": "insulator_string",
+    "point": [
+      1397,
+      392
+    ],
+    "bbox": [
+      1358,
+      348,
+      1437,
+      436
+    ]
+  },
+  {
+    "video": "maw_4.mp4",
+    "frame": 305,
+    "defect": "insulator_string",
+    "point": [
+      1056,
+      70
+    ],
+    "bbox": [
+      1018,
+      47,
+      1094,
+      92
+    ]
+  },
+  {
+    "video": "maw_4.mp4",
+    "frame": 305,
+    "defect": "insulator_string",
+    "point": [
+      1135,
+      52
+    ],
+    "bbox": [
+      1102,
+      15,
+      1168,
+      88
+    ]
+  },
+  {
+    "video": "maw_4.mp4",
+    "frame": 305,
+    "defect": "insulator_string",
+    "point": [
+      1268,
+      27
+    ],
+    "bbox": [
+      1227,
+      2,
+      1308,
+      51
+    ]
+  },
+  {
+    "video": "maw_4.mp4",
+    "frame": 305,
+    "defect": "insulator_string",
+    "point": [
+      1339,
+      21
+    ],
+    "bbox": [
+      1316,
+      0,
+      1362,
+      43
+    ]
+  },
+  {
+    "video": "maw_4.mp4",
+    "frame": 305,
+    "defect": "worker",
+    "point": [
+      775,
+      504
+    ],
+    "bbox": [
+      754,
+      472,
+      796,
+      536
+    ]
+  },
+  {
+    "video": "maw_4.mp4",
+    "frame": 305,
+    "defect": "worker",
+    "point": [
+      819,
+      357
+    ],
+    "bbox": [
+      806,
+      329,
+      833,
+      384
+    ]
+  },
+  {
+    "video": "maw_4.mp4",
+    "frame": 508,
+    "defect": "insulator_string",
+    "point": [
+      557,
+      85
+    ],
+    "bbox": [
+      521,
+      56,
+      592,
+      113
+    ]
+  },
+  {
+    "video": "maw_4.mp4",
+    "frame": 508,
+    "defect": "insulator_string",
+    "point": [
+      633,
+      69
+    ],
+    "bbox": [
+      598,
+      33,
+      667,
+      105
+    ]
+  },
+  {
+    "video": "maw_4.mp4",
+    "frame": 508,
+    "defect": "insulator_string",
+    "point": [
+      765,
+      34
+    ],
+    "bbox": [
+      727,
+      9,
+      803,
+      60
+    ]
+  },
+  {
+    "video": "maw_4.mp4",
+    "frame": 508,
+    "defect": "insulator_string",
+    "point": [
+      836,
+      27
+    ],
+    "bbox": [
+      814,
+      3,
+      859,
+      50
+    ]
+  },
+  {
+    "video": "maw_4.mp4",
+    "frame": 508,
+    "defect": "insulator_string",
+    "point": [
+      495,
+      518
+    ],
+    "bbox": [
+      457,
+      478,
+      534,
+      558
+    ]
+  },
+  {
+    "video": "maw_4.mp4",
+    "frame": 508,
+    "defect": "insulator_string",
+    "point": [
+      582,
+      507
+    ],
+    "bbox": [
+      538,
+      463,
+      625,
+      551
+    ]
+  },
+  {
+    "video": "maw_4.mp4",
+    "frame": 508,
+    "defect": "insulator_string",
+    "point": [
+      723,
+      486
+    ],
+    "bbox": [
+      687,
+      459,
+      758,
+      514
+    ]
+  },
+  {
+    "video": "maw_4.mp4",
+    "frame": 508,
+    "defect": "insulator_string",
+    "point": [
+      826,
+      477
+    ],
+    "bbox": [
+      793,
+      435,
+      858,
+      520
+    ]
+  },
+  {
+    "video": "maw_4.mp4",
+    "frame": 508,
+    "defect": "insulator_string",
+    "point": [
+      1162,
+      426
+    ],
+    "bbox": [
+      1108,
+      382,
+      1216,
+      470
+    ]
+  },
+  {
+    "video": "maw_4.mp4",
+    "frame": 508,
+    "defect": "insulator_string",
+    "point": [
+      1275,
+      407
+    ],
+    "bbox": [
+      1229,
+      356,
+      1322,
+      458
+    ]
+  },
+  {
+    "video": "maw_4.mp4",
+    "frame": 508,
+    "defect": "insulator_string",
+    "point": [
+      1479,
+      373
+    ],
+    "bbox": [
+      1413,
+      327,
+      1545,
+      418
+    ]
+  },
+  {
+    "video": "maw_4.mp4",
+    "frame": 508,
+    "defect": "insulator_string",
+    "point": [
+      1620,
+      350
+    ],
+    "bbox": [
+      1570,
+      293,
+      1669,
+      406
+    ]
+  },
+  {
+    "video": "maw_4.mp4",
+    "frame": 508,
+    "defect": "worker",
+    "point": [
+      817,
+      319
+    ],
+    "bbox": [
+      796,
+      281,
+      838,
+      356
+    ]
+  },
+  {
+    "video": "maw_4.mp4",
+    "frame": 508,
+    "defect": "worker",
+    "point": [
+      763,
+      519
+    ],
+    "bbox": [
+      736,
+      477,
+      790,
+      560
+    ]
+  },
+  {
+    "video": "maw_5.mp4",
+    "frame": 83,
+    "defect": "worker",
+    "point": [
+      930,
+      686
+    ],
+    "bbox": [
+      849,
+      506,
+      1010,
+      866
+    ]
+  },
+  {
+    "video": "maw_5.mp4",
+    "frame": 83,
+    "defect": "worker",
+    "point": [
+      1068,
+      601
+    ],
+    "bbox": [
+      992,
+      509,
+      1145,
+      694
+    ]
+  },
+  {
+    "video": "maw_5.mp4",
+    "frame": 83,
+    "defect": "insulator_string",
+    "point": [
+      553,
+      52
+    ],
+    "bbox": [
+      455,
+      0,
+      650,
+      105
+    ]
+  },
+  {
+    "video": "maw_5.mp4",
+    "frame": 83,
+    "defect": "insulator_string",
+    "point": [
+      752,
+      426
+    ],
+    "bbox": [
+      674,
+      197,
+      830,
+      655
+    ]
+  },
+  {
+    "video": "maw_5.mp4",
+    "frame": 249,
+    "defect": "insulator_string",
+    "point": [
+      836,
+      497
+    ],
+    "bbox": [
+      769,
+      285,
+      903,
+      709
+    ]
+  },
+  {
+    "video": "maw_5.mp4",
+    "frame": 249,
+    "defect": "insulator_string",
+    "point": [
+      675,
+      130
+    ],
+    "bbox": [
+      595,
+      70,
+      755,
+      190
+    ]
+  },
+  {
+    "video": "maw_5.mp4",
+    "frame": 249,
+    "defect": "worker",
+    "point": [
+      991,
+      745
+    ],
+    "bbox": [
+      913,
+      569,
+      1068,
+      920
+    ]
+  },
+  {
+    "video": "maw_5.mp4",
+    "frame": 249,
+    "defect": "worker",
+    "point": [
+      1134,
+      706
+    ],
+    "bbox": [
+      1074,
+      555,
+      1194,
+      858
+    ]
+  },
+  {
+    "video": "maw_5.mp4",
+    "frame": 415,
+    "defect": "insulator_string",
+    "point": [
+      835,
+      462
+    ],
+    "bbox": [
+      783,
+      261,
+      887,
+      662
+    ]
+  },
+  {
+    "video": "maw_5.mp4",
+    "frame": 415,
+    "defect": "insulator_string",
+    "point": [
+      727,
+      118
+    ],
+    "bbox": [
+      666,
+      60,
+      788,
+      176
+    ]
+  },
+  {
+    "video": "maw_5.mp4",
+    "frame": 415,
+    "defect": "worker",
+    "point": [
+      976,
+      697
+    ],
+    "bbox": [
+      903,
+      533,
+      1050,
+      861
+    ]
+  },
+  {
+    "video": "maw_5.mp4",
+    "frame": 415,
+    "defect": "worker",
+    "point": [
+      1076,
+      675
+    ],
+    "bbox": [
+      1027,
+      534,
+      1125,
+      817
+    ]
+  },
+  {
+    "video": "maw_6.mp4",
+    "frame": 116,
+    "defect": "worker",
+    "point": [
+      985,
+      533
+    ],
+    "bbox": [
+      913,
+      386,
+      1057,
+      679
+    ]
+  },
+  {
+    "video": "maw_6.mp4",
+    "frame": 116,
+    "defect": "worker",
+    "point": [
+      1129,
+      449
+    ],
+    "bbox": [
+      1079,
+      301,
+      1178,
+      597
+    ]
+  },
+  {
+    "video": "maw_6.mp4",
+    "frame": 116,
+    "defect": "insulator_string",
+    "point": [
+      718,
+      140
+    ],
+    "bbox": [
+      660,
+      39,
+      776,
+      241
+    ]
+  },
+  {
+    "video": "maw_6.mp4",
+    "frame": 116,
+    "defect": "insulator_string",
+    "point": [
+      859,
+      335
+    ],
+    "bbox": [
+      804,
+      166,
+      915,
+      503
+    ]
+  },
+  {
+    "video": "maw_6.mp4",
+    "frame": 116,
+    "defect": "insulator_string",
+    "point": [
+      623,
+      108
+    ],
+    "bbox": [
+      579,
+      0,
+      667,
+      216
+    ]
+  },
+  {
+    "video": "maw_6.mp4",
+    "frame": 348,
+    "defect": "insulator_string",
+    "point": [
+      626,
+      162
+    ],
+    "bbox": [
+      568,
+      3,
+      684,
+      321
+    ]
+  },
+  {
+    "video": "maw_6.mp4",
+    "frame": 348,
+    "defect": "insulator_string",
+    "point": [
+      739,
+      223
+    ],
+    "bbox": [
+      685,
+      102,
+      794,
+      343
+    ]
+  },
+  {
+    "video": "maw_6.mp4",
+    "frame": 348,
+    "defect": "insulator_string",
+    "point": [
+      883,
+      361
+    ],
+    "bbox": [
+      836,
+      206,
+      931,
+      516
+    ]
+  },
+  {
+    "video": "maw_6.mp4",
+    "frame": 348,
+    "defect": "worker",
+    "point": [
+      1002,
+      533
+    ],
+    "bbox": [
+      940,
+      374,
+      1065,
+      692
+    ]
+  },
+  {
+    "video": "maw_6.mp4",
+    "frame": 348,
+    "defect": "worker",
+    "point": [
+      1147,
+      356
+    ],
+    "bbox": [
+      1094,
+      278,
+      1200,
+      434
+    ]
+  },
+  {
+    "video": "maw_6.mp4",
+    "frame": 580,
+    "defect": "insulator_string",
+    "point": [
+      590,
+      202
+    ],
+    "bbox": [
+      516,
+      0,
+      665,
+      405
+    ]
+  },
+  {
+    "video": "maw_6.mp4",
+    "frame": 580,
+    "defect": "insulator_string",
+    "point": [
+      716,
+      273
+    ],
+    "bbox": [
+      657,
+      124,
+      775,
+      423
+    ]
+  },
+  {
+    "video": "maw_6.mp4",
+    "frame": 580,
+    "defect": "insulator_string",
+    "point": [
+      865,
+      347
+    ],
+    "bbox": [
+      813,
+      200,
+      917,
+      494
+    ]
+  },
+  {
+    "video": "maw_6.mp4",
+    "frame": 580,
+    "defect": "worker",
+    "point": [
+      995,
+      523
+    ],
+    "bbox": [
+      924,
+      372,
+      1066,
+      673
+    ]
+  },
+  {
+    "video": "maw_6.mp4",
+    "frame": 580,
+    "defect": "worker",
+    "point": [
+      1133,
+      264
+    ],
+    "bbox": [
+      1061,
+      192,
+      1204,
+      337
+    ]
+  },
+  {
+    "video": "maw_7.mp4",
+    "frame": 97,
+    "defect": "insulator_string",
+    "point": [
+      706,
+      383
+    ],
+    "bbox": [
+      633,
+      191,
+      780,
+      575
+    ]
+  },
+  {
+    "video": "maw_7.mp4",
+    "frame": 97,
+    "defect": "insulator_string",
+    "point": [
+      821,
+      411
+    ],
+    "bbox": [
+      771,
+      246,
+      871,
+      576
+    ]
+  },
+  {
+    "video": "maw_7.mp4",
+    "frame": 97,
+    "defect": "insulator_string",
+    "point": [
+      947,
+      432
+    ],
+    "bbox": [
+      898,
+      291,
+      996,
+      573
+    ]
+  },
+  {
+    "video": "maw_7.mp4",
+    "frame": 97,
+    "defect": "insulator_string",
+    "point": [
+      1043,
+      436
+    ],
+    "bbox": [
+      997,
+      325,
+      1088,
+      546
+    ]
+  },
+  {
+    "video": "maw_7.mp4",
+    "frame": 97,
+    "defect": "worker",
+    "point": [
+      1081,
+      607
+    ],
+    "bbox": [
+      1011,
+      452,
+      1151,
+      762
+    ]
+  },
+  {
+    "video": "maw_7.mp4",
+    "frame": 97,
+    "defect": "worker",
+    "point": [
+      1204,
+      282
+    ],
+    "bbox": [
+      1148,
+      138,
+      1261,
+      427
+    ]
+  },
+  {
+    "video": "maw_7.mp4",
+    "frame": 293,
+    "defect": "insulator_string",
+    "point": [
+      813,
+      407
+    ],
+    "bbox": [
+      742,
+      221,
+      884,
+      593
+    ]
+  },
+  {
+    "video": "maw_7.mp4",
+    "frame": 293,
+    "defect": "insulator_string",
+    "point": [
+      924,
+      419
+    ],
+    "bbox": [
+      874,
+      257,
+      975,
+      580
+    ]
+  },
+  {
+    "video": "maw_7.mp4",
+    "frame": 293,
+    "defect": "insulator_string",
+    "point": [
+      1038,
+      414
+    ],
+    "bbox": [
+      993,
+      288,
+      1083,
+      539
+    ]
+  },
+  {
+    "video": "maw_7.mp4",
+    "frame": 293,
+    "defect": "insulator_string",
+    "point": [
+      1120,
+      411
+    ],
+    "bbox": [
+      1075,
+      291,
+      1166,
+      532
+    ]
+  },
+  {
+    "video": "maw_7.mp4",
+    "frame": 293,
+    "defect": "worker",
+    "point": [
+      1172,
+      598
+    ],
+    "bbox": [
+      1107,
+      452,
+      1238,
+      743
+    ]
+  },
+  {
+    "video": "maw_7.mp4",
+    "frame": 489,
+    "defect": "insulator_string",
+    "point": [
+      893,
+      454
+    ],
+    "bbox": [
+      826,
+      288,
+      961,
+      619
+    ]
+  },
+  {
+    "video": "maw_7.mp4",
+    "frame": 489,
+    "defect": "insulator_string",
+    "point": [
+      993,
+      435
+    ],
+    "bbox": [
+      943,
+      271,
+      1044,
+      599
+    ]
+  },
+  {
+    "video": "maw_7.mp4",
+    "frame": 489,
+    "defect": "insulator_string",
+    "point": [
+      1107,
+      415
+    ],
+    "bbox": [
+      1063,
+      291,
+      1151,
+      538
+    ]
+  },
+  {
+    "video": "maw_7.mp4",
+    "frame": 489,
+    "defect": "insulator_string",
+    "point": [
+      1183,
+      393
+    ],
+    "bbox": [
+      1143,
+      271,
+      1223,
+      514
+    ]
+  },
+  {
+    "video": "maw_7.mp4",
+    "frame": 489,
+    "defect": "worker",
+    "point": [
+      1234,
+      579
+    ],
+    "bbox": [
+      1172,
+      437,
+      1295,
+      722
+    ]
+  },
+  {
+    "video": "maw_8.mp4",
+    "frame": 119,
+    "defect": "insulator_string",
+    "point": [
+      678,
+      787
+    ],
+    "bbox": [
+      637,
+      691,
+      719,
+      883
+    ]
+  },
+  {
+    "video": "maw_8.mp4",
+    "frame": 119,
+    "defect": "insulator_string",
+    "point": [
+      753,
+      785
+    ],
+    "bbox": [
+      718,
+      690,
+      787,
+      880
+    ]
+  },
+  {
+    "video": "maw_8.mp4",
+    "frame": 119,
+    "defect": "insulator_string",
+    "point": [
+      1208,
+      760
+    ],
+    "bbox": [
+      1184,
+      687,
+      1232,
+      834
+    ]
+  },
+  {
+    "video": "maw_8.mp4",
+    "frame": 119,
+    "defect": "worker",
+    "point": [
+      1011,
+      535
+    ],
+    "bbox": [
+      970,
+      460,
+      1052,
+      611
+    ]
+  },
+  {
+    "video": "maw_8.mp4",
+    "frame": 119,
+    "defect": "worker",
+    "point": [
+      819,
+      617
+    ],
+    "bbox": [
+      768,
+      548,
+      871,
+      685
+    ]
+  },
+  {
+    "video": "maw_8.mp4",
+    "frame": 119,
+    "defect": "worker",
+    "point": [
+      940,
+      720
+    ],
+    "bbox": [
+      895,
+      607,
+      985,
+      834
+    ]
+  },
+  {
+    "video": "maw_8.mp4",
+    "frame": 357,
+    "defect": "insulator_string",
+    "point": [
+      664,
+      777
+    ],
+    "bbox": [
+      612,
+      680,
+      716,
+      874
+    ]
+  },
+  {
+    "video": "maw_8.mp4",
+    "frame": 357,
+    "defect": "insulator_string",
+    "point": [
+      758,
+      778
+    ],
+    "bbox": [
+      714,
+      686,
+      803,
+      871
+    ]
+  },
+  {
+    "video": "maw_8.mp4",
+    "frame": 357,
+    "defect": "insulator_string",
+    "point": [
+      1364,
+      763
+    ],
+    "bbox": [
+      1336,
+      692,
+      1392,
+      834
+    ]
+  },
+  {
+    "video": "maw_8.mp4",
+    "frame": 357,
+    "defect": "insulator_string",
+    "point": [
+      1309,
+      764
+    ],
+    "bbox": [
+      1282,
+      693,
+      1336,
+      835
+    ]
+  },
+  {
+    "video": "maw_8.mp4",
+    "frame": 357,
+    "defect": "worker",
+    "point": [
+      840,
+      618
+    ],
+    "bbox": [
+      787,
+      543,
+      892,
+      693
+    ]
+  },
+  {
+    "video": "maw_8.mp4",
+    "frame": 357,
+    "defect": "worker",
+    "point": [
+      994,
+      712
+    ],
+    "bbox": [
+      954,
+      596,
+      1035,
+      827
+    ]
+  },
+  {
+    "video": "maw_8.mp4",
+    "frame": 357,
+    "defect": "worker",
+    "point": [
+      1052,
+      527
+    ],
+    "bbox": [
+      1003,
+      443,
+      1101,
+      611
+    ]
+  },
+  {
+    "video": "maw_8.mp4",
+    "frame": 595,
+    "defect": "insulator_string",
+    "point": [
+      736,
+      779
+    ],
+    "bbox": [
+      676,
+      680,
+      796,
+      877
+    ]
+  },
+  {
+    "video": "maw_8.mp4",
+    "frame": 595,
+    "defect": "insulator_string",
+    "point": [
+      850,
+      780
+    ],
+    "bbox": [
+      794,
+      686,
+      907,
+      873
+    ]
+  },
+  {
+    "video": "maw_8.mp4",
+    "frame": 595,
+    "defect": "insulator_string",
+    "point": [
+      1604,
+      764
+    ],
+    "bbox": [
+      1573,
+      694,
+      1636,
+      835
+    ]
+  },
+  {
+    "video": "maw_8.mp4",
+    "frame": 595,
+    "defect": "insulator_string",
+    "point": [
+      1544,
+      766
+    ],
+    "bbox": [
+      1509,
+      692,
+      1578,
+      839
+    ]
+  },
+  {
+    "video": "maw_8.mp4",
+    "frame": 595,
+    "defect": "worker",
+    "point": [
+      1134,
+      717
+    ],
+    "bbox": [
+      1092,
+      601,
+      1177,
+      833
+    ]
+  },
+  {
+    "video": "maw_8.mp4",
+    "frame": 595,
+    "defect": "worker",
+    "point": [
+      950,
+      611
+    ],
+    "bbox": [
+      895,
+      528,
+      1004,
+      694
+    ]
+  },
+  {
+    "video": "maw_8.mp4",
+    "frame": 595,
+    "defect": "worker",
+    "point": [
+      1182,
+      529
+    ],
+    "bbox": [
+      1127,
+      449,
+      1237,
+      608
+    ]
+  },
+  {
+    "video": "maw_9.mp4",
+    "frame": 200,
+    "defect": "insulator_string",
+    "point": [
+      542,
+      560
+    ],
+    "bbox": [
+      454,
+      429,
+      629,
+      691
+    ]
+  },
+  {
+    "video": "maw_9.mp4",
+    "frame": 200,
+    "defect": "insulator_string",
+    "point": [
+      703,
+      561
+    ],
+    "bbox": [
+      629,
+      438,
+      776,
+      685
+    ]
+  },
+  {
+    "video": "maw_9.mp4",
+    "frame": 200,
+    "defect": "insulator_string",
+    "point": [
+      1670,
+      553
+    ],
+    "bbox": [
+      1629,
+      469,
+      1710,
+      638
+    ]
+  },
+  {
+    "video": "maw_9.mp4",
+    "frame": 200,
+    "defect": "insulator_string",
+    "point": [
+      1592,
+      554
+    ],
+    "bbox": [
+      1550,
+      465,
+      1634,
+      643
+    ]
+  },
+  {
+    "video": "maw_9.mp4",
+    "frame": 200,
+    "defect": "worker",
+    "point": [
+      1163,
+      226
+    ],
+    "bbox": [
+      1100,
+      99,
+      1227,
+      354
+    ]
+  },
+  {
+    "video": "maw_9.mp4",
+    "frame": 200,
+    "defect": "worker",
+    "point": [
+      832,
+      362
+    ],
+    "bbox": [
+      766,
+      265,
+      899,
+      459
+    ]
+  },
+  {
+    "video": "maw_9.mp4",
+    "frame": 200,
+    "defect": "worker",
+    "point": [
+      1061,
+      783
+    ],
+    "bbox": [
+      1002,
+      667,
+      1119,
+      899
+    ]
+  },
+  {
+    "video": "maw_9.mp4",
+    "frame": 600,
+    "defect": "insulator_string",
+    "point": [
+      965,
+      544
+    ],
+    "bbox": [
+      915,
+      419,
+      1014,
+      669
+    ]
+  },
+  {
+    "video": "maw_9.mp4",
+    "frame": 600,
+    "defect": "insulator_string",
+    "point": [
+      1042,
+      548
+    ],
+    "bbox": [
+      1004,
+      431,
+      1080,
+      665
+    ]
+  },
+  {
+    "video": "maw_9.mp4",
+    "frame": 600,
+    "defect": "worker",
+    "point": [
+      1268,
+      714
+    ],
+    "bbox": [
+      1207,
+      603,
+      1329,
+      824
+    ]
+  },
+  {
+    "video": "maw_9.mp4",
+    "frame": 600,
+    "defect": "worker",
+    "point": [
+      1105,
+      348
+    ],
+    "bbox": [
+      1052,
+      262,
+      1157,
+      434
+    ]
+  },
+  {
+    "video": "maw_9.mp4",
+    "frame": 600,
+    "defect": "worker",
+    "point": [
+      1323,
+      241
+    ],
+    "bbox": [
+      1262,
+      132,
+      1384,
+      351
+    ]
+  },
+  {
+    "video": "maw_9.mp4",
+    "frame": 1000,
+    "defect": "insulator_string",
+    "point": [
+      1172,
+      527
+    ],
+    "bbox": [
+      1144,
+      413,
+      1199,
+      640
+    ]
+  },
+  {
+    "video": "maw_9.mp4",
+    "frame": 1000,
+    "defect": "insulator_string",
+    "point": [
+      1145,
+      501
+    ],
+    "bbox": [
+      1127,
+      423,
+      1162,
+      578
+    ]
+  },
+  {
+    "video": "maw_9.mp4",
+    "frame": 1000,
+    "defect": "worker",
+    "point": [
+      1107,
+      624
+    ],
+    "bbox": [
+      1063,
+      584,
+      1151,
+      664
+    ]
+  },
+  {
+    "video": "maw_9.mp4",
+    "frame": 1000,
+    "defect": "worker",
+    "point": [
+      1144,
+      339
+    ],
+    "bbox": [
+      1073,
+      264,
+      1214,
+      414
+    ]
+  },
+  {
+    "video": "maw_9.mp4",
+    "frame": 1000,
+    "defect": "worker",
+    "point": [
+      1222,
+      222
+    ],
+    "bbox": [
+      1184,
+      133,
+      1260,
+      310
+    ]
+  }
+]

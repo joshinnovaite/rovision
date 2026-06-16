@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { Loader2 } from 'lucide-react'
 import { api } from '../../lib/api'
-import { ASSETS, ASSET_CONFIG } from '../../lib/assets'
+import { assetKeys, assetConfig } from '../../lib/assets'
 import { prettyClass } from '../../lib/format'
 import { useVideoStore } from '../../state/videoStore'
 import { useSettingsStore } from '../../state/settingsStore'
@@ -103,9 +103,9 @@ export function ParameterModal({ file, onCancel }: { file: File; onCancel: () =>
         <div className="field">
           <label>Asset</label>
           <select value={asset} onChange={(e) => setAsset(e.target.value as Asset)}>
-            {ASSETS.map((a) => (
+            {assetKeys().map((a) => (
               <option key={a} value={a}>
-                {ASSET_CONFIG[a].label}
+                {assetConfig(a)?.label ?? a}
               </option>
             ))}
           </select>

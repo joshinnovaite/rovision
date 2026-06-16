@@ -21,6 +21,9 @@ interface SettingsState {
   setShowBoxes: (v: boolean) => void
   setShowMasks: (v: boolean) => void
   setShowConfidence: (v: boolean) => void
+  /** Clear the view-time filters when the active domain changes (their classes
+   * no longer apply). Display toggles (boxes/masks/confidence) are kept. */
+  resetForDomain: () => void
 }
 
 export const useSettingsStore = create<SettingsState>((set, get) => ({
@@ -45,4 +48,5 @@ export const useSettingsStore = create<SettingsState>((set, get) => ({
   setShowBoxes: (showBoxes) => set({ showBoxes }),
   setShowMasks: (showMasks) => set({ showMasks }),
   setShowConfidence: (showConfidence) => set({ showConfidence }),
+  resetForDomain: () => set({ asset: 'generic', omittedClasses: new Set() }),
 }))

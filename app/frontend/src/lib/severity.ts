@@ -39,6 +39,27 @@ export interface FlagSummary {
   classesPresent: string[] // all classes (defect + artefact) seen, after omit filter
 }
 
+export interface ClassCount {
+  className: string
+  count: number
+}
+
+/** Per-class instance counts (inventory mode), excluding omitted classes,
+ * sorted by count desc. Used where there are no flags/severity to roll up. */
+export function computeClassCounts(
+  tracks: Track[],
+  omitted: Set<string> = new Set(),
+): ClassCount[] {
+  const counts = new Map<string, number>()
+  for (const t of tracks) {
+    if (omitted.has(t.class)) continue
+    counts.set(t.class, (counts.get(t.class) ?? 0) + 1)
+  }
+  return [...counts.entries()]
+    .map(([className, count]) => ({ className, count }))
+    .sort((a, b) => b.count - a.count)
+}
+
 /** Compute the live flag summary, excluding omitted classes. */
 export function computeFlagSummary(
   tracks: Track[],

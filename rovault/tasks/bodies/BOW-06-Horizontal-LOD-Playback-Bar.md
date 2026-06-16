@@ -1,5 +1,5 @@
 # BOW-06: Horizontal LOD Playback Bar
-
+Goal: [[taskindex#Rovision Demo Development]]
 Status: done
 Progress: done — implemented directly; vault catching up. Visual confirmation by the user pending ([[ST-06.9-Vault-Docs-And-Visual-Verification]]).
 

@@ -59,17 +59,29 @@ def _bundle_path(video_hash: str, name: str) -> Path:
 
 
 # --- routes --------------------------------------------------------------------
+@app.get("/api/domains")
+def get_domains():
+    """The domain toggle menu: [{key, label, mode}, …]."""
+    return config.domains_payload()
+
+
 @app.get("/api/config")
-def get_config():
-    return config.config_payload()
+def get_config(domain: str | None = None):
+    return config.config_payload(domain)
 
 
 @app.get("/api/videos")
-def list_videos():
+def list_videos(domain: str | None = None):
     with get_conn() as conn:
-        rows = conn.execute(
-            "SELECT * FROM videos ORDER BY processed_at DESC"
-        ).fetchall()
+        if domain:
+            rows = conn.execute(
+                "SELECT * FROM videos WHERE domain = ? ORDER BY processed_at DESC",
+                (domain,),
+            ).fetchall()
+        else:
+            rows = conn.execute(
+                "SELECT * FROM videos ORDER BY processed_at DESC"
+            ).fetchall()
     return [dict(r) for r in rows]
 
 
@@ -77,7 +89,7 @@ def list_videos():
 def get_video(video_hash: str):
     row = _video_row(video_hash)
     out = dict(row)
-    out["classes"] = config.ALL_CLASSES
+    out["classes"] = config.get_domain(row["domain"])["all_classes"]
     return out
 
 

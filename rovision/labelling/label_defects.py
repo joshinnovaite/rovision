@@ -55,20 +55,31 @@ def guard(fn):
     return wrapper
 
 # ---------------------------------------------------------------- taxonomy ---
-# Locked class list (slugs). Edit here if the taxonomy changes.
-# Consolidated demo taxonomy: empty classes (concrete_crack/spalling, pitting,
-# exposed_rebar, structural_deformation) dropped; biofilm + calcareous_deposits
-# + sediment_debris merged into 'surface_deposit' (visually inseparable here).
-DEFECTS = [
-    "corrosion", "coating_breakdown", "surface_deposit", "marine_growth",
-    "trash_rack_blockage", "seal_joint_degradation",
-]
-ARTEFACTS = [
-    "pipework", "ladder", "outlet_inlet", "valve_mixer", "fish", "coral",
-    "seagrass", "rov_manipulator", "dropped_object",
-]
-OPTIONAL = []
-ALL_CLASSES = DEFECTS + ARTEFACTS + OPTIONAL
+# The class list is no longer hardcoded here: it comes from the canonical domain
+# registry at rovision/domains.json (the single source of truth shared by the
+# backend, frontend, and notebook). Pick a domain with --domain; its `all_classes`
+# drive the radio buttons and the coverage report. (`defect_classes` is only used
+# to tag classes in the coverage print — inventory domains like 'pylon' have none.)
+DOMAINS_PATH = Path(__file__).resolve().parents[1] / "domains.json"
+DOMAINS = json.loads(DOMAINS_PATH.read_text())
+
+
+def domain_taxonomy(domain):
+    """(all_classes, defect_classes) for a registry domain key."""
+    if domain not in DOMAINS:
+        raise SystemExit(f"Unknown --domain '{domain}'. Known: {', '.join(DOMAINS)}")
+    d = DOMAINS[domain]
+    return d["all_classes"], d.get("defect_classes", [])
+
+
+def domain_defaults(domain, videos_dir, out):
+    """Per-domain default footage dir + output path (overridable via CLI)."""
+    videos_dir = videos_dir or ("test_footage" if domain == "subsea"
+                                else f"test_footage_{domain}")
+    out = out or (f"rovision/labelling/labels.json" if domain == "subsea"
+                  else f"rovision/labelling/labels_{domain}.json")
+    return videos_dir, out
+
 
 VIDEO_EXTS = {".mp4", ".mov", ".avi", ".mkv", ".m4v"}
 
@@ -130,26 +141,25 @@ def save_labels(path, records):
     Path(path).write_text(json.dumps(records, indent=2))
 
 
-def print_coverage(records):
+def print_coverage(records, classes, defect_classes):
     hit = {r["defect"] for r in records}
     print("\n=== coverage so far ===")
-    for grp, names in [("DEFECTS", DEFECTS), ("ARTEFACTS", ARTEFACTS),
-                       ("OPTIONAL", OPTIONAL)]:
-        print(f"  {grp}:")
-        for c in names:
-            mark = "x" if c in hit else " "
-            cnt = sum(1 for r in records if r["defect"] == c)
-            print(f"    [{mark}] {c} ({cnt})")
-    unhit = [c for c in DEFECTS + ARTEFACTS if c not in hit]
-    print(f"\n  UNHIT (core + artefacts): {unhit or 'none - all hit!'}\n")
+    for c in classes:
+        mark = "x" if c in hit else " "
+        cnt = sum(1 for r in records if r["defect"] == c)
+        tag = "defect" if c in defect_classes else "context"
+        print(f"    [{mark}] {c} ({cnt})  [{tag}]")
+    unhit = [c for c in classes if c not in hit]
+    print(f"\n  UNHIT: {unhit or 'none - all hit!'}\n")
 
 
 # -------------------------------------------------------------- labeller -----
 class Labeller:
-    def __init__(self, tasks, records, out_path):
+    def __init__(self, tasks, records, out_path, classes):
         self.tasks, self.records, self.out_path = tasks, records, out_path
+        self.classes = classes
         self.i = 0
-        self.current_class = ALL_CLASSES[0]
+        self.current_class = classes[0]
         self._pan = None          # right-drag pan snapshot
         self._w = self._h = 1     # current frame dims (set in _show)
         self._build_fig()
@@ -161,7 +171,7 @@ class Labeller:
         self.ax.axis("off")
         rax = self.fig.add_axes([0.75, 0.05, 0.23, 0.90])
         rax.set_title("class (click)", fontsize=9)
-        self.radio = RadioButtons(rax, ALL_CLASSES, active=0)
+        self.radio = RadioButtons(rax, self.classes, active=0)
         for lbl in self.radio.labels:
             lbl.set_fontsize(8)
         self.radio.on_clicked(self._on_class)
@@ -309,8 +319,12 @@ class Labeller:
 def main():
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("--videos-dir", default="test_footage")
-    ap.add_argument("--out", default="rovision/labelling/labels.json")
+    ap.add_argument("--domain", default="subsea",
+                    help="registry domain key (taxonomy + default footage/out path)")
+    ap.add_argument("--videos-dir", default=None,
+                    help="override; defaults per domain (subsea->test_footage, else test_footage_<domain>)")
+    ap.add_argument("--out", default=None,
+                    help="override; defaults per domain (subsea->labels.json, else labels_<domain>.json)")
     ap.add_argument("--review-dir", default="label_review")
     ap.add_argument("--n-frames", type=int, default=3)
     ap.add_argument("--offset", type=float, default=0.0,
@@ -323,13 +337,18 @@ def main():
                     help="just export sampled frames as PNGs; no GUI")
     args = ap.parse_args()
 
-    videos = list_videos(args.videos_dir, args.video)
+    classes, defect_classes = domain_taxonomy(args.domain)
+    videos_dir, out_path = domain_defaults(args.domain, args.videos_dir, args.out)
+    print(f"[labeller] domain={args.domain}  classes={classes}\n"
+          f"           videos-dir={videos_dir}  out={out_path}")
+
+    videos = list_videos(videos_dir, args.video)
     if not videos:
-        raise SystemExit(f"No videos found in {args.videos_dir}")
+        raise SystemExit(f"No videos found in {videos_dir}")
     explicit = [int(x) for x in args.frames.split(",")] if args.frames else None
 
-    records = load_labels(args.out)
-    print_coverage(records)
+    records = load_labels(out_path)
+    print_coverage(records, classes, defect_classes)
 
     tasks = build_tasks(videos, args.n_frames, args.offset, explicit, args.review_dir)
     if args.extract_only:
@@ -342,10 +361,10 @@ def main():
     if ERROR_LOG.exists():
         ERROR_LOG.unlink()          # start each session with a clean error log
     print(f"\nLabelling {len(tasks)} frames. Pick a class on the right, drag a "
-          f"box, repeat. Boxes autosave to {args.out}.")
+          f"box, repeat. Boxes autosave to {out_path}.")
     print(f"Any errors are written to {ERROR_LOG}")
     try:
-        Labeller(tasks, records, args.out)
+        Labeller(tasks, records, out_path, classes)
         plt.show()
     except Exception:
         tb = traceback.format_exc()
@@ -353,9 +372,9 @@ def main():
         with open(ERROR_LOG, "a") as f:
             f.write("\n[labeller] top-level error:\n" + tb)
 
-    records = load_labels(args.out)
-    print_coverage(records)
-    print(f"Saved {len(records)} total records to {args.out}")
+    records = load_labels(out_path)
+    print_coverage(records, classes, defect_classes)
+    print(f"Saved {len(records)} total records to {out_path}")
 
 
 if __name__ == "__main__":

@@ -2,14 +2,27 @@
 
 export type Severity = 'none' | 'low' | 'medium' | 'high'
 
-export type Asset =
-  | 'gold_coast_desal'
-  | 'hinze'
-  | 'little_nerang'
-  | 'north_pine'
-  | 'wivenhoe'
-  | 'somerset'
-  | 'generic'
+/** A domain runs in "defect" mode (severity/flags/work-orders) or "inventory"
+ * mode (component counts; the defect machinery is suppressed). */
+export type DomainMode = 'defect' | 'inventory'
+
+/** Domain + asset keys are data-driven (from the backend registry), hence string. */
+export type Domain = string
+export type Asset = string
+
+/** One entry of GET /api/domains — the sidebar toggle menu. */
+export interface DomainInfo {
+  key: Domain
+  label: string
+  mode: DomainMode
+}
+
+/** Asset-lens entry, served per-domain inside AppConfig.assets. */
+export interface AssetConfig {
+  label: string
+  relevantClasses: string[]
+  topPriority: string | null
+}
 
 /** A normalized polygon ring: [[x,y], …] with x,y in 0..1 of frame width/height. */
 export type Polygon = number[][]
@@ -18,6 +31,7 @@ export type Polygon = number[][]
 export interface VideoSummary {
   hash: string
   source_video: string
+  domain: Domain
   asset: string | null
   fps: number
   enc_fps: number
@@ -61,10 +75,16 @@ export interface Detection {
   polygons?: Polygon[] // refine frames only
 }
 
-/** GET /api/config — flag/severity thresholds shared with the backend rollup. */
+/** GET /api/config?domain= — the active domain's taxonomy, colours, asset lenses,
+ * and flag/severity thresholds (all shared with the backend rollup). */
 export interface AppConfig {
+  domain: Domain
+  label: string
+  mode: DomainMode
   defect_classes: string[]
   all_classes: string[]
+  colors: Record<string, string>
+  assets: Record<string, AssetConfig>
   flag_min_n_frames: number
   flag_min_peak_area: number
   sev_medium_count: number

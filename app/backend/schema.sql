@@ -5,6 +5,7 @@
 CREATE TABLE IF NOT EXISTS videos (
     hash          TEXT PRIMARY KEY,   -- sha256 of raw.mp4 (the cache key)
     source_video  TEXT,               -- original filename from meta.json
+    domain        TEXT NOT NULL DEFAULT 'subsea',  -- which domain this clip belongs to
     asset         TEXT,               -- asset slug (metadata)
     fps           REAL,
     enc_fps       INTEGER,            -- fps ffmpeg encoded at; frame = round(t*enc_fps)

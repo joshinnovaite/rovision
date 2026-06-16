@@ -1,4 +1,4 @@
-import { ASSETS, ASSET_CONFIG } from '../../lib/assets'
+import { assetKeys, assetConfig } from '../../lib/assets'
 import { useVideoStore } from '../../state/videoStore'
 import { usePlaybackStore } from '../../state/playbackStore'
 import { useSettingsStore } from '../../state/settingsStore'
@@ -20,7 +20,7 @@ export function AssetDropdown() {
   function onChange(a: Asset) {
     setAsset(a)
     if (!meta || !config) return
-    let targetClass = ASSET_CONFIG[a].topPriority
+    let targetClass = assetConfig(a)?.topPriority ?? null
     if (!targetClass) {
       const summary = computeFlagSummary(tracks, config, meta.width * meta.height, omitted)
       targetClass = summary.byClass[0]?.className ?? null
@@ -36,9 +36,9 @@ export function AssetDropdown() {
     <div className="asset-bar">
       <label>Asset lens</label>
       <select value={asset} onChange={(e) => onChange(e.target.value as Asset)}>
-        {ASSETS.map((a) => (
+        {assetKeys().map((a) => (
           <option key={a} value={a}>
-            {ASSET_CONFIG[a].label}
+            {assetConfig(a)?.label ?? a}
           </option>
         ))}
       </select>

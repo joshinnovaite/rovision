@@ -16,3 +16,4 @@ A cleaner, more separable label set, at the cost of granularity. [[surface depos
 - [[GoldenSet]]
 - [[surface deposit]]
 - [[artefact]]
+- [[DR-013-Multi-Domain-Registry-And-Inventory-Mode]] — relocates this taxonomy (unchanged) into the per-domain registry, retiring the duplicated copies.

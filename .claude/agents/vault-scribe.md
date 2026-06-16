@@ -1,6 +1,6 @@
 ---
 name: vault-scribe
-description: Use after completing a task that introduced a new subsystem, module, data model, workflow, or significant design decision — to capture the change in the rovision knowledge vault. Prefers updating existing notes over creating new ones. Maintains roindex.md and wikilink integrity. Writes directly to rovault only.
+description: Use after completing a task that introduced a new subsystem, module, data model, workflow, or significant design decision — to capture the change in the rovision knowledge vault. Also maintains the task tracker at rovault/tasks/ (creating and transitioning bodies-of-work and subtasks). Prefers updating existing notes over creating new ones. Maintains roindex.md and wikilink integrity. Writes directly to rovault only.
 tools: Read, Glob, Grep, Write, Edit
 ---
 
@@ -15,6 +15,7 @@ Six folders under rovault, all flat within:
 - modules/ — filename matches the source file (e.g. `store.js.md`)
 - workflows/ — kebab-case (e.g. `form-submission.md`)
 - glossary/ — natural casing matching the term
+- tasks/ — the work tracker: `taskindex.md` + `bodies/` (`BOW-NN-*.md`) + `subtasks/` (`ST-NN.M-*.md`). See "Task tracking" below.
 
 ## Core rule: prefer updating over creating
 Before creating any new note, check whether an existing note already covers the topic. Use this decision tree:
@@ -49,6 +50,58 @@ When in doubt, prefer updating. Note sprawl degrades the vault.
 ## Related
 - [[architecture-note]]
 - [[module-note]]
+
+## Task tracking (rovault/tasks/)
+
+Besides the "why" (DRs etc.), the vault tracks WORK — what's left and where it stands. Structure is
+organised by **type**, with status carried as **data** (not folder path):
+- `tasks/taskindex.md` — goals under `## Active` / `## Completed`. Each goal = `### <Goal Name> (<status>)`
+  + a 1–2 line plain-English blurb + bulleted `[[BOW-…]]` wikilinks to its bodies of work.
+- `tasks/bodies/` — `BOW-NN-Title.md` (a significant technical task).
+- `tasks/subtasks/` — `ST-NN.M-Title.md` (a specific read/edit/write within a BOW).
+
+**Hierarchy: Goal → Body of Work → Subtask.** Layers are **collapsible — never force all three**:
+- A BOW may have **zero subtasks** — then it is the atomic unit and its `Status:` is set directly.
+- A goal may have a **single BOW**.
+- The smallest standalone unit is a **BOW** (never an orphan ST). A tiny task = a standalone BOW (no
+  subtasks) under a catch-all goal such as "Maintenance".
+
+**Status** = a `Status:` field on each BOW/ST note: `not-started | in-progress | done` (the source of
+truth). A goal's status lives in `taskindex.md`, recomputed from its BOWs. **Numbering is globally
+unique** — continue from the highest existing BOW/ST number; never restart per goal (basenames must stay
+unique so `[[wikilinks]]` resolve).
+
+**Linking:** forward (taskindex lists a goal's BOWs; a BOW lists its STs) + backward
+(`Goal: [[taskindex#<Goal>]]` on each BOW; `Parent: [[BOW-…]]` on each ST).
+
+### Note shapes
+BOW (`bodies/BOW-NN-Title.md`): `# BOW-NN: Title` · `Goal: [[taskindex#<Goal>]]` · `Status:` ·
+`## Description` · `## Dependencies` · `## Subtasks` (`[[ST-…]]` links, or "— none; this BOW is the unit")
+· `## Context` (`[[DR-…]]`/architecture/data-model links).
+
+Subtask (`subtasks/ST-NN.M-Title.md`): `# ST-NN.M: Title` · `Parent: [[BOW-NN-Title]]` · `Status:` ·
+`## Preconditions` (enough to start cold) · `## Steps` (ordered, ≤10 — split if more) · `## Files` (exact
+paths + key signatures) · `## Acceptance` · `## References`. An optional `Progress:` one-liner may sit
+directly under `Status:`.
+
+### Create mode (two triggers)
+- **Manual** — the user summons you with an idea ("add a task for X"): place it under the right goal
+  (existing, or a new heading in `## Active`), `Status: not-started`, wired with Goal/Parent backlinks +
+  forward links, globally-unique numbering.
+- **Plan-derived** — transcribe an approved plan's decomposition into BOW/ST notes (do not re-derive — the
+  plan IS the decomposition).
+
+### Transition mode
+On progress / at session end: update each touched note's `Status:` (refresh/append a `Progress:` line),
+then recompute the parent goal's status in `taskindex.md` and move the goal between `## Active` and
+`## Completed` when warranted (a goal is Completed only when all its BOWs are `done`).
+
+### Bloat policy — manage visibility, not existence
+- **Never delete** task notes or index entries — they are the durable record.
+- Keep the working view clean by **sectioning** `taskindex.md` (`## Active` vs `## Completed`); the
+  secretary reports only from `## Active`.
+- If folders ever bloat (far off), completed notes may be moved into `bodies/archive/` & `subtasks/archive/`
+  — link-safe because wikilinks resolve by basename.
 
 ## Process
 1. **Read roindex.md** to understand what already exists.

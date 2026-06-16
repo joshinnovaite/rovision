@@ -25,6 +25,10 @@ The bar reads **`tracks` (each track's `first_frame`), not per-frame detections*
 - Full **FLIP position animation between cluster sets was deliberately deferred** (recorded in [[ST-06.8-Cluster-Set-Transition]]) — animating positions during a continuous pinch caused "smear", and the deterministic snap is acceptable for the demo. Only hover-protrude is animated (CSS transform). FLIP remains future polish.
 - This **supersedes the vertical-timeline aspects of [[ST-05.3-Vertical-Timeline]]** / the BOW-05 timeline; `VerticalTimeline.tsx` was removed and the store's `windowSeconds` field retired in favour of a timeline slice (`scale / mode / viewStartTime / barWidthPx / durationSec / encFps / playbackRate`).
 - The renderer now carries a timeline-geometry concern alongside the overlay, but both follow the same "no React render in the hot path" rule, so the performance budget is preserved.
+- **Adaptive time ruler (later enhancement).** The bar gained tick marks + `m:ss` labels spaced ~every 90px,
+  so position is readable even when no flags/components sit near the playhead (the cluster markers alone left
+  long unlabelled stretches). Ticks are **recomputed only on zoom** (same recompute-on-scale-change
+  discipline as the clusters — never on pan/play), keeping the hot path render-free.
 
 ## Related
 - [[DR-009-Mask-Hold-Rendering]] — the imperative-transform / zero-hot-path-render discipline this reuses.

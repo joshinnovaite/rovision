@@ -1,7 +1,7 @@
 import { useMemo } from 'react'
 import { useVideoStore } from '../../state/videoStore'
 import { useSettingsStore } from '../../state/settingsStore'
-import { computeFlagSummary } from '../../lib/severity'
+import { computeClassCounts, computeFlagSummary } from '../../lib/severity'
 import { fmtDuration } from '../../lib/format'
 
 export function VideoHeader() {
@@ -10,10 +10,12 @@ export function VideoHeader() {
   const config = useVideoStore((s) => s.config)
   const omitted = useSettingsStore((s) => s.omittedClasses)
 
-  const total = useMemo(
-    () => (meta && config ? computeFlagSummary(tracks, config, meta.width * meta.height, omitted).totalFlags : 0),
-    [meta, config, tracks, omitted],
-  )
+  const inventory = config?.mode === 'inventory'
+  const tally = useMemo(() => {
+    if (!meta || !config) return 0
+    if (inventory) return computeClassCounts(tracks, omitted).reduce((n, c) => n + c.count, 0)
+    return computeFlagSummary(tracks, config, meta.width * meta.height, omitted).totalFlags
+  }, [meta, config, tracks, omitted, inventory])
 
   if (!meta) return null
   return (
@@ -21,7 +23,7 @@ export function VideoHeader() {
       <h1>{meta.source_video}</h1>
       <div className="meta tnum">
         {fmtDuration(meta.duration_sec)} · {meta.n_frames} frames @ {meta.enc_fps} fps ·{' '}
-        {meta.width}×{meta.height} · {total} flags
+        {meta.width}×{meta.height} · {tally} {inventory ? 'components' : 'flags'}
       </div>
     </div>
   )

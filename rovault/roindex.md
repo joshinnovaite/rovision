@@ -10,6 +10,7 @@ This vault captures the **why** behind rovision. For technical reference, see th
 ## Workflows
 - [[golden-set-labelling]] — the multi-pass, human-in-the-loop labelling sweep
 - [[label-amplification]] — propagating seed boxes through clips to manufacture training data
+- [[domain-viability-and-detector-diagnostics]] — the "loss falls but val mAP is exactly 0" diagnostic playbook (lead: audit for leaked global state) + a secondary footage/object viability checklist
 
 ## Decision Records
 ### Pipeline Architecture
@@ -29,6 +30,12 @@ This vault captures the **why** behind rovision. For technical reference, see th
 - [[DR-009-Mask-Hold-Rendering]]
 ### Playback UI
 - [[DR-011-LOD-Density-Cluster-Timeline]] — horizontal LOD playback bar replacing the vertical timeline
+### Multi-Domain
+- [[DR-013-Multi-Domain-Registry-And-Inventory-Mode]] — second domain via a shared domain registry + inventory mode
+- [[DR-014-Domain-Viability-Gated-By-Object-Scale]] — **root cause RETRACTED** (object-shape was a red herring); kept as a cautionary record, superseded by DR-015
+- [[DR-015-Leaked-Global-Autocast-Corrupted-Detector-Training]] — the TRUE cause of the "loss falls, val mAP exactly 0" collapse: a leaked global bf16 autocast (SAM 2 setup) corrupting YOLO's EMA validation weights (see [[domain-viability-and-detector-diagnostics]])
+### Vault Process
+- [[DR-012-Task-Tracking-In-Vault]] — folding the task tracker into the vault (status-as-field, type-as-folder)
 
 ## Data Models
 - [[GoldenSet]] — the hand-labelled seed prompts (labels.json)
@@ -39,15 +46,8 @@ This vault captures the **why** behind rovision. For technical reference, see th
 - [[label_defects.py]] — the local labelling GUI
 - [[subsea_defect_demo.ipynb]] — the Colab pipeline notebook
 
-## Work Tracking
-Durable, session-resumable task tracker for the demo-application build (`rovault/todo/`). Each BOW
-links its subtasks; each subtask is pick-up-able cold.
-- [[BOW-01-Notebook-Export-Extension]] — §17 emits the per-video bundle (polygons, faststart raw.mp4, meta).
-- [[BOW-02-Backend]] — FastAPI + SQLite ingest/serve (range-seekable clip, hash dedup).
-- [[BOW-03-Frontend-Foundation]] — Vite/React/TS scaffold, types/client/fixture, stores + derived structures.
-- [[BOW-04-Shell-And-Pre-Playback-Screens]] — sidebar, library, upload modal, dashboard, work orders.
-- [[BOW-05-Playback]] — video stage + SVG overlay, frame-sync/mask-hold, timeline, asset behaviours.
-- [[BOW-06-Horizontal-LOD-Playback-Bar]] — horizontal zoomable LOD bar (density clustering) replacing the vertical timeline.
+## Tasks
+- [[taskindex]] — the work tracker (goals → bodies of work → subtasks).
 
 ## Glossary
 - [[golden set]] — the seed labels
