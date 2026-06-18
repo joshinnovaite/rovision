@@ -99,5 +99,31 @@
         "topPriority": null
       }
     }
+  },
+  "e1": {
+    "label": "E1 Powerboat Racing",
+    "mode": "inventory",
+    "all_classes": [
+      "race_boat", "turn_buoy", "spray_plume"
+    ],
+    "defect_classes": [],
+    "colors": {
+      "race_boat": "#2d6cdf",
+      "turn_buoy": "#e5413a",
+      "spray_plume": "#6fd0e0"
+    },
+    "severity": null,
+    "assets": {
+      "como_q1": {
+        "label": "Lake Como — Q1 Session 1A",
+        "relevantClasses": ["race_boat", "turn_buoy", "spray_plume"],
+        "topPriority": null
+      },
+      "generic": {
+        "label": "Generic / unspecified",
+        "relevantClasses": [],
+        "topPriority": null
+      }
+    }
   }
 }

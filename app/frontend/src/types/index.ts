@@ -47,9 +47,22 @@ export interface VideoSummary {
   processed_at: string
 }
 
-/** GET /api/videos/{hash} — summary plus the class list. */
+/** Per-clip scene attributes from segment-then-measure (DR-017). A frame-level
+ * descriptor layer carried in the bundle meta.json; only populated by domains that
+ * compute it (e1), hence optional on VideoMeta. */
+export type SkyState = 'clear' | 'overcast' | 'no_sky'
+export type WaterState = 'calm' | 'wake-wash'
+export interface Scene {
+  sky_state: SkyState
+  water_state: WaterState
+  method?: string
+  metrics?: Record<string, number>
+}
+
+/** GET /api/videos/{hash} — summary plus the class list (and scene, when present). */
 export interface VideoMeta extends VideoSummary {
   classes: string[]
+  scene?: Scene
 }
 
 /** One tracked instance (GET /api/videos/{hash}/tracks). The flag/card unit. */

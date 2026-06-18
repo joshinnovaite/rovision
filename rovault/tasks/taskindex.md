@@ -6,7 +6,9 @@ Convention: [[DR-012-Task-Tracking-In-Vault]]
 
 ## Active
 
-_(none)_
+### E1 race-footage CV (augment boat-net) (in-progress)
+A third domain: computer vision on E1 powerboat race **broadcast footage**, in proof-of-capability mode. Its ultimate purpose is to augment the separate `boat-net` telemetry project — supplying the exogenous layer telemetry is blind to (weather, water state, start line, course orientation) plus causal context for telemetry-flagged events. The `boat-net` connection is staged for later; build the CV pipeline standalone first ([[DR-018-E1-Phase-0-Phase-1-Split]]).
+- [[BOW-10-E1-Phase-0-Proof-Of-Capability]] — in-progress (Phase 0 functionally delivered: 5 Como clips labelled → trained → 5 `domain=e1` bundles ingested, E1 in the app toggle, 53 tracks; scene state shipped via §18b calibration + a per-clip meta.json scene badge. One pipeline-hygiene follow-up stays open — fold the calibrated scene block into the §17 export so future clips self-populate ([[ST-10.11-Fold-Scene-Into-Notebook-Pipeline]]) — so the BOW stays in-progress).
 
 ## Completed
 

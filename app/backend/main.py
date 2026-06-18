@@ -11,6 +11,7 @@ Run (dev):  uvicorn app.backend.main:app --reload --port 8000
 from __future__ import annotations
 
 import hashlib
+import json
 from pathlib import Path
 
 from fastapi import FastAPI, File, HTTPException, UploadFile
@@ -90,6 +91,15 @@ def get_video(video_hash: str):
     row = _video_row(video_hash)
     out = dict(row)
     out["classes"] = config.get_domain(row["domain"])["all_classes"]
+    # Scene attributes (sky/water state) live in the bundle's meta.json, not the DB —
+    # a frame-level descriptor layer that only some domains (e1) populate (DR-017). Read
+    # it here so no schema migration is needed; absent for domains that don't compute it.
+    try:
+        meta = json.loads((Path(row["bundle_dir"]) / "meta.json").read_text())
+        if isinstance(meta.get("scene"), dict):
+            out["scene"] = meta["scene"]
+    except (OSError, ValueError):
+        pass
     return out
 
 
