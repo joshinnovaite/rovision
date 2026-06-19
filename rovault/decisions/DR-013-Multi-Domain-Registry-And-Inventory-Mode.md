@@ -33,3 +33,4 @@ Each domain carries a **`mode`** field capturing its *kind*:
 - [[DR-011-LOD-Density-Cluster-Timeline]] — unchanged; the bar reads `tracks`, dimming inert in inventory mode.
 - [[BOW-07-Multi-Domain-App-Architecture]] — Track A, the implemented application work.
 - [[BOW-08-Pylon-ML-Pipeline]] — Track B, the gated pylon pipeline.
+- [[DR-016-E1-Domain-As-Inventory-Mode-Phase-0]] — this framework exercised a third time: E1 (race footage) registered as inventory mode, zero architecture change.

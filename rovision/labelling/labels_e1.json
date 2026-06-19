@@ -1,0 +1,467 @@
+[
+  {
+    "video": "como_close_spray.mp4",
+    "frame": 47,
+    "defect": "spray_plume",
+    "point": [
+      841,
+      653
+    ],
+    "bbox": [
+      171,
+      390,
+      1511,
+      916
+    ]
+  },
+  {
+    "video": "como_close_spray.mp4",
+    "frame": 47,
+    "defect": "turn_buoy",
+    "point": [
+      1646,
+      359
+    ],
+    "bbox": [
+      1580,
+      248,
+      1712,
+      470
+    ]
+  },
+  {
+    "video": "como_close_spray.mp4",
+    "frame": 142,
+    "defect": "race_boat",
+    "point": [
+      1060,
+      656
+    ],
+    "bbox": [
+      802,
+      547,
+      1319,
+      764
+    ]
+  },
+  {
+    "video": "como_close_spray.mp4",
+    "frame": 142,
+    "defect": "spray_plume",
+    "point": [
+      1002,
+      784
+    ],
+    "bbox": [
+      693,
+      662,
+      1310,
+      907
+    ]
+  },
+  {
+    "video": "como_close_spray.mp4",
+    "frame": 142,
+    "defect": "turn_buoy",
+    "point": [
+      424,
+      499
+    ],
+    "bbox": [
+      346,
+      354,
+      502,
+      644
+    ]
+  },
+  {
+    "video": "como_close_spray.mp4",
+    "frame": 237,
+    "defect": "race_boat",
+    "point": [
+      951,
+      653
+    ],
+    "bbox": [
+      846,
+      562,
+      1056,
+      745
+    ]
+  },
+  {
+    "video": "como_close_spray.mp4",
+    "frame": 237,
+    "defect": "spray_plume",
+    "point": [
+      1297,
+      662
+    ],
+    "bbox": [
+      963,
+      467,
+      1631,
+      856
+    ]
+  },
+  {
+    "video": "como_onboard_sky.mp4",
+    "frame": 225,
+    "defect": "turn_buoy",
+    "point": [
+      860,
+      524
+    ],
+    "bbox": [
+      841,
+      496,
+      879,
+      552
+    ]
+  },
+  {
+    "video": "como_onboard_sky.mp4",
+    "frame": 375,
+    "defect": "turn_buoy",
+    "point": [
+      936,
+      538
+    ],
+    "bbox": [
+      896,
+      513,
+      975,
+      563
+    ]
+  },
+  {
+    "video": "como_replay_spray.mp4",
+    "frame": 75,
+    "defect": "race_boat",
+    "point": [
+      1175,
+      488
+    ],
+    "bbox": [
+      497,
+      348,
+      1853,
+      629
+    ]
+  },
+  {
+    "video": "como_replay_spray.mp4",
+    "frame": 75,
+    "defect": "spray_plume",
+    "point": [
+      645,
+      402
+    ],
+    "bbox": [
+      442,
+      256,
+      848,
+      548
+    ]
+  },
+  {
+    "video": "como_replay_spray.mp4",
+    "frame": 225,
+    "defect": "race_boat",
+    "point": [
+      897,
+      479
+    ],
+    "bbox": [
+      418,
+      341,
+      1376,
+      617
+    ]
+  },
+  {
+    "video": "como_replay_spray.mp4",
+    "frame": 225,
+    "defect": "spray_plume",
+    "point": [
+      1456,
+      422
+    ],
+    "bbox": [
+      1154,
+      235,
+      1758,
+      608
+    ]
+  },
+  {
+    "video": "como_replay_spray.mp4",
+    "frame": 375,
+    "defect": "race_boat",
+    "point": [
+      1105,
+      452
+    ],
+    "bbox": [
+      367,
+      256,
+      1843,
+      647
+    ]
+  },
+  {
+    "video": "como_replay_spray.mp4",
+    "frame": 375,
+    "defect": "spray_plume",
+    "point": [
+      1788,
+      537
+    ],
+    "bbox": [
+      1663,
+      447,
+      1914,
+      627
+    ]
+  },
+  {
+    "video": "como_wide_buoyturn.mp4",
+    "frame": 225,
+    "defect": "race_boat",
+    "point": [
+      664,
+      573
+    ],
+    "bbox": [
+      634,
+      552,
+      695,
+      595
+    ]
+  },
+  {
+    "video": "como_wide_buoyturn.mp4",
+    "frame": 225,
+    "defect": "race_boat",
+    "point": [
+      803,
+      567
+    ],
+    "bbox": [
+      780,
+      546,
+      826,
+      587
+    ]
+  },
+  {
+    "video": "como_wide_buoyturn.mp4",
+    "frame": 225,
+    "defect": "race_boat",
+    "point": [
+      1215,
+      478
+    ],
+    "bbox": [
+      1181,
+      461,
+      1249,
+      495
+    ]
+  },
+  {
+    "video": "como_wide_buoyturn.mp4",
+    "frame": 225,
+    "defect": "race_boat",
+    "point": [
+      1063,
+      512
+    ],
+    "bbox": [
+      1022,
+      498,
+      1104,
+      526
+    ]
+  },
+  {
+    "video": "como_wide_buoyturn.mp4",
+    "frame": 225,
+    "defect": "turn_buoy",
+    "point": [
+      1034,
+      659
+    ],
+    "bbox": [
+      1010,
+      625,
+      1057,
+      693
+    ]
+  },
+  {
+    "video": "como_wide_buoyturn.mp4",
+    "frame": 375,
+    "defect": "race_boat",
+    "point": [
+      738,
+      656
+    ],
+    "bbox": [
+      706,
+      635,
+      770,
+      678
+    ]
+  },
+  {
+    "video": "como_wide_buoyturn.mp4",
+    "frame": 375,
+    "defect": "race_boat",
+    "point": [
+      761,
+      609
+    ],
+    "bbox": [
+      738,
+      594,
+      784,
+      625
+    ]
+  },
+  {
+    "video": "como_wide_buoyturn.mp4",
+    "frame": 375,
+    "defect": "turn_buoy",
+    "point": [
+      962,
+      629
+    ],
+    "bbox": [
+      942,
+      604,
+      982,
+      653
+    ]
+  },
+  {
+    "video": "como_wide_course.mp4",
+    "frame": 75,
+    "defect": "race_boat",
+    "point": [
+      705,
+      566
+    ],
+    "bbox": [
+      687,
+      556,
+      722,
+      576
+    ]
+  },
+  {
+    "video": "como_wide_course.mp4",
+    "frame": 75,
+    "defect": "race_boat",
+    "point": [
+      605,
+      631
+    ],
+    "bbox": [
+      581,
+      614,
+      628,
+      649
+    ]
+  },
+  {
+    "video": "como_wide_course.mp4",
+    "frame": 75,
+    "defect": "turn_buoy",
+    "point": [
+      710,
+      614
+    ],
+    "bbox": [
+      695,
+      590,
+      726,
+      638
+    ]
+  },
+  {
+    "video": "como_wide_course.mp4",
+    "frame": 225,
+    "defect": "race_boat",
+    "point": [
+      863,
+      686
+    ],
+    "bbox": [
+      820,
+      662,
+      905,
+      710
+    ]
+  },
+  {
+    "video": "como_wide_course.mp4",
+    "frame": 225,
+    "defect": "race_boat",
+    "point": [
+      489,
+      574
+    ],
+    "bbox": [
+      465,
+      557,
+      513,
+      591
+    ]
+  },
+  {
+    "video": "como_wide_course.mp4",
+    "frame": 225,
+    "defect": "turn_buoy",
+    "point": [
+      504,
+      549
+    ],
+    "bbox": [
+      494,
+      533,
+      515,
+      565
+    ]
+  },
+  {
+    "video": "como_wide_course.mp4",
+    "frame": 375,
+    "defect": "race_boat",
+    "point": [
+      1439,
+      743
+    ],
+    "bbox": [
+      1369,
+      721,
+      1510,
+      765
+    ]
+  },
+  {
+    "video": "como_wide_course.mp4",
+    "frame": 375,
+    "defect": "race_boat",
+    "point": [
+      525,
+      604
+    ],
+    "bbox": [
+      492,
+      588,
+      559,
+      619
+    ]
+  }
+]

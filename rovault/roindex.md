@@ -34,6 +34,12 @@ This vault captures the **why** behind rovision. For technical reference, see th
 - [[DR-013-Multi-Domain-Registry-And-Inventory-Mode]] — second domain via a shared domain registry + inventory mode
 - [[DR-014-Domain-Viability-Gated-By-Object-Scale]] — **root cause RETRACTED** (object-shape was a red herring); kept as a cautionary record, superseded by DR-015
 - [[DR-015-Leaked-Global-Autocast-Corrupted-Detector-Training]] — the TRUE cause of the "loss falls, val mAP exactly 0" collapse: a leaked global bf16 autocast (SAM 2 setup) corrupting YOLO's EMA validation weights (see [[domain-viability-and-detector-diagnostics]])
+- [[DR-016-E1-Domain-As-Inventory-Mode-Phase-0]] — E1 (race broadcast footage) registered as a third domain reusing inventory mode (no new mode) for Phase 0
+- [[DR-017-Segment-Then-Measure-Scene-Attributes]] — segment-then-measure: SAM 2 masks sky/water, a classical descriptor reads scene state; inverts detect→segment, produces a frame-level attribute
+- [[DR-018-E1-Phase-0-Phase-1-Split]] — the E1 roadmap: Phase 0 reuse-the-pipeline proof, Phase 1 standalone surface + staged boat-net time-alignment
+- [[DR-019-Scene-Attribute-Aggregate-Badge-Surface]] — scene state surfaced as a per-clip meta.json aggregate badge (SceneBadge), no new mode, no schema migration; the app-side companion to DR-017's calibration
+### External Integrations
+- [[DR-020-Orba-CMMS-Integration-Server-Side-Proxy]] — file findings into Orba (CMMS) as Service Requests via a server-side FastAPI proxy (not browser-direct): keeps the shared secret off the bundle, avoids CORS preflight, preserves the single-origin `/api` invariant
 ### Vault Process
 - [[DR-012-Task-Tracking-In-Vault]] — folding the task tracker into the vault (status-as-field, type-as-folder)
 

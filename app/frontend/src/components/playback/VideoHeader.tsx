@@ -3,6 +3,7 @@ import { useVideoStore } from '../../state/videoStore'
 import { useSettingsStore } from '../../state/settingsStore'
 import { computeClassCounts, computeFlagSummary } from '../../lib/severity'
 import { fmtDuration } from '../../lib/format'
+import { SceneBadge } from '../../shared/SceneBadge'
 
 export function VideoHeader() {
   const meta = useVideoStore((s) => s.meta)
@@ -25,6 +26,7 @@ export function VideoHeader() {
         {fmtDuration(meta.duration_sec)} · {meta.n_frames} frames @ {meta.enc_fps} fps ·{' '}
         {meta.width}×{meta.height} · {tally} {inventory ? 'components' : 'flags'}
       </div>
+      {meta.scene && <SceneBadge scene={meta.scene} />}
     </div>
   )
 }

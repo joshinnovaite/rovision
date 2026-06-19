@@ -9,6 +9,7 @@ import { classColor } from '../lib/classColors'
 import { fmtDuration, prettyClass } from '../lib/format'
 import { MetricCard } from '../components/dashboard/MetricCard'
 import { WorkOrderList } from '../components/dashboard/WorkOrderList'
+import { SendToOrbaButton } from '../components/dashboard/SendToOrbaButton'
 import type { Severity, Track } from '../types'
 
 export function DashboardScreen() {
@@ -176,6 +177,9 @@ function DefectDashboard({ hash }: { hash: string }) {
 
       <h2 className="section-title">Suggested work orders</h2>
       <WorkOrderList orders={workOrders} hash={hash} />
+      {workOrders.length > 0 && (
+        <SendToOrbaButton orders={workOrders} videoId={meta.source_video} hash={hash} />
+      )}
     </>
   )
 }
