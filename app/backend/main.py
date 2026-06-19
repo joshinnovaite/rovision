@@ -18,8 +18,9 @@ from fastapi import FastAPI, File, HTTPException, UploadFile
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.middleware.gzip import GZipMiddleware
 from fastapi.responses import FileResponse, JSONResponse
+from pydantic import BaseModel
 
-from . import config
+from . import config, orba
 from .db import get_conn, init_db
 from .ingest import ingest_all
 
@@ -160,3 +161,41 @@ async def upload(file: UploadFile = File(...)):
          "detail": "No cached results for this video. Process it offline (Colab §17) first."},
         status_code=202,
     )
+
+
+# --- Orba CMMS integration -----------------------------------------------------
+# The frontend POSTs the current video's work-order findings here; we forward each
+# as a Service Request to the live Orba URL. Server-side so the shared secret stays
+# out of the browser bundle and there is no cross-origin CORS dance. The assetnum,
+# URL and secret are backend env vars (see config.py / .env.example).
+class OrbaFinding(BaseModel):
+    className: str
+    action: str
+    severity: str
+    count: int
+    peakCoverage: float = 0.0
+
+
+class OrbaSendRequest(BaseModel):
+    findings: list[OrbaFinding]
+    videoId: str | None = None
+
+
+@app.post("/api/orba/service-requests")
+def send_to_orba(req: OrbaSendRequest):
+    if not config.ORBA_BASE_URL or not config.ORBA_ASSETNUM:
+        raise HTTPException(
+            status_code=503,
+            detail="Orba not configured. Set ORBA_BASE_URL and ORBA_ASSETNUM in app/backend/.env.",
+        )
+
+    results = orba.file_findings_to_orba(
+        [f.model_dump() for f in req.findings],
+        base_url=config.ORBA_BASE_URL,
+        secret=config.ORBA_INGEST_SECRET or None,
+        assetnum=config.ORBA_ASSETNUM,
+        video_id=req.videoId,
+    )
+    filed = [r.get("srticknum") for r in results if r.get("ok") and r.get("srticknum")]
+    print(f"[orba] filed {len(filed)} service request(s): {', '.join(filed) or '—'}")
+    return {"results": results}

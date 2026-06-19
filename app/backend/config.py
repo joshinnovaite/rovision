@@ -14,7 +14,10 @@ thresholds, or ``null`` for inventory domains).
 from __future__ import annotations
 
 import json
+import os
 from pathlib import Path
+
+from dotenv import load_dotenv
 
 # --- paths ---------------------------------------------------------------------
 BACKEND_DIR = Path(__file__).resolve().parent
@@ -23,6 +26,15 @@ BUNDLES_DIR = DATA_DIR / "bundles"          # one sub-dir per pre-computed bundl
 DB_PATH = DATA_DIR / "rovision.db"
 REPO_ROOT = BACKEND_DIR.parent.parent       # .../app/backend -> .../app -> repo root
 DOMAINS_PATH = REPO_ROOT / "rovision" / "domains.json"
+
+# --- Orba CMMS integration (outbound) -----------------------------------------
+# The three values the Orba developer owes us live in a gitignored app/backend/.env
+# (see .env.example). Loaded here so the secret + assetnum stay server-side only and
+# never reach the frontend bundle.
+load_dotenv(BACKEND_DIR / ".env")
+ORBA_BASE_URL = os.environ.get("ORBA_BASE_URL", "").strip()
+ORBA_INGEST_SECRET = os.environ.get("ORBA_INGEST_SECRET", "").strip()
+ORBA_ASSETNUM = os.environ.get("ORBA_ASSETNUM", "").strip()
 
 DEFAULT_DOMAIN = "subsea"
 SEVERITY_RANK = {"none": 0, "low": 1, "medium": 2, "high": 3}

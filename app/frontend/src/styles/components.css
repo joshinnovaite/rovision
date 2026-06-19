@@ -94,6 +94,13 @@ input[type=range] { width: 100%; accent-color: var(--primary); }
 .link:hover { text-decoration: underline; }
 .section-title { font-size: var(--fs-lg); margin: var(--space-6) 0 var(--space-3); }
 
+/* Orba "Send to CMMS" handoff bar under the work-order list */
+.orba-bar { display: flex; align-items: center; gap: var(--space-3); margin-top: var(--space-4);
+  flex-wrap: wrap; }
+.orba-status { font-size: var(--fs-sm); color: var(--text-muted); }
+.orba-status.ok { color: var(--primary-strong); }
+.orba-status.err { color: var(--sev-high); }
+
 /* inventory-mode component breakdown */
 .component-breakdown { display: flex; flex-direction: column; gap: 2px; }
 .component-row { display: flex; align-items: center; gap: 10px; padding: 10px 12px;

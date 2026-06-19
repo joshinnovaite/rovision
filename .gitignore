@@ -35,3 +35,10 @@ rovision/dataset/
 app/backend/data/
 app/frontend/node_modules/
 app/frontend/dist/
+
+# Orba integration secrets (live URL, shared secret, assetnum) — never commit.
+app/backend/.env
+
+# Orba contract drop (orbaAdapter.ts + INTEGRATION_CONTRACT.md) — local reference
+# only; may carry sensitive integration detail, kept out of the open-source repo.
+orba/

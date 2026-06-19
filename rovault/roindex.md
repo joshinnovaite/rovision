@@ -38,6 +38,8 @@ This vault captures the **why** behind rovision. For technical reference, see th
 - [[DR-017-Segment-Then-Measure-Scene-Attributes]] — segment-then-measure: SAM 2 masks sky/water, a classical descriptor reads scene state; inverts detect→segment, produces a frame-level attribute
 - [[DR-018-E1-Phase-0-Phase-1-Split]] — the E1 roadmap: Phase 0 reuse-the-pipeline proof, Phase 1 standalone surface + staged boat-net time-alignment
 - [[DR-019-Scene-Attribute-Aggregate-Badge-Surface]] — scene state surfaced as a per-clip meta.json aggregate badge (SceneBadge), no new mode, no schema migration; the app-side companion to DR-017's calibration
+### External Integrations
+- [[DR-020-Orba-CMMS-Integration-Server-Side-Proxy]] — file findings into Orba (CMMS) as Service Requests via a server-side FastAPI proxy (not browser-direct): keeps the shared secret off the bundle, avoids CORS preflight, preserves the single-origin `/api` invariant
 ### Vault Process
 - [[DR-012-Task-Tracking-In-Vault]] — folding the task tracker into the vault (status-as-field, type-as-folder)
 

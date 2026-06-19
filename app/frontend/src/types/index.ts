@@ -111,3 +111,13 @@ export interface UploadResult {
   video?: VideoSummary
   detail?: string
 }
+
+/** One per-finding outcome from POST /api/orba/service-requests. `ok` true with
+ * an `error` of "skipped (severity none)" means deliberately not filed. */
+export interface OrbaResult {
+  className: string
+  ok: boolean
+  srticknum?: string
+  status?: number
+  error?: string
+}
